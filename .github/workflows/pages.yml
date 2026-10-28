@@ -10,13 +10,16 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    permissions:
+      contents: read
+      pages: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm run test:public
+      - run: npm test
       - run: npm run build:public
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
