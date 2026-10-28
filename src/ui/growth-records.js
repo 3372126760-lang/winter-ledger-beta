@@ -5,7 +5,7 @@ export function growthRecordsView(data,systemId,state,esc,{mode='planning'}={}){
  const currentOnly=mode==='current',fields=currentOnly?['levels']:['levels','planned'];
  const system=data.systems.find(s=>s.id===systemId),p=validateBattleProfile(state.battleProfile);
  if(!system||!GROWTH_SYSTEMS.includes(systemId))return '';
- const field=(path,type)=>{const value=p[type][path.id],rows=[...(path.baseline?[path.baseline]:[]),...path.rows],known=rows.some(r=>r.level===value);return `<label>${type==='levels'?'当前':'计划'}<select data-growth-record="${type}" data-growth-path="${esc(path.id)}" data-growth-system="${systemId}"><option value="">${type==='levels'?'未记录':'未设置'}</option>${value!==undefined&&!known?`<option value="${value}" selected>${value}级（原记录，档位待核对）</option>`:''}${rows.map(r=>`<option value="${r.level}" ${r.level===value?'selected':''}>${esc(r.label||r.level+'级')}</option>`).join('')}</select></label>`;};
+ const field=(path,type)=>{const value=p[type][path.id],rows=[...(path.baseline?[path.baseline]:[]),...path.rows].filter(r=>type!=='planned'||p.levels[path.id]===undefined||r.level>p.levels[path.id]),known=rows.some(r=>r.level===value);return `<label>${type==='levels'?'当前':'计划'}<select data-growth-record="${type}" data-growth-path="${esc(path.id)}" data-growth-system="${systemId}"><option value="">${type==='levels'?'未记录':'未设置'}</option>${value!==undefined&&!known?`<option value="${value}" selected>${value}级（原记录，档位待核对）</option>`:''}${rows.map(r=>`<option value="${r.level}" ${r.level===value?'selected':''}>${esc(r.label||r.level+'级')}</option>`).join('')}</select></label>`;};
  if(systemId==='hero-gear'){
   return `<section class="card growth-records hero-gear-board"><h2>英雄装备 · ${currentOnly?'当前等级':'当前与计划'}</h2><p class="hint">盾、矛、射各四件，共12件。每件强化与专精分别保存；橙装1—100级，红装1—100级。</p>${[['infantry','盾兵'],['lancer','矛兵'],['marksman','射手']].map(([troop,name])=>`<section class="hero-troop-group"><h3>${name}装备 · 4件</h3><div class="hero-piece-grid">${['goggles','gloves','belt','boots'].map(slot=>{
    const strength=system.paths.find(x=>x.heroGearSlot?.troop===troop&&x.heroGearSlot.slot===slot&&x.heroGearSlot.kind==='strength'),mastery=system.paths.find(x=>x.heroGearSlot?.troop===troop&&x.heroGearSlot.slot===slot&&x.heroGearSlot.kind==='mastery');
@@ -24,7 +24,8 @@ export function bindGrowthRecords({getState,onSave,onSelect,onRefresh}){
  document.querySelectorAll('[data-growth-record]').forEach(e=>e.addEventListener('change',()=>{
   const profile=validateBattleProfile(getState().battleProfile),group=profile[e.dataset.growthRecord],id=e.dataset.growthPath;
   if(e.value==='')delete group[id];else group[id]=Number(e.value);
-  onSave(validateBattleProfile(profile));
+  Object.assign(profile,validateBattleProfile(profile));
+  onSave(profile);
   if(onSelect&&id!=='gareth')onSelect(e.dataset.growthSystem,id,profile);else onRefresh?.();
  }));
 }
