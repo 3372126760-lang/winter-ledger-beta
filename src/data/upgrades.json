@@ -1,0 +1,150 @@
+{
+  "source": "gems",
+  "status": "待复核",
+  "gems": [
+    {
+      "level": 1,
+      "attribute": 0.09,
+      "cost": {
+        "charm-guide": 5,
+        "charm-design": 5,
+        "codex": 0
+      }
+    },
+    {
+      "level": 2,
+      "attribute": 0.12,
+      "cost": {
+        "charm-guide": 40,
+        "charm-design": 15,
+        "codex": 0
+      }
+    },
+    {
+      "level": 3,
+      "attribute": 0.16,
+      "cost": {
+        "charm-guide": 60,
+        "charm-design": 40,
+        "codex": 0
+      }
+    },
+    {
+      "level": 4,
+      "attribute": 0.19,
+      "cost": {
+        "charm-guide": 80,
+        "charm-design": 100,
+        "codex": 0
+      }
+    },
+    {
+      "level": 5,
+      "attribute": 0.25,
+      "cost": {
+        "charm-guide": 100,
+        "charm-design": 200,
+        "codex": 0
+      }
+    },
+    {
+      "level": 6,
+      "attribute": 0.3,
+      "cost": {
+        "charm-guide": 120,
+        "charm-design": 300,
+        "codex": 0
+      }
+    },
+    {
+      "level": 7,
+      "attribute": 0.35,
+      "cost": {
+        "charm-guide": 140,
+        "charm-design": 400,
+        "codex": 0
+      }
+    },
+    {
+      "level": 8,
+      "attribute": 0.4,
+      "cost": {
+        "charm-guide": 200,
+        "charm-design": 400,
+        "codex": 0
+      }
+    },
+    {
+      "level": 9,
+      "attribute": 0.45,
+      "cost": {
+        "charm-guide": 300,
+        "charm-design": 400,
+        "codex": 0
+      }
+    },
+    {
+      "level": 10,
+      "attribute": 0.5,
+      "cost": {
+        "charm-guide": 420,
+        "charm-design": 420,
+        "codex": 0
+      }
+    },
+    {
+      "level": 11,
+      "attribute": 0.55,
+      "cost": {
+        "charm-guide": 560,
+        "charm-design": 420,
+        "codex": 0
+      }
+    },
+    {
+      "level": 12,
+      "attribute": 0.64,
+      "cost": {
+        "charm-guide": 580,
+        "charm-design": 450,
+        "codex": 15
+      }
+    },
+    {
+      "level": 13,
+      "attribute": 0.73,
+      "cost": {
+        "charm-guide": 580,
+        "charm-design": 450,
+        "codex": 30
+      }
+    },
+    {
+      "level": 14,
+      "attribute": 0.82,
+      "cost": {
+        "charm-guide": 600,
+        "charm-design": 500,
+        "codex": 45
+      }
+    },
+    {
+      "level": 15,
+      "attribute": 0.91,
+      "cost": {
+        "charm-guide": 600,
+        "charm-design": 500,
+        "codex": 70
+      }
+    },
+    {
+      "level": 16,
+      "attribute": 1,
+      "cost": {
+        "charm-guide": 650,
+        "charm-design": 550,
+        "codex": 100
+      }
+    }
+  ]
+}

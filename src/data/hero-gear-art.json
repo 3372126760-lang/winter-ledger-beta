@@ -1,0 +1,150 @@
+{
+  "infantry-goggles": {
+    "name": "守护神目镜",
+    "file": 0,
+    "x": 74,
+    "y": 274,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 210,
+      "y": 267,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "infantry-gloves": {
+    "name": "守护神护手",
+    "file": 0,
+    "x": 74,
+    "y": 366,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 274,
+      "y": 267,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "infantry-belt": {
+    "name": "守护神腰带",
+    "file": 0,
+    "x": 74,
+    "y": 457,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 338,
+      "y": 267,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "infantry-boots": {
+    "name": "守护神之靴",
+    "file": 0,
+    "x": 74,
+    "y": 548,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 402,
+      "y": 267,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "lancer-goggles": {
+    "name": "破坏者目镜",
+    "file": 1,
+    "x": 74,
+    "y": 290,
+    "size": 58
+  },
+  "lancer-gloves": {
+    "name": "破坏者护手",
+    "file": 1,
+    "x": 74,
+    "y": 381,
+    "size": 58
+  },
+  "lancer-belt": {
+    "name": "破坏者腰带",
+    "file": 1,
+    "x": 74,
+    "y": 473,
+    "size": 58
+  },
+  "lancer-boots": {
+    "name": "破坏者之靴",
+    "file": 1,
+    "x": 74,
+    "y": 564,
+    "size": 58
+  },
+  "marksman-goggles": {
+    "name": "神射手目镜",
+    "file": 2,
+    "x": 74,
+    "y": 337,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 210,
+      "y": 637,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "marksman-gloves": {
+    "name": "神射手护手",
+    "file": 2,
+    "x": 74,
+    "y": 429,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 274,
+      "y": 637,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "marksman-belt": {
+    "name": "神射手腰带",
+    "file": 2,
+    "x": 74,
+    "y": 520,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 338,
+      "y": 637,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  },
+  "marksman-boots": {
+    "name": "神射手之靴",
+    "file": 2,
+    "x": 74,
+    "y": 612,
+    "size": 58,
+    "red": {
+      "file": 4,
+      "x": 402,
+      "y": 637,
+      "size": 52,
+      "imageWidth": 537,
+      "imageHeight": 921
+    }
+  }
+}

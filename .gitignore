@@ -1,0 +1,12 @@
+node_modules/
+artifacts/
+*.log
+storage/
+reference/
+reference-archive/
+dist/
+.env
+.env.*
+!.env.example
+*.zip
+*.tmp

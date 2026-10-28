@@ -1,0 +1,21 @@
+{
+  "asOf": "2026-10-26",
+  "corrections": [],
+  "superseded": [
+    {
+      "packId": "special-33",
+      "sectionId": "special-33-s1",
+      "rawName": "领主装备材料箱",
+      "quantities": [
+        10,
+        20,
+        40,
+        100,
+        200
+      ],
+      "evidence": "/public/evidence/fc3-chief-precision-2026-10-26.png",
+      "note": "维护者截图：火三精工材料箱为10/20/40/100/200，网页曾误录17/34/68/170/340。",
+      "reason": "维护者最新指示：领主装备采用网页数据，停止应用截图覆盖"
+    }
+  ]
+}

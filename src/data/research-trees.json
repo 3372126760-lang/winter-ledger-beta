@@ -1,0 +1,4203 @@
+{
+  "asOf": "2026-10-28",
+  "nodes": [
+    {
+      "id": "battle-1-0",
+      "pathId": "research-battle-weapons-prep-i",
+      "name": "武器特训1",
+      "x": 300,
+      "y": 110,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3001.png"
+    },
+    {
+      "id": "battle-1-1",
+      "pathId": "research-battle-reprisal-tactics-i",
+      "name": "稳守反击1",
+      "x": 90,
+      "y": 250,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3005.png"
+    },
+    {
+      "id": "battle-1-2",
+      "pathId": "research-battle-precision-targeting-i",
+      "name": "精准射击1",
+      "x": 300,
+      "y": 250,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3006.png"
+    },
+    {
+      "id": "battle-1-3",
+      "pathId": "research-battle-skirmishing-i",
+      "name": "迅猛突刺1",
+      "x": 510,
+      "y": 250,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3007.png"
+    },
+    {
+      "id": "battle-1-4",
+      "pathId": "research-battle-defensive-formation-i",
+      "name": "防御阵型1",
+      "x": 90,
+      "y": 390,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3008.png"
+    },
+    {
+      "id": "battle-1-5",
+      "pathId": "research-battle-picket-lines-i",
+      "name": "警戒队形1",
+      "x": 300,
+      "y": 390,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3009.png"
+    },
+    {
+      "id": "battle-1-6",
+      "pathId": "research-battle-bulwark-formations-i",
+      "name": "坚守阵地1",
+      "x": 510,
+      "y": 390,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3010.png"
+    },
+    {
+      "id": "battle-1-7",
+      "pathId": "research-battle-special-defensive-training-i",
+      "name": "防御特训1",
+      "x": 300,
+      "y": 530,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3011.png"
+    },
+    {
+      "id": "battle-1-8",
+      "pathId": "research-battle-survival-techniques-i",
+      "name": "生存特训1",
+      "x": 90,
+      "y": 670,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3012.png"
+    },
+    {
+      "id": "battle-1-9",
+      "pathId": "research-battle-assaut-techniques-i",
+      "name": "突击特训1",
+      "x": 510,
+      "y": 670,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3013.png"
+    },
+    {
+      "id": "battle-1-10",
+      "pathId": "research-battle-regimental-expansion-i",
+      "name": "编制扩展1",
+      "x": 300,
+      "y": 810,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3014.png"
+    },
+    {
+      "id": "battle-1-11",
+      "pathId": "research-battle-close-combat-i",
+      "name": "不懈奋战1",
+      "x": 90,
+      "y": 950,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3018.png"
+    },
+    {
+      "id": "battle-1-12",
+      "pathId": "research-battle-targeted-sniping-i",
+      "name": "定点狙击1",
+      "x": 300,
+      "y": 950,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3019.png"
+    },
+    {
+      "id": "battle-1-13",
+      "pathId": "research-battle-lancer-upgrade-i",
+      "name": "长矛改良1",
+      "x": 510,
+      "y": 950,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3020.png"
+    },
+    {
+      "id": "battle-1-14",
+      "pathId": "research-battle-shield-upgrade-i",
+      "name": "盾牌改良1",
+      "x": 90,
+      "y": 1090,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3021.png"
+    },
+    {
+      "id": "battle-1-15",
+      "pathId": "research-battle-marksman-armor-i",
+      "name": "射手护甲1",
+      "x": 300,
+      "y": 1090,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3022.png"
+    },
+    {
+      "id": "battle-1-16",
+      "pathId": "research-battle-lancer-armor-i",
+      "name": "矛兵护甲1",
+      "x": 510,
+      "y": 1090,
+      "max": 3,
+      "systemId": "research",
+      "tier": 1,
+      "icon": "/public/research-icons/science_icon_3023.png"
+    },
+    {
+      "id": "battle-2-0",
+      "pathId": "research-battle-weapons-prep-ii",
+      "name": "武器特训2",
+      "x": 300,
+      "y": 1310,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3001.png"
+    },
+    {
+      "id": "battle-2-1",
+      "pathId": "research-battle-reprisal-tactics-ii",
+      "name": "稳守反击2",
+      "x": 90,
+      "y": 1450,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3005.png"
+    },
+    {
+      "id": "battle-2-2",
+      "pathId": "research-battle-precision-targeting-ii",
+      "name": "精准射击2",
+      "x": 300,
+      "y": 1450,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3006.png"
+    },
+    {
+      "id": "battle-2-3",
+      "pathId": "research-battle-skirmishing-ii",
+      "name": "迅猛突刺2",
+      "x": 510,
+      "y": 1450,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3007.png"
+    },
+    {
+      "id": "battle-2-4",
+      "pathId": "research-battle-defensive-formation-ii",
+      "name": "防御阵型2",
+      "x": 90,
+      "y": 1590,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3008.png"
+    },
+    {
+      "id": "battle-2-5",
+      "pathId": "research-battle-picket-lines-ii",
+      "name": "警戒队形2",
+      "x": 300,
+      "y": 1590,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3009.png"
+    },
+    {
+      "id": "battle-2-6",
+      "pathId": "research-battle-bulwark-formations-ii",
+      "name": "坚守阵地2",
+      "x": 510,
+      "y": 1590,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3010.png"
+    },
+    {
+      "id": "battle-2-7",
+      "pathId": "research-battle-special-defensive-training-ii",
+      "name": "防御特训2",
+      "x": 300,
+      "y": 1730,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3011.png"
+    },
+    {
+      "id": "battle-2-8",
+      "pathId": "research-battle-survival-techniques-ii",
+      "name": "生存特训2",
+      "x": 90,
+      "y": 1870,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3012.png"
+    },
+    {
+      "id": "battle-2-9",
+      "pathId": "research-battle-assaut-techniques-ii",
+      "name": "突击特训2",
+      "x": 510,
+      "y": 1870,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3013.png"
+    },
+    {
+      "id": "battle-2-10",
+      "pathId": "research-battle-regimental-expansion-ii",
+      "name": "编制扩展2",
+      "x": 300,
+      "y": 2010,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3014.png"
+    },
+    {
+      "id": "battle-2-11",
+      "pathId": "research-battle-close-combat-ii",
+      "name": "不懈奋战2",
+      "x": 90,
+      "y": 2150,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3018.png"
+    },
+    {
+      "id": "battle-2-12",
+      "pathId": "research-battle-targeted-sniping-ii",
+      "name": "定点狙击2",
+      "x": 300,
+      "y": 2150,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3019.png"
+    },
+    {
+      "id": "battle-2-13",
+      "pathId": "research-battle-lancer-upgrade-ii",
+      "name": "长矛改良2",
+      "x": 510,
+      "y": 2150,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3020.png"
+    },
+    {
+      "id": "battle-2-14",
+      "pathId": "research-battle-shield-upgrade-ii",
+      "name": "盾牌改良2",
+      "x": 90,
+      "y": 2290,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3021.png"
+    },
+    {
+      "id": "battle-2-15",
+      "pathId": "research-battle-marksman-armor-ii",
+      "name": "射手护甲2",
+      "x": 300,
+      "y": 2290,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3022.png"
+    },
+    {
+      "id": "battle-2-16",
+      "pathId": "research-battle-lancer-armor-ii",
+      "name": "矛兵护甲2",
+      "x": 510,
+      "y": 2290,
+      "max": 3,
+      "systemId": "research",
+      "tier": 2,
+      "icon": "/public/research-icons/science_icon_3023.png"
+    },
+    {
+      "id": "battle-3-0",
+      "pathId": "research-battle-weapons-prep-iii",
+      "name": "武器特训3",
+      "x": 300,
+      "y": 2510,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3001.png"
+    },
+    {
+      "id": "battle-3-1",
+      "pathId": "research-battle-reprisal-tactics-iii",
+      "name": "稳守反击3",
+      "x": 90,
+      "y": 2650,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3005.png"
+    },
+    {
+      "id": "battle-3-2",
+      "pathId": "research-battle-precision-targeting-iii",
+      "name": "精准射击3",
+      "x": 300,
+      "y": 2650,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3006.png"
+    },
+    {
+      "id": "battle-3-3",
+      "pathId": "research-battle-skirmishing-iii",
+      "name": "迅猛突刺3",
+      "x": 510,
+      "y": 2650,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3007.png"
+    },
+    {
+      "id": "battle-3-4",
+      "pathId": "research-battle-defensive-formation-iii",
+      "name": "防御阵型3",
+      "x": 90,
+      "y": 2790,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3008.png"
+    },
+    {
+      "id": "battle-3-5",
+      "pathId": "research-battle-picket-lines-iii",
+      "name": "警戒队形3",
+      "x": 300,
+      "y": 2790,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3009.png"
+    },
+    {
+      "id": "battle-3-6",
+      "pathId": "research-battle-bulwark-formations-iii",
+      "name": "坚守阵地3",
+      "x": 510,
+      "y": 2790,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3010.png"
+    },
+    {
+      "id": "battle-3-7",
+      "pathId": "research-battle-special-defensive-training-iii",
+      "name": "防御特训3",
+      "x": 300,
+      "y": 2930,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3011.png"
+    },
+    {
+      "id": "battle-3-8",
+      "pathId": "research-battle-survival-techniques-iii",
+      "name": "生存特训3",
+      "x": 90,
+      "y": 3070,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3012.png"
+    },
+    {
+      "id": "battle-3-9",
+      "pathId": "research-battle-assaut-techniques-iii",
+      "name": "突击特训3",
+      "x": 510,
+      "y": 3070,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3013.png"
+    },
+    {
+      "id": "battle-3-10",
+      "pathId": "research-battle-regimental-expansion-iii",
+      "name": "编制扩展3",
+      "x": 300,
+      "y": 3210,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3014.png"
+    },
+    {
+      "id": "battle-3-11",
+      "pathId": "research-battle-close-combat-iii",
+      "name": "不懈奋战3",
+      "x": 90,
+      "y": 3350,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3018.png"
+    },
+    {
+      "id": "battle-3-12",
+      "pathId": "research-battle-targeted-sniping-iii",
+      "name": "定点狙击3",
+      "x": 300,
+      "y": 3350,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3019.png"
+    },
+    {
+      "id": "battle-3-13",
+      "pathId": "research-battle-lancer-upgrade-iii",
+      "name": "长矛改良3",
+      "x": 510,
+      "y": 3350,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3020.png"
+    },
+    {
+      "id": "battle-3-14",
+      "pathId": "research-battle-shield-upgrade-iii",
+      "name": "盾牌改良3",
+      "x": 90,
+      "y": 3490,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3021.png"
+    },
+    {
+      "id": "battle-3-15",
+      "pathId": "research-battle-marksman-armor-iii",
+      "name": "射手护甲3",
+      "x": 300,
+      "y": 3490,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3022.png"
+    },
+    {
+      "id": "battle-3-16",
+      "pathId": "research-battle-lancer-armor-iii",
+      "name": "矛兵护甲3",
+      "x": 510,
+      "y": 3490,
+      "max": 4,
+      "systemId": "research",
+      "tier": 3,
+      "icon": "/public/research-icons/science_icon_3023.png"
+    },
+    {
+      "id": "battle-4-0",
+      "pathId": "research-battle-weapons-prep-iv",
+      "name": "武器特训4",
+      "x": 300,
+      "y": 3710,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3001.png"
+    },
+    {
+      "id": "battle-4-1",
+      "pathId": "research-battle-reprisal-tactics-iv",
+      "name": "稳守反击4",
+      "x": 90,
+      "y": 3850,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3005.png"
+    },
+    {
+      "id": "battle-4-2",
+      "pathId": "research-battle-precision-targeting-iv",
+      "name": "精准射击4",
+      "x": 300,
+      "y": 3850,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3006.png"
+    },
+    {
+      "id": "battle-4-3",
+      "pathId": "research-battle-skirmishing-iv",
+      "name": "迅猛突刺4",
+      "x": 510,
+      "y": 3850,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3007.png"
+    },
+    {
+      "id": "battle-4-4",
+      "pathId": "research-battle-defensive-formation-iv",
+      "name": "防御阵型4",
+      "x": 90,
+      "y": 3990,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3008.png"
+    },
+    {
+      "id": "battle-4-5",
+      "pathId": "research-battle-picket-lines-iv",
+      "name": "警戒队形4",
+      "x": 300,
+      "y": 3990,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3009.png"
+    },
+    {
+      "id": "battle-4-6",
+      "pathId": "research-battle-bulwark-formations-iv",
+      "name": "坚守阵地4",
+      "x": 510,
+      "y": 3990,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3010.png"
+    },
+    {
+      "id": "battle-4-7",
+      "pathId": "research-battle-special-defensive-training-iv",
+      "name": "防御特训4",
+      "x": 300,
+      "y": 4130,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3011.png"
+    },
+    {
+      "id": "battle-4-8",
+      "pathId": "research-battle-survival-techniques-iv",
+      "name": "生存特训4",
+      "x": 90,
+      "y": 4270,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3012.png"
+    },
+    {
+      "id": "battle-4-9",
+      "pathId": "research-battle-assaut-techniques-iv",
+      "name": "突击特训4",
+      "x": 510,
+      "y": 4270,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3013.png"
+    },
+    {
+      "id": "battle-4-10",
+      "pathId": "research-battle-regimental-expansion-iv",
+      "name": "编制扩展4",
+      "x": 300,
+      "y": 4410,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3014.png"
+    },
+    {
+      "id": "battle-4-11",
+      "pathId": "research-battle-close-combat-iv",
+      "name": "不懈奋战4",
+      "x": 90,
+      "y": 4550,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3018.png"
+    },
+    {
+      "id": "battle-4-12",
+      "pathId": "research-battle-targeted-sniping-iv",
+      "name": "定点狙击4",
+      "x": 300,
+      "y": 4550,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3019.png"
+    },
+    {
+      "id": "battle-4-13",
+      "pathId": "research-battle-lancer-upgrade-iv",
+      "name": "长矛改良4",
+      "x": 510,
+      "y": 4550,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3020.png"
+    },
+    {
+      "id": "battle-4-14",
+      "pathId": "research-battle-shield-upgrade-iv",
+      "name": "盾牌改良4",
+      "x": 90,
+      "y": 4690,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3021.png"
+    },
+    {
+      "id": "battle-4-15",
+      "pathId": "research-battle-marksman-armor-iv",
+      "name": "射手护甲4",
+      "x": 300,
+      "y": 4690,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3022.png"
+    },
+    {
+      "id": "battle-4-16",
+      "pathId": "research-battle-lancer-armor-iv",
+      "name": "矛兵护甲4",
+      "x": 510,
+      "y": 4690,
+      "max": 5,
+      "systemId": "research",
+      "tier": 4,
+      "icon": "/public/research-icons/science_icon_3023.png"
+    },
+    {
+      "id": "battle-5-0",
+      "pathId": "research-battle-weapons-prep-v",
+      "name": "武器特训5",
+      "x": 300,
+      "y": 4910,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3001.png"
+    },
+    {
+      "id": "battle-5-1",
+      "pathId": "research-battle-reprisal-tactics-v",
+      "name": "稳守反击5",
+      "x": 90,
+      "y": 5050,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3005.png"
+    },
+    {
+      "id": "battle-5-2",
+      "pathId": "research-battle-precision-targeting-v",
+      "name": "精准射击5",
+      "x": 300,
+      "y": 5050,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3006.png"
+    },
+    {
+      "id": "battle-5-3",
+      "pathId": "research-battle-skirmishing-v",
+      "name": "迅猛突刺5",
+      "x": 510,
+      "y": 5050,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3007.png"
+    },
+    {
+      "id": "battle-5-4",
+      "pathId": "research-battle-defensive-formation-v",
+      "name": "防御阵型5",
+      "x": 90,
+      "y": 5190,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3008.png"
+    },
+    {
+      "id": "battle-5-5",
+      "pathId": "research-battle-picket-lines-v",
+      "name": "警戒队形5",
+      "x": 300,
+      "y": 5190,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3009.png"
+    },
+    {
+      "id": "battle-5-6",
+      "pathId": "research-battle-bulwark-formations-v",
+      "name": "坚守阵地5",
+      "x": 510,
+      "y": 5190,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3010.png"
+    },
+    {
+      "id": "battle-5-7",
+      "pathId": "research-battle-special-defensive-training-v",
+      "name": "防御特训5",
+      "x": 300,
+      "y": 5330,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3011.png"
+    },
+    {
+      "id": "battle-5-8",
+      "pathId": "research-battle-survival-techniques-v",
+      "name": "生存特训5",
+      "x": 90,
+      "y": 5470,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3012.png"
+    },
+    {
+      "id": "battle-5-9",
+      "pathId": "research-battle-assaut-techniques-v",
+      "name": "突击特训5",
+      "x": 510,
+      "y": 5470,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3013.png"
+    },
+    {
+      "id": "battle-5-10",
+      "pathId": "research-battle-regimental-expansion-v",
+      "name": "编制扩展5",
+      "x": 300,
+      "y": 5610,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3014.png"
+    },
+    {
+      "id": "battle-5-11",
+      "pathId": "research-battle-close-combat-v",
+      "name": "不懈奋战5",
+      "x": 90,
+      "y": 5750,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3018.png"
+    },
+    {
+      "id": "battle-5-12",
+      "pathId": "research-battle-targeted-sniping-v",
+      "name": "定点狙击5",
+      "x": 300,
+      "y": 5750,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3019.png"
+    },
+    {
+      "id": "battle-5-13",
+      "pathId": "research-battle-lancer-upgrade-v",
+      "name": "长矛改良5",
+      "x": 510,
+      "y": 5750,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3020.png"
+    },
+    {
+      "id": "battle-5-14",
+      "pathId": "research-battle-shield-upgrade-v",
+      "name": "盾牌改良5",
+      "x": 90,
+      "y": 5890,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3021.png"
+    },
+    {
+      "id": "battle-5-15",
+      "pathId": "research-battle-marksman-armor-v",
+      "name": "射手护甲5",
+      "x": 300,
+      "y": 5890,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3022.png"
+    },
+    {
+      "id": "battle-5-16",
+      "pathId": "research-battle-lancer-armor-v",
+      "name": "矛兵护甲5",
+      "x": 510,
+      "y": 5890,
+      "max": 6,
+      "systemId": "research",
+      "tier": 5,
+      "icon": "/public/research-icons/science_icon_3023.png"
+    },
+    {
+      "id": "battle-6-0",
+      "pathId": "ordinary-research-1",
+      "name": "武器特训6",
+      "x": 300,
+      "y": 6110,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3001.png"
+    },
+    {
+      "id": "battle-6-1",
+      "pathId": "ordinary-research-2",
+      "name": "稳守反击6",
+      "x": 90,
+      "y": 6250,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3005.png"
+    },
+    {
+      "id": "battle-6-2",
+      "pathId": "ordinary-research-3",
+      "name": "精准射击6",
+      "x": 300,
+      "y": 6250,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3006.png"
+    },
+    {
+      "id": "battle-6-3",
+      "pathId": "ordinary-research-4",
+      "name": "迅猛突刺6",
+      "x": 510,
+      "y": 6250,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3007.png"
+    },
+    {
+      "id": "battle-6-4",
+      "pathId": "ordinary-research-5",
+      "name": "防御阵型6",
+      "x": 90,
+      "y": 6390,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3008.png"
+    },
+    {
+      "id": "battle-6-5",
+      "pathId": "ordinary-research-6",
+      "name": "警戒队形6",
+      "x": 300,
+      "y": 6390,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3009.png"
+    },
+    {
+      "id": "battle-6-6",
+      "pathId": "ordinary-research-7",
+      "name": "坚守阵地6",
+      "x": 510,
+      "y": 6390,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3010.png"
+    },
+    {
+      "id": "battle-6-7",
+      "pathId": "ordinary-research-8",
+      "name": "防御特训6",
+      "x": 300,
+      "y": 6530,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3011.png"
+    },
+    {
+      "id": "battle-6-8",
+      "pathId": "ordinary-research-9",
+      "name": "生存特训6",
+      "x": 90,
+      "y": 6670,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3012.png"
+    },
+    {
+      "id": "battle-6-9",
+      "pathId": "ordinary-research-10",
+      "name": "突击特训6",
+      "x": 510,
+      "y": 6670,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3013.png"
+    },
+    {
+      "id": "battle-6-10",
+      "pathId": "ordinary-research-11",
+      "name": "编制扩展6",
+      "x": 300,
+      "y": 6810,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3014.png"
+    },
+    {
+      "id": "battle-6-11",
+      "pathId": "ordinary-research-12",
+      "name": "不懈奋战6",
+      "x": 90,
+      "y": 6950,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3018.png"
+    },
+    {
+      "id": "battle-6-12",
+      "pathId": "ordinary-research-13",
+      "name": "定点狙击6",
+      "x": 300,
+      "y": 6950,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3019.png"
+    },
+    {
+      "id": "battle-6-13",
+      "pathId": "ordinary-research-14",
+      "name": "长矛改良6",
+      "x": 510,
+      "y": 6950,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3020.png"
+    },
+    {
+      "id": "battle-6-14",
+      "pathId": "ordinary-research-15",
+      "name": "盾牌改良6",
+      "x": 90,
+      "y": 7090,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3021.png"
+    },
+    {
+      "id": "battle-6-15",
+      "pathId": "ordinary-research-16",
+      "name": "射手护甲6",
+      "x": 300,
+      "y": 7090,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3022.png"
+    },
+    {
+      "id": "battle-6-16",
+      "pathId": "ordinary-research-17",
+      "name": "矛兵护甲6",
+      "x": 510,
+      "y": 7090,
+      "max": 6,
+      "systemId": "research",
+      "tier": 6,
+      "icon": "/public/research-icons/science_icon_3023.png"
+    },
+    {
+      "id": "t11-marksman-0",
+      "pathId": "t11-1",
+      "name": "射手容量",
+      "x": 1150,
+      "y": 1050,
+      "max": 5,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "容量",
+      "icon": "/public/research-icons/science_icon_9001.png"
+    },
+    {
+      "id": "t11-marksman-1",
+      "pathId": "t11-2",
+      "name": "射手穿透",
+      "x": 1010,
+      "y": 885,
+      "max": 8,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "穿透",
+      "icon": "/public/research-icons/science_icon_9002.png"
+    },
+    {
+      "id": "t11-marksman-2",
+      "pathId": "t11-3",
+      "name": "射手生命",
+      "x": 1290,
+      "y": 885,
+      "max": 8,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "生命",
+      "icon": "/public/research-icons/science_icon_9003.png"
+    },
+    {
+      "id": "t11-marksman-3",
+      "pathId": "t11-4",
+      "name": "射手集结容量",
+      "x": 1150,
+      "y": 730,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "集结容量",
+      "icon": "/public/research-icons/science_icon_9006.png"
+    },
+    {
+      "id": "t11-marksman-4",
+      "pathId": "t11-5",
+      "name": "射手攻击",
+      "x": 945,
+      "y": 640,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "攻击",
+      "icon": "/public/research-icons/science_icon_9004.png"
+    },
+    {
+      "id": "t11-marksman-5",
+      "pathId": "t11-6",
+      "name": "射手防御",
+      "x": 1355,
+      "y": 640,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "防御",
+      "icon": "/public/research-icons/science_icon_9005.png"
+    },
+    {
+      "id": "t11-marksman-6",
+      "pathId": "t11-7",
+      "name": "射手烈日士兵",
+      "x": 1150,
+      "y": 460,
+      "max": 1,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "烈日士兵",
+      "icon": "/public/research-icons/science_icon_9007.png"
+    },
+    {
+      "id": "t11-marksman-7",
+      "pathId": "t11-8",
+      "name": "射手急救",
+      "x": 1320,
+      "y": 260,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "急救",
+      "icon": "/public/research-icons/science_icon_9009.png"
+    },
+    {
+      "id": "t11-marksman-8",
+      "pathId": "t11-9",
+      "name": "射手治疗",
+      "x": 980,
+      "y": 260,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "治疗",
+      "icon": "/public/research-icons/science_icon_9008.png"
+    },
+    {
+      "id": "t11-marksman-9",
+      "pathId": "t11-10",
+      "name": "射手训练",
+      "x": 1150,
+      "y": 190,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "marksman",
+      "color": "#efa442",
+      "role": "训练",
+      "icon": "/public/research-icons/science_icon_9010.png"
+    },
+    {
+      "id": "t11-infantry-0",
+      "pathId": "t11-1",
+      "name": "烈焰战队",
+      "x": 1350,
+      "y": 1250,
+      "max": 5,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "容量",
+      "icon": "/public/research-icons/science_icon_7001.png"
+    },
+    {
+      "id": "t11-infantry-1",
+      "pathId": "t11-2",
+      "name": "怒焰猛击",
+      "x": 1515,
+      "y": 1110,
+      "max": 8,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "穿透",
+      "icon": "/public/research-icons/science_icon_7002.png"
+    },
+    {
+      "id": "t11-infantry-2",
+      "pathId": "t11-3",
+      "name": "怒焰坚盾",
+      "x": 1515,
+      "y": 1390,
+      "max": 8,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "生命",
+      "icon": "/public/research-icons/science_icon_7003.png"
+    },
+    {
+      "id": "t11-infantry-3",
+      "pathId": "t11-4",
+      "name": "烈焰军团",
+      "x": 1670,
+      "y": 1250,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "集结容量",
+      "icon": "/public/research-icons/science_icon_7006.png"
+    },
+    {
+      "id": "t11-infantry-4",
+      "pathId": "t11-5",
+      "name": "怒焰战斧",
+      "x": 1760,
+      "y": 1045,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "攻击",
+      "icon": "/public/research-icons/science_icon_7004.png"
+    },
+    {
+      "id": "t11-infantry-5",
+      "pathId": "t11-6",
+      "name": "怒焰护佑",
+      "x": 1760,
+      "y": 1455,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "防御",
+      "icon": "/public/research-icons/science_icon_7005.png"
+    },
+    {
+      "id": "t11-infantry-6",
+      "pathId": "t11-7",
+      "name": "烈日兵",
+      "x": 1940,
+      "y": 1250,
+      "max": 1,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "烈日士兵",
+      "icon": "/public/research-icons/science_icon_7007.png"
+    },
+    {
+      "id": "t11-infantry-7",
+      "pathId": "t11-8",
+      "name": "T11急救",
+      "x": 2140,
+      "y": 1420,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "急救",
+      "icon": "/public/research-icons/science_icon_7009.png"
+    },
+    {
+      "id": "t11-infantry-8",
+      "pathId": "t11-9",
+      "name": "T11治疗",
+      "x": 2140,
+      "y": 1080,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "治疗",
+      "icon": "/public/research-icons/science_icon_7008.png"
+    },
+    {
+      "id": "t11-infantry-9",
+      "pathId": "t11-10",
+      "name": "T11训练",
+      "x": 2210,
+      "y": 1250,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "infantry",
+      "color": "#64c775",
+      "role": "训练",
+      "icon": "/public/research-icons/science_icon_7010.png"
+    },
+    {
+      "id": "t11-lancer-0",
+      "pathId": "t11-1",
+      "name": "矛兵容量",
+      "x": 1150,
+      "y": 1450,
+      "max": 5,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "容量",
+      "icon": "/public/research-icons/science_icon_8001.png"
+    },
+    {
+      "id": "t11-lancer-1",
+      "pathId": "t11-2",
+      "name": "矛兵穿透",
+      "x": 1010,
+      "y": 1615,
+      "max": 8,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "穿透",
+      "icon": "/public/research-icons/science_icon_8002.png"
+    },
+    {
+      "id": "t11-lancer-2",
+      "pathId": "t11-3",
+      "name": "矛兵生命",
+      "x": 1290,
+      "y": 1615,
+      "max": 8,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "生命",
+      "icon": "/public/research-icons/science_icon_8003.png"
+    },
+    {
+      "id": "t11-lancer-3",
+      "pathId": "t11-4",
+      "name": "矛兵集结容量",
+      "x": 1150,
+      "y": 1770,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "集结容量",
+      "icon": "/public/research-icons/science_icon_8006.png"
+    },
+    {
+      "id": "t11-lancer-4",
+      "pathId": "t11-5",
+      "name": "矛兵攻击",
+      "x": 945,
+      "y": 1860,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "攻击",
+      "icon": "/public/research-icons/science_icon_8004.png"
+    },
+    {
+      "id": "t11-lancer-5",
+      "pathId": "t11-6",
+      "name": "矛兵防御",
+      "x": 1355,
+      "y": 1860,
+      "max": 12,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "防御",
+      "icon": "/public/research-icons/science_icon_8005.png"
+    },
+    {
+      "id": "t11-lancer-6",
+      "pathId": "t11-7",
+      "name": "矛兵烈日士兵",
+      "x": 1150,
+      "y": 2040,
+      "max": 1,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "烈日士兵",
+      "icon": "/public/research-icons/science_icon_8007.png"
+    },
+    {
+      "id": "t11-lancer-7",
+      "pathId": "t11-8",
+      "name": "矛兵急救",
+      "x": 1320,
+      "y": 2240,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "急救",
+      "icon": "/public/research-icons/science_icon_8009.png"
+    },
+    {
+      "id": "t11-lancer-8",
+      "pathId": "t11-9",
+      "name": "矛兵治疗",
+      "x": 980,
+      "y": 2240,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "治疗",
+      "icon": "/public/research-icons/science_icon_8008.png"
+    },
+    {
+      "id": "t11-lancer-9",
+      "pathId": "t11-10",
+      "name": "矛兵训练",
+      "x": 1150,
+      "y": 2310,
+      "max": 10,
+      "systemId": "t11",
+      "troopId": "lancer",
+      "color": "#55baf0",
+      "role": "训练",
+      "icon": "/public/research-icons/science_icon_8010.png"
+    },
+    {
+      "id": "t12-infantry-0",
+      "pathId": "t12-g1-shield",
+      "name": "煌耀战盔",
+      "x": 60,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/refine_icon_10001-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-infantry-1",
+      "pathId": "t12-g2-shield",
+      "name": "煌耀肩盾",
+      "x": 180,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/refine_icon_10002-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-infantry-2",
+      "pathId": "t12-g3-shield",
+      "name": "煌耀坚垒",
+      "x": 300,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/refine_icon_10005-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-infantry-3",
+      "pathId": "t12-g4-shield",
+      "name": "煌耀征程",
+      "x": 420,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/refine_icon_10003-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-infantry-4",
+      "pathId": "t12-g5-shield",
+      "name": "煌耀武装",
+      "x": 540,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/refine_icon_10004-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-infantry-5",
+      "pathId": "t12-g6-shield",
+      "name": "煌耀盾兵",
+      "x": 300,
+      "y": 330,
+      "max": 1,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": null,
+      "unit": true,
+      "equipment": false,
+      "stage": "unlock"
+    },
+    {
+      "id": "t12-infantry-6",
+      "pathId": "t12-g7-shield",
+      "name": "炎铸战刃I",
+      "x": 60,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-infantry-7",
+      "pathId": "t12-g8-shield",
+      "name": "炎铸铁卫I",
+      "x": 220,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-infantry-8",
+      "pathId": "t12-g9-shield",
+      "name": "炎铸板甲I",
+      "x": 380,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-infantry-9",
+      "pathId": "t12-g10-shield",
+      "name": "炎铸坚盾I",
+      "x": 540,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-infantry-10",
+      "pathId": "t12-g11-shield",
+      "name": "不朽之壁",
+      "x": 300,
+      "y": 830,
+      "max": 3,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10011.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "skill-I"
+    },
+    {
+      "id": "t12-infantry-11",
+      "pathId": "t12-g12-shield",
+      "name": "炎铸战刃II",
+      "x": 60,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-infantry-12",
+      "pathId": "t12-g13-shield",
+      "name": "炎铸铁卫II",
+      "x": 220,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-infantry-13",
+      "pathId": "t12-g14-shield",
+      "name": "炎铸板甲II",
+      "x": 380,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-infantry-14",
+      "pathId": "t12-g15-shield",
+      "name": "炎铸坚盾II",
+      "x": 540,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-infantry-15",
+      "pathId": "t12-g16-shield",
+      "name": "烈阳雄师",
+      "x": 300,
+      "y": 1220,
+      "max": 15,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10001.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "skill-II"
+    },
+    {
+      "id": "t12-infantry-16",
+      "pathId": "t12-g17-shield",
+      "name": "炎铸战刃III",
+      "x": 60,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-infantry-17",
+      "pathId": "t12-g18-shield",
+      "name": "炎铸铁卫III",
+      "x": 220,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-infantry-18",
+      "pathId": "t12-g19-shield",
+      "name": "炎铸板甲III",
+      "x": 380,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-infantry-19",
+      "pathId": "t12-g20-shield",
+      "name": "炎铸坚盾III",
+      "x": 540,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "infantry",
+      "icon": "/public/research-icons/science_icon_10003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-lancer-0",
+      "pathId": "t12-g21-lancer",
+      "name": "煌耀战冕",
+      "x": 60,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/refine_icon_11001-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-lancer-1",
+      "pathId": "t12-g22-lancer",
+      "name": "煌耀肩铠",
+      "x": 180,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/refine_icon_11002-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-lancer-2",
+      "pathId": "t12-g23-lancer",
+      "name": "煌耀重甲",
+      "x": 300,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/refine_icon_11005-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-lancer-3",
+      "pathId": "t12-g24-lancer",
+      "name": "煌耀战途",
+      "x": 420,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/refine_icon_11003-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-lancer-4",
+      "pathId": "t12-g25-lancer",
+      "name": "煌耀锐戟",
+      "x": 540,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/refine_icon_11004-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-lancer-5",
+      "pathId": "t12-g26-lancer",
+      "name": "煌耀矛兵",
+      "x": 300,
+      "y": 330,
+      "max": 1,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": null,
+      "unit": true,
+      "equipment": false,
+      "stage": "unlock"
+    },
+    {
+      "id": "t12-lancer-6",
+      "pathId": "t12-g27-lancer",
+      "name": "炎铸枪锋I",
+      "x": 60,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-lancer-7",
+      "pathId": "t12-g28-lancer",
+      "name": "炎铸尖兵I",
+      "x": 220,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-lancer-8",
+      "pathId": "t12-g29-lancer",
+      "name": "炎铸铁胄I",
+      "x": 380,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-lancer-9",
+      "pathId": "t12-g30-lancer",
+      "name": "炎铸之臂I",
+      "x": 540,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-lancer-10",
+      "pathId": "t12-g31-lancer",
+      "name": "烈辉战阵",
+      "x": 300,
+      "y": 830,
+      "max": 3,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11011.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "skill-I"
+    },
+    {
+      "id": "t12-lancer-11",
+      "pathId": "t12-g32-lancer",
+      "name": "炎铸枪锋II",
+      "x": 60,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-lancer-12",
+      "pathId": "t12-g33-lancer",
+      "name": "炎铸尖兵II",
+      "x": 220,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-lancer-13",
+      "pathId": "t12-g34-lancer",
+      "name": "炎铸铁胄II",
+      "x": 380,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-lancer-14",
+      "pathId": "t12-g35-lancer",
+      "name": "炎铸之臂II",
+      "x": 540,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-lancer-15",
+      "pathId": "t12-g36-lancer",
+      "name": "烈阳雄师",
+      "x": 300,
+      "y": 1220,
+      "max": 15,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11001.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "skill-II"
+    },
+    {
+      "id": "t12-lancer-16",
+      "pathId": "t12-g37-lancer",
+      "name": "炎铸枪锋III",
+      "x": 60,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-lancer-17",
+      "pathId": "t12-g38-lancer",
+      "name": "炎铸尖兵III",
+      "x": 220,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-lancer-18",
+      "pathId": "t12-g39-lancer",
+      "name": "炎铸铁胄III",
+      "x": 380,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-lancer-19",
+      "pathId": "t12-g40-lancer",
+      "name": "炎铸之臂III",
+      "x": 540,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "lancer",
+      "icon": "/public/research-icons/science_icon_11003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-marksman-0",
+      "pathId": "t12-g41-marksman",
+      "name": "煌耀面纱",
+      "x": 60,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/refine_icon_12001-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-marksman-1",
+      "pathId": "t12-g42-marksman",
+      "name": "煌耀肩甲",
+      "x": 180,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/refine_icon_12002-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-marksman-2",
+      "pathId": "t12-g43-marksman",
+      "name": "煌耀战衣",
+      "x": 300,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/refine_icon_12005-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-marksman-3",
+      "pathId": "t12-g44-marksman",
+      "name": "煌耀舞步",
+      "x": 420,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/refine_icon_12003-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-marksman-4",
+      "pathId": "t12-g45-marksman",
+      "name": "煌耀铁铳",
+      "x": 540,
+      "y": 95,
+      "max": 5,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/refine_icon_12004-150x150.png",
+      "unit": false,
+      "equipment": true,
+      "stage": "equipment"
+    },
+    {
+      "id": "t12-marksman-5",
+      "pathId": "t12-g46-marksman",
+      "name": "煌耀射手",
+      "x": 300,
+      "y": 330,
+      "max": 1,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": null,
+      "unit": true,
+      "equipment": false,
+      "stage": "unlock"
+    },
+    {
+      "id": "t12-marksman-6",
+      "pathId": "t12-g47-marksman",
+      "name": "炎铸战铳I",
+      "x": 60,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-marksman-7",
+      "pathId": "t12-g48-marksman",
+      "name": "炎铸射士I",
+      "x": 220,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-marksman-8",
+      "pathId": "t12-g49-marksman",
+      "name": "炎铸鳞甲I",
+      "x": 380,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-marksman-9",
+      "pathId": "t12-g50-marksman",
+      "name": "炎铸之手I",
+      "x": 540,
+      "y": 635,
+      "max": 20,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "I"
+    },
+    {
+      "id": "t12-marksman-10",
+      "pathId": "t12-g51-marksman",
+      "name": "炽火燧星",
+      "x": 300,
+      "y": 830,
+      "max": 3,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12011.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "skill-I"
+    },
+    {
+      "id": "t12-marksman-11",
+      "pathId": "t12-g52-marksman",
+      "name": "炎铸战铳II",
+      "x": 60,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-marksman-12",
+      "pathId": "t12-g53-marksman",
+      "name": "炎铸射士II",
+      "x": 220,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-marksman-13",
+      "pathId": "t12-g54-marksman",
+      "name": "炎铸鳞甲II",
+      "x": 380,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-marksman-14",
+      "pathId": "t12-g55-marksman",
+      "name": "炎铸之手II",
+      "x": 540,
+      "y": 1020,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "II"
+    },
+    {
+      "id": "t12-marksman-15",
+      "pathId": "t12-g56-marksman",
+      "name": "烈阳雄师",
+      "x": 300,
+      "y": 1220,
+      "max": 15,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12001.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "skill-II"
+    },
+    {
+      "id": "t12-marksman-16",
+      "pathId": "t12-g57-marksman",
+      "name": "炎铸战铳III",
+      "x": 60,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12002.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-marksman-17",
+      "pathId": "t12-g58-marksman",
+      "name": "炎铸射士III",
+      "x": 220,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12004.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-marksman-18",
+      "pathId": "t12-g59-marksman",
+      "name": "炎铸鳞甲III",
+      "x": 380,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12005.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    },
+    {
+      "id": "t12-marksman-19",
+      "pathId": "t12-g60-marksman",
+      "name": "炎铸之手III",
+      "x": 540,
+      "y": 1420,
+      "max": 50,
+      "systemId": "t12",
+      "troopId": "marksman",
+      "icon": "/public/research-icons/science_icon_12003.png",
+      "unit": false,
+      "equipment": false,
+      "stage": "III"
+    }
+  ],
+  "edges": [
+    {
+      "from": "battle-1-0",
+      "to": "battle-1-1",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-0",
+      "to": "battle-1-2",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-0",
+      "to": "battle-1-3",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-1",
+      "to": "battle-1-4",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-2",
+      "to": "battle-1-5",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-3",
+      "to": "battle-1-6",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-4",
+      "to": "battle-1-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-5",
+      "to": "battle-1-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-6",
+      "to": "battle-1-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-7",
+      "to": "battle-1-8",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-7",
+      "to": "battle-1-9",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-8",
+      "to": "battle-1-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-9",
+      "to": "battle-1-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-10",
+      "to": "battle-1-11",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-10",
+      "to": "battle-1-12",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-10",
+      "to": "battle-1-13",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-11",
+      "to": "battle-1-14",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-12",
+      "to": "battle-1-15",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-13",
+      "to": "battle-1-16",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-0",
+      "to": "battle-2-1",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-0",
+      "to": "battle-2-2",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-0",
+      "to": "battle-2-3",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-1",
+      "to": "battle-2-4",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-2",
+      "to": "battle-2-5",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-3",
+      "to": "battle-2-6",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-4",
+      "to": "battle-2-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-5",
+      "to": "battle-2-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-6",
+      "to": "battle-2-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-7",
+      "to": "battle-2-8",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-7",
+      "to": "battle-2-9",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-8",
+      "to": "battle-2-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-9",
+      "to": "battle-2-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-10",
+      "to": "battle-2-11",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-10",
+      "to": "battle-2-12",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-10",
+      "to": "battle-2-13",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-11",
+      "to": "battle-2-14",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-12",
+      "to": "battle-2-15",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-13",
+      "to": "battle-2-16",
+      "type": "tree"
+    },
+    {
+      "from": "battle-1-14",
+      "to": "battle-2-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-1-15",
+      "to": "battle-2-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-1-16",
+      "to": "battle-2-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-3-0",
+      "to": "battle-3-1",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-0",
+      "to": "battle-3-2",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-0",
+      "to": "battle-3-3",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-1",
+      "to": "battle-3-4",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-2",
+      "to": "battle-3-5",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-3",
+      "to": "battle-3-6",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-4",
+      "to": "battle-3-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-5",
+      "to": "battle-3-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-6",
+      "to": "battle-3-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-7",
+      "to": "battle-3-8",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-7",
+      "to": "battle-3-9",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-8",
+      "to": "battle-3-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-9",
+      "to": "battle-3-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-10",
+      "to": "battle-3-11",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-10",
+      "to": "battle-3-12",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-10",
+      "to": "battle-3-13",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-11",
+      "to": "battle-3-14",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-12",
+      "to": "battle-3-15",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-13",
+      "to": "battle-3-16",
+      "type": "tree"
+    },
+    {
+      "from": "battle-2-14",
+      "to": "battle-3-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-2-15",
+      "to": "battle-3-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-2-16",
+      "to": "battle-3-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-4-0",
+      "to": "battle-4-1",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-0",
+      "to": "battle-4-2",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-0",
+      "to": "battle-4-3",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-1",
+      "to": "battle-4-4",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-2",
+      "to": "battle-4-5",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-3",
+      "to": "battle-4-6",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-4",
+      "to": "battle-4-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-5",
+      "to": "battle-4-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-6",
+      "to": "battle-4-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-7",
+      "to": "battle-4-8",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-7",
+      "to": "battle-4-9",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-8",
+      "to": "battle-4-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-9",
+      "to": "battle-4-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-10",
+      "to": "battle-4-11",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-10",
+      "to": "battle-4-12",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-10",
+      "to": "battle-4-13",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-11",
+      "to": "battle-4-14",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-12",
+      "to": "battle-4-15",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-13",
+      "to": "battle-4-16",
+      "type": "tree"
+    },
+    {
+      "from": "battle-3-14",
+      "to": "battle-4-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-3-15",
+      "to": "battle-4-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-3-16",
+      "to": "battle-4-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-5-0",
+      "to": "battle-5-1",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-0",
+      "to": "battle-5-2",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-0",
+      "to": "battle-5-3",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-1",
+      "to": "battle-5-4",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-2",
+      "to": "battle-5-5",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-3",
+      "to": "battle-5-6",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-4",
+      "to": "battle-5-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-5",
+      "to": "battle-5-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-6",
+      "to": "battle-5-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-7",
+      "to": "battle-5-8",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-7",
+      "to": "battle-5-9",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-8",
+      "to": "battle-5-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-9",
+      "to": "battle-5-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-10",
+      "to": "battle-5-11",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-10",
+      "to": "battle-5-12",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-10",
+      "to": "battle-5-13",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-11",
+      "to": "battle-5-14",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-12",
+      "to": "battle-5-15",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-13",
+      "to": "battle-5-16",
+      "type": "tree"
+    },
+    {
+      "from": "battle-4-14",
+      "to": "battle-5-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-4-15",
+      "to": "battle-5-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-4-16",
+      "to": "battle-5-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-6-0",
+      "to": "battle-6-1",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-0",
+      "to": "battle-6-2",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-0",
+      "to": "battle-6-3",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-1",
+      "to": "battle-6-4",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-2",
+      "to": "battle-6-5",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-3",
+      "to": "battle-6-6",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-4",
+      "to": "battle-6-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-5",
+      "to": "battle-6-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-6",
+      "to": "battle-6-7",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-7",
+      "to": "battle-6-8",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-7",
+      "to": "battle-6-9",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-8",
+      "to": "battle-6-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-9",
+      "to": "battle-6-10",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-10",
+      "to": "battle-6-11",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-10",
+      "to": "battle-6-12",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-10",
+      "to": "battle-6-13",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-11",
+      "to": "battle-6-14",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-12",
+      "to": "battle-6-15",
+      "type": "tree"
+    },
+    {
+      "from": "battle-6-13",
+      "to": "battle-6-16",
+      "type": "tree"
+    },
+    {
+      "from": "battle-5-14",
+      "to": "battle-6-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-5-15",
+      "to": "battle-6-0",
+      "type": "stage"
+    },
+    {
+      "from": "battle-5-16",
+      "to": "battle-6-0",
+      "type": "stage"
+    },
+    {
+      "from": "t11-marksman-0",
+      "to": "t11-marksman-1",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-0",
+      "to": "t11-marksman-2",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-1",
+      "to": "t11-marksman-3",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-2",
+      "to": "t11-marksman-3",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-1",
+      "to": "t11-marksman-4",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-2",
+      "to": "t11-marksman-5",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-3",
+      "to": "t11-marksman-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-4",
+      "to": "t11-marksman-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-5",
+      "to": "t11-marksman-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-6",
+      "to": "t11-marksman-7",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-6",
+      "to": "t11-marksman-8",
+      "type": "tree"
+    },
+    {
+      "from": "t11-marksman-6",
+      "to": "t11-marksman-9",
+      "type": "tree"
+    },
+    {
+      "from": "t11-core",
+      "to": "t11-marksman-0",
+      "type": "root"
+    },
+    {
+      "from": "t11-infantry-0",
+      "to": "t11-infantry-1",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-0",
+      "to": "t11-infantry-2",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-1",
+      "to": "t11-infantry-3",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-2",
+      "to": "t11-infantry-3",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-1",
+      "to": "t11-infantry-4",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-2",
+      "to": "t11-infantry-5",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-3",
+      "to": "t11-infantry-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-4",
+      "to": "t11-infantry-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-5",
+      "to": "t11-infantry-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-6",
+      "to": "t11-infantry-7",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-6",
+      "to": "t11-infantry-8",
+      "type": "tree"
+    },
+    {
+      "from": "t11-infantry-6",
+      "to": "t11-infantry-9",
+      "type": "tree"
+    },
+    {
+      "from": "t11-core",
+      "to": "t11-infantry-0",
+      "type": "root"
+    },
+    {
+      "from": "t11-lancer-0",
+      "to": "t11-lancer-1",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-0",
+      "to": "t11-lancer-2",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-1",
+      "to": "t11-lancer-3",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-2",
+      "to": "t11-lancer-3",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-1",
+      "to": "t11-lancer-4",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-2",
+      "to": "t11-lancer-5",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-3",
+      "to": "t11-lancer-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-4",
+      "to": "t11-lancer-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-5",
+      "to": "t11-lancer-6",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-6",
+      "to": "t11-lancer-7",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-6",
+      "to": "t11-lancer-8",
+      "type": "tree"
+    },
+    {
+      "from": "t11-lancer-6",
+      "to": "t11-lancer-9",
+      "type": "tree"
+    },
+    {
+      "from": "t11-core",
+      "to": "t11-lancer-0",
+      "type": "root"
+    },
+    {
+      "from": "t12-infantry-0",
+      "to": "t12-infantry-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-infantry-1",
+      "to": "t12-infantry-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-infantry-2",
+      "to": "t12-infantry-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-infantry-3",
+      "to": "t12-infantry-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-infantry-4",
+      "to": "t12-infantry-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-infantry-5",
+      "to": "t12-infantry-6",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-6",
+      "to": "t12-infantry-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-5",
+      "to": "t12-infantry-7",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-7",
+      "to": "t12-infantry-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-5",
+      "to": "t12-infantry-8",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-8",
+      "to": "t12-infantry-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-5",
+      "to": "t12-infantry-9",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-9",
+      "to": "t12-infantry-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-10",
+      "to": "t12-infantry-11",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-11",
+      "to": "t12-infantry-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-10",
+      "to": "t12-infantry-12",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-12",
+      "to": "t12-infantry-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-10",
+      "to": "t12-infantry-13",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-13",
+      "to": "t12-infantry-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-10",
+      "to": "t12-infantry-14",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-14",
+      "to": "t12-infantry-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-15",
+      "to": "t12-infantry-16",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-15",
+      "to": "t12-infantry-17",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-15",
+      "to": "t12-infantry-18",
+      "type": "tree"
+    },
+    {
+      "from": "t12-infantry-15",
+      "to": "t12-infantry-19",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-0",
+      "to": "t12-lancer-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-lancer-1",
+      "to": "t12-lancer-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-lancer-2",
+      "to": "t12-lancer-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-lancer-3",
+      "to": "t12-lancer-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-lancer-4",
+      "to": "t12-lancer-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-lancer-5",
+      "to": "t12-lancer-6",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-6",
+      "to": "t12-lancer-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-5",
+      "to": "t12-lancer-7",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-7",
+      "to": "t12-lancer-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-5",
+      "to": "t12-lancer-8",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-8",
+      "to": "t12-lancer-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-5",
+      "to": "t12-lancer-9",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-9",
+      "to": "t12-lancer-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-10",
+      "to": "t12-lancer-11",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-11",
+      "to": "t12-lancer-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-10",
+      "to": "t12-lancer-12",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-12",
+      "to": "t12-lancer-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-10",
+      "to": "t12-lancer-13",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-13",
+      "to": "t12-lancer-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-10",
+      "to": "t12-lancer-14",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-14",
+      "to": "t12-lancer-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-15",
+      "to": "t12-lancer-16",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-15",
+      "to": "t12-lancer-17",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-15",
+      "to": "t12-lancer-18",
+      "type": "tree"
+    },
+    {
+      "from": "t12-lancer-15",
+      "to": "t12-lancer-19",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-0",
+      "to": "t12-marksman-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-marksman-1",
+      "to": "t12-marksman-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-marksman-2",
+      "to": "t12-marksman-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-marksman-3",
+      "to": "t12-marksman-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-marksman-4",
+      "to": "t12-marksman-5",
+      "type": "equipment"
+    },
+    {
+      "from": "t12-marksman-5",
+      "to": "t12-marksman-6",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-6",
+      "to": "t12-marksman-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-5",
+      "to": "t12-marksman-7",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-7",
+      "to": "t12-marksman-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-5",
+      "to": "t12-marksman-8",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-8",
+      "to": "t12-marksman-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-5",
+      "to": "t12-marksman-9",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-9",
+      "to": "t12-marksman-10",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-10",
+      "to": "t12-marksman-11",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-11",
+      "to": "t12-marksman-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-10",
+      "to": "t12-marksman-12",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-12",
+      "to": "t12-marksman-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-10",
+      "to": "t12-marksman-13",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-13",
+      "to": "t12-marksman-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-10",
+      "to": "t12-marksman-14",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-14",
+      "to": "t12-marksman-15",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-15",
+      "to": "t12-marksman-16",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-15",
+      "to": "t12-marksman-17",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-15",
+      "to": "t12-marksman-18",
+      "type": "tree"
+    },
+    {
+      "from": "t12-marksman-15",
+      "to": "t12-marksman-19",
+      "type": "tree"
+    }
+  ],
+  "t11Core": {
+    "id": "t11-core",
+    "x": 1150,
+    "y": 1250,
+    "icon": "/public/assets/items/c399f82b123e8faa3a58694b.webp"
+  },
+  "sizes": {
+    "research": {
+      "width": 600,
+      "height": 7200
+    },
+    "t11": {
+      "width": 2400,
+      "height": 2450
+    },
+    "t12": {
+      "width": 600,
+      "height": 1560
+    }
+  },
+  "troops": [
+    {
+      "id": "marksman",
+      "name": "射手",
+      "color": "#efa442",
+      "iconPrefix": 9000,
+      "dx": 0,
+      "dy": -1
+    },
+    {
+      "id": "infantry",
+      "name": "盾兵",
+      "color": "#64c775",
+      "iconPrefix": 7000,
+      "dx": 1,
+      "dy": 0
+    },
+    {
+      "id": "lancer",
+      "name": "矛兵",
+      "color": "#55baf0",
+      "iconPrefix": 8000,
+      "dx": 0,
+      "dy": 1
+    }
+  ],
+  "sources": [
+    {
+      "title": "研究所实机截图",
+      "url": "https://ameblo.jp/luidasbar/entry-12884094031.html",
+      "local": "reference/research-layout-2026-10-28/battle-game.png"
+    },
+    {
+      "title": "T11实机截图",
+      "url": "https://www.bluestacks.com/blog/game-guides/white-out-survival/wos-troops-upgrade-guide-en.html",
+      "local": "reference/research-layout-2026-10-28/t11-game.webp"
+    },
+    {
+      "title": "T12实机截图",
+      "url": "https://ameblo.jp/luidasbar/entry-12964485630.html",
+      "local": "reference/research-layout-2026-10-28/t12-game.png"
+    },
+    {
+      "title": "官方Wiki科技图标",
+      "url": "https://www.whiteoutsurvival.wiki/research/"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3001.png",
+      "local": "/public/research-icons/science_icon_3001.png",
+      "file": "science_icon_3001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/weapons-prep-vi/",
+      "sha256": "9e45d57d89be25ad19711fc6b37460d350f71abf932bad4d73c6a2eb2839b59d"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3005.png",
+      "local": "/public/research-icons/science_icon_3005.png",
+      "file": "science_icon_3005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/reprisal-tactics-vi/",
+      "sha256": "b3ab055ed3741188b91d5a3a12435adafb258e4d36d0a6789177f02a17261166"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3006.png",
+      "local": "/public/research-icons/science_icon_3006.png",
+      "file": "science_icon_3006.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/precision-targeting-vi/",
+      "sha256": "a75bd9000abc64a47e209849ac9631cf729051c7080c4e577314c19cf7075ff7"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3007.png",
+      "local": "/public/research-icons/science_icon_3007.png",
+      "file": "science_icon_3007.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/skirmishing-vi/",
+      "sha256": "6ef7e7f6f4ff5ff4e1ae990ea4c16842effc6ef42577ba1995eaa0306d61ef42"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3008.png",
+      "local": "/public/research-icons/science_icon_3008.png",
+      "file": "science_icon_3008.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/defensive-formation-vi/",
+      "sha256": "9323b37ddb7b85534275b2b80a911df31e4077b78f5c2063667a8171f5e5ccec"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3009.png",
+      "local": "/public/research-icons/science_icon_3009.png",
+      "file": "science_icon_3009.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/picket-lines-vi/",
+      "sha256": "74beff6d561cd4148ddbeef5caac381170cbb6524f73215c08d24a9b98eb2a3c"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3010.png",
+      "local": "/public/research-icons/science_icon_3010.png",
+      "file": "science_icon_3010.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/bulwark-formations-vi/",
+      "sha256": "665c22079bc64e7049841d22a2957d8c9a8727aeb0b6ced82fd0aeb753149e2c"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3011.png",
+      "local": "/public/research-icons/science_icon_3011.png",
+      "file": "science_icon_3011.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/special-defensive-training-vi/",
+      "sha256": "d539c3824a8d6a0ca7a7f7078943dbae8ced0b76b874326dc61749e9a4b10994"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3012.png",
+      "local": "/public/research-icons/science_icon_3012.png",
+      "file": "science_icon_3012.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/survival-techniques-vi/",
+      "sha256": "9ba03ee580772112ec920815822b4965f8e836ae80bb684b3bd79e1a24f2c32b"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3013.png",
+      "local": "/public/research-icons/science_icon_3013.png",
+      "file": "science_icon_3013.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/assaut-techniques-vi/",
+      "sha256": "3b89743cb8b0e28df71562273899ef8d6decdc34f6b6a41819af40ddba67a01f"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3014.png",
+      "local": "/public/research-icons/science_icon_3014.png",
+      "file": "science_icon_3014.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/regimental-expansion-vi/",
+      "sha256": "98e743ec9448aa9630c310864c988603edec5093c8b2e9da2b471ca29e2f3eff"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3018.png",
+      "local": "/public/research-icons/science_icon_3018.png",
+      "file": "science_icon_3018.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/close-combat-vi/",
+      "sha256": "b9f34da63f0fbf9a9beb0a3b93cd7989ed809f9b9c8c1bf0d294ed7a65a05c0d"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3019.png",
+      "local": "/public/research-icons/science_icon_3019.png",
+      "file": "science_icon_3019.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/targeted-sniping-vi/",
+      "sha256": "07bdefe0d7f08b5ba3912a1ab7530f2b1923d4179502eb6e86d8310e86c316e2"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3020.png",
+      "local": "/public/research-icons/science_icon_3020.png",
+      "file": "science_icon_3020.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/lancer-upgrade-vi/",
+      "sha256": "2c796fb9510a78419dc1d3132be0d41348842ee36dac94f6eac397b5adaf94bb"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3021.png",
+      "local": "/public/research-icons/science_icon_3021.png",
+      "file": "science_icon_3021.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/shield-upgrade-vi/",
+      "sha256": "e20d4d503daee0cabec2982092501e87dc27668113fb2106d3d89e1779718302"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3022.png",
+      "local": "/public/research-icons/science_icon_3022.png",
+      "file": "science_icon_3022.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/marksman-armor-vi/",
+      "sha256": "f0e0e73077622631f6d128332796fdb233ae8ed24b62b0453c1c1e095e6967cd"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_3023.png",
+      "local": "/public/research-icons/science_icon_3023.png",
+      "file": "science_icon_3023.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/lancer-armor-vi/",
+      "sha256": "04d2287daed2842838d556aa7fe0dd32691d2e177d925e788bea06655c2b7bde"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9001.png",
+      "local": "/public/research-icons/science_icon_9001.png",
+      "file": "science_icon_9001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-squad-4/",
+      "sha256": "6bbf2bf1f4a89962ba67b5bd5390dc40f5cbb7a85869add35ac3c59ee4948933"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9002.png",
+      "local": "/public/research-icons/science_icon_9002.png",
+      "file": "science_icon_9002.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/crystal-vision/",
+      "sha256": "145cf86e33de99d6f131b1ebdcdd02cb7c94e8681bbf9c03cc35eb7bff8d7428"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9003.png",
+      "local": "/public/research-icons/science_icon_9003.png",
+      "file": "science_icon_9003.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/crystal-armor/",
+      "sha256": "7a825d0fec7afedb6d5128e61311dd1ee4671750594e0fc8997f44a7b866cdb7"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9006.png",
+      "local": "/public/research-icons/science_icon_9006.png",
+      "file": "science_icon_9006.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-legion/",
+      "sha256": "77ed6cc65bf599fda4232397ba76a11428e4ff037906982fb488019fa79b9c91"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9004.png",
+      "local": "/public/research-icons/science_icon_9004.png",
+      "file": "science_icon_9004.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/crystal-arrow/",
+      "sha256": "4bc4f42463fbb892dd23e9f8aae0b11b1a3ff9e6acd4ec6a6e1adc168a491d81"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9005.png",
+      "local": "/public/research-icons/science_icon_9005.png",
+      "file": "science_icon_9005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/crystal-protection/",
+      "sha256": "c7bf6db4d6c28197efb9c8b845edb07c8b7c37bdbae55989755f3b11fbc792ea"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9007.png",
+      "local": "/public/research-icons/science_icon_9007.png",
+      "file": "science_icon_9007.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-marksman/",
+      "sha256": "b6836e99d7a8644293cd438429313c1b7e5f0259cf2eb5846d1e6d3c8895aea3"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9009.png",
+      "local": "/public/research-icons/science_icon_9009.png",
+      "file": "science_icon_9009.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-marksman-first-aid/",
+      "sha256": "ca40ca7a2092d7b41011955acdefbd805a3ce9a30237a5774d298b81d4f09669"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9008.png",
+      "local": "/public/research-icons/science_icon_9008.png",
+      "file": "science_icon_9008.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-marksman-healing/",
+      "sha256": "92fb15f565bf562ca092fe666b5af50a9cbbb6fcefe5db1269a8ee18a2e9e822"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_9010.png",
+      "local": "/public/research-icons/science_icon_9010.png",
+      "file": "science_icon_9010.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-marksman-training/",
+      "sha256": "e12a4416f4d0523ea26864bd6c3221a2e5e91e769058a31d603f70861cb924b0"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7001.png",
+      "local": "/public/research-icons/science_icon_7001.png",
+      "file": "science_icon_7001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-squad-2/",
+      "sha256": "3785fff42a9763d654d33ab0d6764ff0045ceb6b4cac649ffd54ffc48ca2965e"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7002.png",
+      "local": "/public/research-icons/science_icon_7002.png",
+      "file": "science_icon_7002.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-strike/",
+      "sha256": "f3d6a50ebc627d2d9e7cc93a464a52aa354dc25641b44de3361a86a0ba75769c"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7003.png",
+      "local": "/public/research-icons/science_icon_7003.png",
+      "file": "science_icon_7003.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-shield/",
+      "sha256": "ed60b1e903c264f183f2f493882cda7d311fcf464671e505a6328ab6d93dda6a"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7006.png",
+      "local": "/public/research-icons/science_icon_7006.png",
+      "file": "science_icon_7006.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-legion-2/",
+      "sha256": "11f25c92442bbea6225d1a921a4e8790a7f21efe4c0ef48f74fdd4d034d55dee"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7004.png",
+      "local": "/public/research-icons/science_icon_7004.png",
+      "file": "science_icon_7004.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-tomahawk/",
+      "sha256": "0865bf910b4679fd72c74098c2b0d4debca9aefcf337d13d09e9113e5206bb7a"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7005.png",
+      "local": "/public/research-icons/science_icon_7005.png",
+      "file": "science_icon_7005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-protection/",
+      "sha256": "de533cdd6f1d5d92c73bc92e1d7eda6bb3592fbd8753bb4558dc6b6333c22b52"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7007.png",
+      "local": "/public/research-icons/science_icon_7007.png",
+      "file": "science_icon_7007.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-infantry/",
+      "sha256": "f1eba9d5d347f806edd18e72c44d30e0e2460531ece3075e0f245319cf62784d"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7009.png",
+      "local": "/public/research-icons/science_icon_7009.png",
+      "file": "science_icon_7009.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-infantry-first-aid/",
+      "sha256": "d37bc248c3ab06fe6f0994c966732a85cde9ad5d0b70820a67754ff3440313ef"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7008.png",
+      "local": "/public/research-icons/science_icon_7008.png",
+      "file": "science_icon_7008.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-infantry-healing/",
+      "sha256": "53f08349addfb9143eb26ef7f1f66e7ad07b8d9f7c085f669e45fc9857c14be6"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_7010.png",
+      "local": "/public/research-icons/science_icon_7010.png",
+      "file": "science_icon_7010.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-infantry-training/",
+      "sha256": "9a201d7c67e5f047c12cf22252f9d7a7527886b3e6d8e8673b51f30b9d54816e"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8001.png",
+      "local": "/public/research-icons/science_icon_8001.png",
+      "file": "science_icon_8001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-squad-3/",
+      "sha256": "4ee1512470c740b41bc68cde04ab1fe0b5aa3bb131994b0edb8529e2d0eaf168"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8002.png",
+      "local": "/public/research-icons/science_icon_8002.png",
+      "file": "science_icon_8002.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/blazing-charge/",
+      "sha256": "492592440a40aac4cae9663b9ec3eb1eb57802fc81ee90e9df52f8d2a558b5ee"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8003.png",
+      "local": "/public/research-icons/science_icon_8003.png",
+      "file": "science_icon_8003.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/blazing-armor/",
+      "sha256": "3888da98c8ca0541bd91f9334f3a1e85c0820c3162f579684594577b7c10fc15"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8006.png",
+      "local": "/public/research-icons/science_icon_8006.png",
+      "file": "science_icon_8006.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/flame-legion-3/",
+      "sha256": "81bacacc3d34ffb0d839faea60a56f4d1f9186cc91da27fd854aa2a48f7da278"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8004.png",
+      "local": "/public/research-icons/science_icon_8004.png",
+      "file": "science_icon_8004.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/blazing-lance/",
+      "sha256": "14b70a732cd4bbf238d30ddca4d7d0c250d4d235977cc56ef10bb7608246afdf"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8005.png",
+      "local": "/public/research-icons/science_icon_8005.png",
+      "file": "science_icon_8005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/blazing-guardian/",
+      "sha256": "8015a441a954c957d8b8b451c7d5ad65a3d25a9278697041487e927f9ff9e0d2"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8007.png",
+      "local": "/public/research-icons/science_icon_8007.png",
+      "file": "science_icon_8007.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-lancer/",
+      "sha256": "ce8f539a5a89c78356dadf62057947fa8ad532e0c522ab52c60607c54cfe6b8e"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8009.png",
+      "local": "/public/research-icons/science_icon_8009.png",
+      "file": "science_icon_8009.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-lancer-first-aid/",
+      "sha256": "2b3cea968a1a8a1940bdf386af379ce1441257c900eec53dc0c71304b3ac745b"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8008.png",
+      "local": "/public/research-icons/science_icon_8008.png",
+      "file": "science_icon_8008.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-lancer-healing/",
+      "sha256": "de175026f0f71b2e5531c81bfec99a3d834897b91d99ed5a2c7fd6801afde5e7"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2023/11/science_icon_8010.png",
+      "local": "/public/research-icons/science_icon_8010.png",
+      "file": "science_icon_8010.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/helios-lancer-training/",
+      "sha256": "3b1b2d936fab6240f376c1d612074144f383a6bb09ee04672f8f60fae46632c2"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_10001-150x150.png",
+      "local": "/public/research-icons/refine_icon_10001-150x150.png",
+      "file": "refine_icon_10001-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-helm/",
+      "sha256": "902ab45ac39b069637cd38fe43c5970885d98d73502f6c1d4d69777249b8d10f"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_10002-150x150.png",
+      "local": "/public/research-icons/refine_icon_10002-150x150.png",
+      "file": "refine_icon_10002-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-shoulderguard/",
+      "sha256": "604e96df86a31e2c37b53c261d027a6acea02f12b08ec6706fca1c6cf5469bc7"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_10005-150x150.png",
+      "local": "/public/research-icons/refine_icon_10005-150x150.png",
+      "file": "refine_icon_10005-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-bastion/",
+      "sha256": "2e29dccea7549fd8a9deafc43697501a9df42f01af45aad60923b1c7ef1cd142"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_10003-150x150.png",
+      "local": "/public/research-icons/refine_icon_10003-150x150.png",
+      "file": "refine_icon_10003-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-trek/",
+      "sha256": "a520e94e8df47911fe7b5af8ef48a17d0c11e363330be5859cc2bda29d7064ea"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_10004-150x150.png",
+      "local": "/public/research-icons/refine_icon_10004-150x150.png",
+      "file": "refine_icon_10004-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-armament/",
+      "sha256": "3a22d000e1207d895f8323ea4634df00ead22018afa86f0295d0fe32bd9e7502"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_10002.png",
+      "local": "/public/research-icons/science_icon_10002.png",
+      "file": "science_icon_10002.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-blades-i/",
+      "sha256": "f43887c705f9571ad34ea5c2443271cd7c16fced27a3e32e23e20bb0105026f2"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_10004.png",
+      "local": "/public/research-icons/science_icon_10004.png",
+      "file": "science_icon_10004.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-guard-i/",
+      "sha256": "cc6dde2895cc194cb8b1e98d6b08ba14012bb0356e1dcb233952337bd4693c96"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_10005.png",
+      "local": "/public/research-icons/science_icon_10005.png",
+      "file": "science_icon_10005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-plating-i/",
+      "sha256": "9be36ba5fce2ec7704af2b92ecc9b8967aa0270469e960a0dd01abde45c3a908"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_10003.png",
+      "local": "/public/research-icons/science_icon_10003.png",
+      "file": "science_icon_10003.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-shields-i/",
+      "sha256": "57d36f37cd051f90867e12452f77b4abc81906a71e65edb6231480318e9b9909"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_10011.png",
+      "local": "/public/research-icons/science_icon_10011.png",
+      "file": "science_icon_10011.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/indomitable-wall/",
+      "sha256": "8b63a6753755a14cccbe093415967c6526a6f15caf8fa082b4ddbc8ffc692454"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_10001.png",
+      "local": "/public/research-icons/science_icon_10001.png",
+      "file": "science_icon_10001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/solar-supremacy/",
+      "sha256": "8559047b1ec4279a8db9dd28c0467c1a8b1f261e7285cae0e5f61951f81f3575"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_11001-150x150.png",
+      "local": "/public/research-icons/refine_icon_11001-150x150.png",
+      "file": "refine_icon_11001-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-warcrown/",
+      "sha256": "55216153466d73f47fd9276ed78a4a46335ff75ee01548833bf02d12a3a8107e"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_11002-150x150.png",
+      "local": "/public/research-icons/refine_icon_11002-150x150.png",
+      "file": "refine_icon_11002-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-pauldron/",
+      "sha256": "6b1ec6d02e2e4fb39f315944e5640c893b16b24fb316515c5df84cb5e330ca52"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_11005-150x150.png",
+      "local": "/public/research-icons/refine_icon_11005-150x150.png",
+      "file": "refine_icon_11005-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-platemail/",
+      "sha256": "d8012e9d81108e3d16da3ab5e703ead9e29b7574450ee996740fce6c0224c739"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_11003-150x150.png",
+      "local": "/public/research-icons/refine_icon_11003-150x150.png",
+      "file": "refine_icon_11003-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-warpath/",
+      "sha256": "b2574087cf7388423359933c83c707c219dd0ec2dae919e1e08eba18f57ea15f"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_11004-150x150.png",
+      "local": "/public/research-icons/refine_icon_11004-150x150.png",
+      "file": "refine_icon_11004-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-pike/",
+      "sha256": "e1fec902e052e236bb8018bde370c47bddcc2fdbf58bf0b967da512326f61d0a"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_11002.png",
+      "local": "/public/research-icons/science_icon_11002.png",
+      "file": "science_icon_11002.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-lance-i/",
+      "sha256": "95d698e196f08cd62cdcc8a7924e08e2f5f1ac299f53cae10751c36b9458ec20"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_11004.png",
+      "local": "/public/research-icons/science_icon_11004.png",
+      "file": "science_icon_11004.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-tactics-i/",
+      "sha256": "99083748fed4a79123a851f0cfd712391a19ea7aae99c004e589da3ab188fb4d"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_11005.png",
+      "local": "/public/research-icons/science_icon_11005.png",
+      "file": "science_icon_11005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-helmets-i/",
+      "sha256": "80e418c249f4e9e0785de945b87d6b1485513796d1d87be84e714eb689886163"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_11003.png",
+      "local": "/public/research-icons/science_icon_11003.png",
+      "file": "science_icon_11003.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-vambrace-i/",
+      "sha256": "6f1c8255e33d5043c0d619259760138fbf7125748ab19ca97793005530f0edb8"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_11011.png",
+      "local": "/public/research-icons/science_icon_11011.png",
+      "file": "science_icon_11011.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/meridian-phalanx/",
+      "sha256": "ffb8c1a7e8b64dcbd77cf879a5bbb8e50f7bcbb5721dbde9b673176c18cae9e8"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_11001.png",
+      "local": "/public/research-icons/science_icon_11001.png",
+      "file": "science_icon_11001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/solar-supremacy-lanc/",
+      "sha256": "bf8c17ba95baa9eea18ccf7f5c549f1154aeb79c6f46967338886181eecb111d"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_12001-150x150.png",
+      "local": "/public/research-icons/refine_icon_12001-150x150.png",
+      "file": "refine_icon_12001-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-veil/",
+      "sha256": "cad4bc3a3cdcce387cd7a46ca3161c102cebed3ba3266c41200ca1e8ac10d14a"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_12002-150x150.png",
+      "local": "/public/research-icons/refine_icon_12002-150x150.png",
+      "file": "refine_icon_12002-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-mantle/",
+      "sha256": "c9ca86381ccebd345a99b90208df5286a6e68cdcdeedd413bbfc9c461480406a"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_12005-150x150.png",
+      "local": "/public/research-icons/refine_icon_12005-150x150.png",
+      "file": "refine_icon_12005-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-war-grab/",
+      "sha256": "4de2eb06f2b6303e8a99b44b423ac4f350a08f5ca22ffa8975412ed5348bb6f7"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_12003-150x150.png",
+      "local": "/public/research-icons/refine_icon_12003-150x150.png",
+      "file": "refine_icon_12003-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-cadence/",
+      "sha256": "2600a947f31b6c83e5c266d6496debd0e3be935fb0e0547abc39d7e556a21b9d"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/refine_icon_12004-150x150.png",
+      "local": "/public/research-icons/refine_icon_12004-150x150.png",
+      "file": "refine_icon_12004-150x150.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/exalted-blunderbuss/",
+      "sha256": "472bd5c31f66ac7742b741fd103dc9c29212cabf4e2066864c3cf8f5b243dda8"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_12002.png",
+      "local": "/public/research-icons/science_icon_12002.png",
+      "file": "science_icon_12002.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-shot-i/",
+      "sha256": "2a46be4f37dd752dd3bca4b0cd32ed9e997afa35416a3113808a3294880a8814"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_12004.png",
+      "local": "/public/research-icons/science_icon_12004.png",
+      "file": "science_icon_12004.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-sharpshooting-i/",
+      "sha256": "3c4459ab036db278ff9e28581f44c6dc976540ad86b7a173f6a2560d4e995d1b"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_12005.png",
+      "local": "/public/research-icons/science_icon_12005.png",
+      "file": "science_icon_12005.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-scales-i/",
+      "sha256": "80a899f3527e6ce9fc0f294693f0ec8929353c8627015c81d9bd99398aa837d1"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_12003.png",
+      "local": "/public/research-icons/science_icon_12003.png",
+      "file": "science_icon_12003.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/molten-grips-i/",
+      "sha256": "15fc384584f399fade756b6acaaf26a40a47264c8ff4f9b2b496107e85e086c2"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_12011.png",
+      "local": "/public/research-icons/science_icon_12011.png",
+      "file": "science_icon_12011.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/starfire/",
+      "sha256": "0e194c3ba7ea6cee60d2f2c50286d6a729c8fb48b52b3c2e555e7b166ca36bd9"
+    },
+    {
+      "url": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/04/science_icon_12001.png",
+      "local": "/public/research-icons/science_icon_12001.png",
+      "file": "science_icon_12001.png",
+      "source": "https://www.whiteoutsurvival.wiki/research/solar-supremacy-mm/",
+      "sha256": "65fa33c0ee99caa82d5a2bb96381da16420890c3f8f1046ec926fe294cbe47de"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-10-26",
+  "source": "维护者提供的装备图鉴、宝石图鉴截图",
+  "gearSamples": [
+    {
+      "name": "神话2星",
+      "attack": 97.75,
+      "defense": 97.75,
+      "capacity": 120,
+      "power": 2346000
+    },
+    {
+      "name": "神话T2-3星",
+      "attack": 136,
+      "defense": 136,
+      "capacity": 660,
+      "power": 3264000
+    },
+    {
+      "name": "神话T5",
+      "attack": 195.5,
+      "defense": 195.5,
+      "capacity": 1340,
+      "power": 4692000
+    },
+    {
+      "name": "神话T6",
+      "attack": 229.5,
+      "defense": 229.5,
+      "capacity": 1630,
+      "power": 5508000
+    }
+  ],
+  "gemConfirmation": {
+    "level": 16,
+    "health": 100,
+    "lethality": 100,
+    "note": "维护者明确每颗16级宝石同时增加对应兵种穿透100%、生命100%。"
+  },
+  "names": {
+    "helmet": "极光使者",
+    "watch": "时光棱镜",
+    "chestplate": "星辰咏叹",
+    "pants": "幻夜舞曲",
+    "ring": "永夜印记",
+    "staff": "凛冬之心"
+  }
+}

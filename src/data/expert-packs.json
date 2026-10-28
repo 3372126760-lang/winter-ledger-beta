@@ -1,0 +1,63 @@
+{
+  "asOf": "2026-10-25",
+  "source": "维护者提供的游戏截图",
+  "imageUrl": "/public/evidence/expert-regular-packs-2026-10-25.png",
+  "completeness": "截图可见部分；横向奖励列表未完全展开，未显示的奖励不补写",
+  "valuationConvention": "按维护者原表口径：不扣除附带钻石、资源与VIP等赠品；学识之书扣除8小时加速的参考价值",
+  "packs": [
+    {
+      "id": "expert-mark-pack",
+      "name": "专家印记礼包",
+      "cash": 30,
+      "primaryRewards": [
+        {
+          "itemId": "expert-mark",
+          "quantity": 8
+        }
+      ],
+      "visibleDiamonds": 2500,
+      "formula": "30/8=3.75元/个"
+    },
+    {
+      "id": "expert-gift-pack",
+      "name": "专家赠礼套装",
+      "cash": 30,
+      "primaryRewards": [
+        {
+          "name": "征服之帆",
+          "quantity": 8,
+          "affectionPerItem": 1000
+        },
+        {
+          "name": "炙热之心",
+          "quantity": 8,
+          "affectionPerItem": 100
+        }
+      ],
+      "visibleDiamonds": 2500,
+      "formula": "30/(8*1000+8*100)*10000=34.0909090909元/万好感度"
+    },
+    {
+      "id": "expert-skill-pack",
+      "name": "专家技能礼包",
+      "cash": 30,
+      "primaryRewards": [
+        {
+          "itemId": "knowledge",
+          "quantity": 500
+        },
+        {
+          "name": "1小时加速",
+          "quantity": 8,
+          "durationHoursPerItem": 1,
+          "typeStatus": "维护者确认各类小时加速同价，具体类型不影响估值",
+          "itemId": "speed-legacy"
+        }
+      ],
+      "visibleDiamonds": 2500,
+      "formula": "(30-8*0.556)/500*1000=51.104元/1000本",
+      "speedPriceBasis": "维护者确认各类小时加速同价，七代火十0.556元/小时"
+    }
+  ],
+  "stagePolicy": "维护者2026-10-26确认：全部进度采用这三款常规礼包，三代开放；学识扣除所在进度加速参考价，缺统一参考价时暂按常规飞速成长1元/小时。"
+}

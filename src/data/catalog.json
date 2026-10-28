@@ -1,0 +1,2955 @@
+{
+  "asOf": "2026-10-26",
+  "baseline": "30元参考档位",
+  "items": [
+    {
+      "id": "screw",
+      "name": "强化经验零件",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 1,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 0.7142857142857143,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "武备自选·战争学院：30元选42个。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "gen6-fc8": {
+          "value": 0.556,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.455,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.455,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc3": {
+          "value": 1.6666666666666667,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "武备自选30元选18个强化经验零件。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        },
+        "pre-crystal": {
+          "value": 1.9090264881243282,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "英雄装备礼包：10零件＋4幸运箱＝30元，沿用火五零件／幸运箱相对价格比例分摊（比例估算，非独售价格）；常规30元档，未扣除附赠奖励。"
+        }
+      },
+      "aliases": [
+        "螺丝"
+      ],
+      "nameSource": "item-probabilities",
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc3",
+          "previous": {
+            "value": 1.6666666666666667,
+            "kind": "channel",
+            "source": "early-gifts",
+            "note": "武备自选：按单项数量折算，选择规则待复核；渠道折算，非已确认统一基准。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "t11",
+          "previous": {
+            "value": 0.715741,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "orange-shard",
+      "name": "传说通用英雄信物",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        },
+        "t11": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        },
+        "gen6-fc8": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        },
+        "gen7-fc8": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        },
+        "pre-crystal": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        },
+        "fc3": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定橙碎全进度统一，沿用已有2.5元/个。"
+        }
+      },
+      "aliases": [
+        "橙碎"
+      ],
+      "nameSource": "item-probabilities",
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 2.5,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "t11",
+          "previous": {
+            "value": 2.5,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "gen6-fc8",
+          "previous": {
+            "value": 2.5,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "gen7-fc8",
+          "previous": {
+            "value": 2.5,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "gen7-fc10-gen8",
+          "previous": {
+            "value": 2.5,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        }
+      ]
+    },
+    {
+      "id": "equipment-box",
+      "name": "英雄装备幸运宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 1.6666666666666667,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "武备自选·火晶五：30元选18箱。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 1.25,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 1,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.833,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.833,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc3": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "武备自选30元选12个幸运宝箱；橙装继续按箱价和100箱保底反推。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        },
+        "pre-crystal": {
+          "value": 2.7274337796891803,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "英雄装备礼包：10零件＋4幸运箱＝30元，沿用火五零件／幸运箱相对价格比例分摊（比例估算，非独售价格）；常规30元档，未扣除附赠奖励。"
+        }
+      },
+      "aliases": [
+        "装备箱子"
+      ],
+      "nameSource": "item-probabilities",
+      "rewardRule": {
+        "type": "pity",
+        "source": "item-probabilities",
+        "outcomes": [
+          {
+            "itemId": "rare-gear",
+            "quantity": 1,
+            "probability": 0.89
+          },
+          {
+            "itemId": "epic-gear",
+            "quantity": 1,
+            "probability": 0.1
+          },
+          {
+            "itemId": "orange-gear",
+            "quantity": 1,
+            "probability": 0.01
+          }
+        ],
+        "guaranteedItemId": "orange-gear",
+        "limit": 100,
+        "pitySource": "owner-valuation",
+        "note": "网站基础概率89%／10%／1%；用户规则：最多100个出传说装备，出传说后重置计数。按长期循环期望估值，不代表单次或任意100箱的实际收益"
+      },
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc3",
+          "previous": {
+            "value": 2.5,
+            "kind": "channel",
+            "source": "early-gifts",
+            "note": "武备自选：按单项数量折算，选择规则待复核；渠道折算，非已确认统一基准。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 1.428704,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "orange-gear",
+      "name": "传说英雄装备",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 46.938333,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 47.923046,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 39.05308,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 32.88215,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 32.88215,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "aliases": [
+        "橙装"
+      ],
+      "nameSource": "item-probabilities",
+      "valuation": {
+        "type": "residual",
+        "source": "item-probabilities",
+        "pitySource": "owner-valuation",
+        "boxItemId": "equipment-box",
+        "distribution": {
+          "type": "pity",
+          "source": "item-probabilities",
+          "outcomes": [
+            {
+              "itemId": "rare-gear",
+              "quantity": 1,
+              "probability": 0.89
+            },
+            {
+              "itemId": "epic-gear",
+              "quantity": 1,
+              "probability": 0.1
+            },
+            {
+              "itemId": "orange-gear",
+              "quantity": 1,
+              "probability": 0.01
+            }
+          ],
+          "guaranteedItemId": "orange-gear",
+          "limit": 100,
+          "pitySource": "owner-valuation",
+          "note": "网站基础概率89%／10%／1%；用户规则：最多100个出传说装备，出传说后重置计数。按长期循环期望估值，不代表单次或任意100箱的实际收益"
+        },
+        "note": "装备幸运宝箱保持原参考价；传说装备单价＝（箱价－稀有装备期望价值－史诗装备期望价值）÷每箱传说装备期望数量。基础概率和100箱保底使用长期循环分布，蓝装0.6个零件、紫装1.5个零件。"
+      },
+      "artName": "传说英雄装备自选箱",
+      "artNote": "传说英雄装备自选箱图标，按维护者指定代替橙装"
+    },
+    {
+      "id": "mastery-stone",
+      "name": "专精能源石",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 1.6666666666666667,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "武备自选·火晶五：30元选18个。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 1.25,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 1,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.833,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.833,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc3": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "武备自选30元选12个专精能源石。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        },
+        "pre-crystal": {
+          "value": 3,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "专精锻造：30元10个；常规30元档，未扣除附赠奖励。"
+        }
+      },
+      "aliases": [
+        "专精石"
+      ],
+      "nameSource": "item-probabilities",
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc3",
+          "previous": {
+            "value": 2.5,
+            "kind": "channel",
+            "source": "early-gifts",
+            "note": "武备自选：按单项数量折算，选择规则待复核；渠道折算，非已确认统一基准。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 1.428704,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "speed-legacy",
+      "name": "1小时加速（统一参考价）",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 0.6521739130434783,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "城镇崛起·火晶五—战争学院及以后：30元34小时＋144个5分钟，共46小时。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 0.666667,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "沿用对应进度资料；维护者确认通用、建造、研究、训练、医疗、学习等按小时计的加速同价。"
+        },
+        "gen6-fc8": {
+          "value": 0.556,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "沿用对应进度资料；维护者确认通用、建造、研究、训练、医疗、学习等按小时计的加速同价。"
+        },
+        "gen7-fc8": {
+          "value": 0.556,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "沿用对应进度资料；维护者确认通用、建造、研究、训练、医疗、学习等按小时计的加速同价。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.556,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "沿用对应进度资料；维护者确认通用、建造、研究、训练、医疗、学习等按小时计的加速同价。"
+        },
+        "pre-crystal": {
+          "value": 1,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "飞速成长礼包：30元含10小时＋240个5分钟＝30小时；黄金钥匙作为附赠不抵扣，各类小时加速按维护者要求同价；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 0.743801652892562,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "城镇崛起30元26小时＋172个5分钟，共40小时20分；各类小时加速同价。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        }
+      },
+      "aliases": [
+        "加速（原资料未分类型）",
+        "加速",
+        "小时加速（统一参考价）"
+      ],
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 0.648148,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "沿用对应进度资料；维护者确认通用、建造、研究、训练、医疗、学习等按小时计的加速同价。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "charm-guide",
+      "name": "宝石手册",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 0.5882352941176471,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "匠心自选·火晶五：30元选51本。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 0.462963,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.375,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.3125,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.3125,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc3": {
+          "value": 0.7692307692307693,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "匠心自选30元选39个宝石手册。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        },
+        "pre-crystal": {
+          "value": 0.6666666666666666,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "宝石匠人礼包：30元18手册＋6图纸，扣除图纸价值后除以18；常规30元档，未扣除附赠奖励。"
+        }
+      },
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc3",
+          "previous": {
+            "value": 0.7692307692307693,
+            "kind": "channel",
+            "source": "early-gifts",
+            "note": "匠心自选：30元对应材料39个，选择规则待复核；渠道折算，非已确认统一基准。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 0.462963,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "charm-design",
+      "name": "宝石图纸",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 0.5263157894736842,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "匠心自选·火晶五：30元选57张。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 0.462963,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.375,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.3125,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.3125,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc3": {
+          "value": 0.7692307692307693,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "匠心自选30元选39个宝石图纸。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        },
+        "pre-crystal": {
+          "value": 3,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "宝石图纸：30元10张，30÷10；常规30元档，未扣除附赠奖励。"
+        }
+      },
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc3",
+          "previous": {
+            "value": 0.7692307692307693,
+            "kind": "channel",
+            "source": "early-gifts",
+            "note": "匠心自选：30元对应材料39个，选择规则待复核；渠道折算，非已确认统一基准。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 0.462963,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "宝石秘典",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 11.759259,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 11.759259,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 12.375,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 12.8125,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 12.8125,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 2.166666666666668,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "宝石匠人超值包：30元7手册＋7图纸＋2秘典，扣除手册与图纸价值后除以2；适用开放进度仍待确认；常规30元档，未扣除附赠奖励。"
+        }
+      },
+      "aliases": [
+        "秘典"
+      ],
+      "nameSource": "item-probabilities",
+      "packResidual": {
+        "cash": 30,
+        "quantity": 2,
+        "deductions": [
+          {
+            "itemId": "charm-guide",
+            "quantity": 7
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 7
+          }
+        ],
+        "source": "regular-pack-residual-2026-10-26",
+        "note": "常规宝石匠人超值包：30元7手册＋7图纸＋2秘典；按当前进度图纸与手册参考价扣除后÷2，随材料价更新；未扣除附赠。"
+      }
+    },
+    {
+      "id": "polish",
+      "name": "抛光液",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 0.08333333333333333,
+          "kind": "reference",
+          "source": "chief-web-priority-2026-10-26",
+          "note": "妙艺按抛光液与100合金等值分摊，非独售价。"
+        },
+        "t11": {
+          "value": 0.083333,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.071,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.057,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.057,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 1,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "领主装备工具包：15抛光液＋1500合金＝30元，沿用火五两者相对价格比例分摊（合金按100个计价，比例估算）；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 0.1,
+          "kind": "reference",
+          "source": "chief-web-priority-2026-10-26",
+          "note": "妙艺按抛光液与100合金等值分摊，非独售价。"
+        }
+      },
+      "priceHistory": [
+        {
+          "stage": "fc3",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.1,
+            "kind": "reference",
+            "source": "fc3-chief-screenshots-2026-10-26",
+            "note": "妙艺30元150抛光液＋15000合金；沿用1抛光液与100合金等值，分摊为0.1元/抛光液。比例估算，非独售。"
+          },
+          "reason": "维护者指定领主装备以网页数据为准"
+        },
+        {
+          "stage": "fc5",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.1,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定领主装备以网页数据为准"
+        }
+      ]
+    },
+    {
+      "id": "alloy",
+      "name": "强韧合金",
+      "unit": "个",
+      "priceScale": 100,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 0.08333333333333333,
+          "kind": "reference",
+          "source": "chief-web-priority-2026-10-26",
+          "note": "妙艺按抛光液与100合金等值分摊，单位为100合金，非独售价。"
+        },
+        "t11": {
+          "value": 0.083333,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.071,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.057,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.057,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 1,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "领主装备工具包：15抛光液＋1500合金＝30元，沿用火五两者相对价格比例分摊（合金按100个计价，比例估算）；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 0.1,
+          "kind": "reference",
+          "source": "chief-web-priority-2026-10-26",
+          "note": "妙艺按抛光液与100合金等值分摊，单位为100合金，非独售价。"
+        }
+      },
+      "aliases": [
+        "领主装备合金"
+      ],
+      "nameSource": "item-probabilities",
+      "priceHistory": [
+        {
+          "stage": "fc3",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.1,
+            "kind": "reference",
+            "source": "fc3-chief-screenshots-2026-10-26",
+            "note": "妙艺30元150抛光液＋15000合金；沿用1抛光液与100合金等值，分摊为0.1元/100合金。比例估算，非独售。"
+          },
+          "reason": "维护者指定领主装备以网页数据为准"
+        },
+        {
+          "stage": "fc5",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.1,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定领主装备以网页数据为准"
+        }
+      ]
+    },
+    {
+      "id": "chief-design",
+      "name": "设计图纸",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 0.4074074074074074,
+          "kind": "reference",
+          "source": "chief-web-priority-2026-10-26",
+          "note": "采用网页巧思奖励；箱按1图纸＋4抛光液＋400合金，扣除非图纸材料后折算。巧思图纸有效价0.4074074074074074，精工0.4166666666666667，采用较低者。"
+        },
+        "t11": {
+          "value": 0.407407,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.331,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.279,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.279,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 0.6,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "领主装备强化：30元20图纸＋9抛光液＋900合金，扣除抛光液及合金价值后除以20；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 0.48235294117647054,
+          "kind": "reference",
+          "source": "chief-web-priority-2026-10-26",
+          "note": "采用网页精工奖励；箱按1图纸＋4抛光液＋400合金，扣除非图纸材料后折算。巧思图纸有效价0.4888888888888889，精工0.48235294117647054，采用较低者。"
+        }
+      },
+      "aliases": [
+        "领主装备图纸"
+      ],
+      "nameSource": "item-probabilities",
+      "priceHistory": [
+        {
+          "stage": "fc3",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.6,
+            "kind": "reference",
+            "source": "fc3-special-2026-10-26",
+            "note": "曙光集市（火晶三—火晶五）30元选50设计图纸。工匠宝库混合材料分摊尚待确认，不用条件估算覆盖此单项价。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+          },
+          "reason": "维护者工匠宝库截图"
+        },
+        {
+          "stage": "fc3",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.4888888888888889,
+            "kind": "reference",
+            "source": "fc3-chief-screenshots-2026-10-26",
+            "note": "巧思30元35图纸＋10材料箱；材料箱按1图纸＋4抛光液＋400合金计，每箱非图纸部分0.8元，(30−10×0.8)÷45＝0.488888889元/图纸。使用妙艺等值比例估算。精工17图纸＋10箱较少，不作为更低单价依据。"
+          },
+          "reason": "维护者指定领主装备以网页数据为准"
+        },
+        {
+          "stage": "fc5",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 0.488889,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定领主装备以网页数据为准"
+        }
+      ]
+    },
+    {
+      "id": "chief-box",
+      "name": "领主装备材料宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 1.288889,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 1.074074,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.899,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.735,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.735,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "aliases": [
+        "领主装备材料箱子"
+      ],
+      "nameSource": "item-probabilities",
+      "valuation": {
+        "type": "fixed",
+        "source": "item-probabilities",
+        "contents": [
+          {
+            "itemId": "chief-design",
+            "quantity": 1
+          },
+          {
+            "itemId": "polish",
+            "quantity": 4
+          },
+          {
+            "itemId": "alloy",
+            "quantity": 400
+          }
+        ],
+        "note": "固定获得全部材料，按数量求和"
+      }
+    },
+    {
+      "id": "amber",
+      "name": "月光琥珀",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {
+        "fc5": {
+          "value": 4.888889,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 6,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 3.31,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 2.79,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 2.79,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 6,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "月光琥珀：30元5个；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 6,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "常规月光琥珀礼包30元5个；火三按常规价6元/个，未扣附赠。"
+        }
+      },
+      "aliases": [
+        "琥珀"
+      ],
+      "nameSource": "item-probabilities"
+    },
+    {
+      "id": "pet-gold",
+      "name": "高级野性印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宠物",
+      "prices": {
+        "fc5": {
+          "value": 5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 15,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "野性印记礼包：30元2个；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 10,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "萌宠定制（火晶三—火晶五）30元选3个高级野性印记。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        }
+      },
+      "aliases": [
+        "高级野性印记（宠物金石头）"
+      ],
+      "nameSource": "item-probabilities"
+    },
+    {
+      "id": "pet-blue",
+      "name": "普通野性印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宠物",
+      "prices": {
+        "fc5": {
+          "value": 0.713889,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 0.715741,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.625,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.625,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.625,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "aliases": [
+        "普通野性印记（宠物蓝石头）"
+      ],
+      "nameSource": "item-probabilities",
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-stage-ratios-2026-10-26",
+        "contents": [
+          {
+            "itemId": "pet-gold",
+            "quantity": 0.125
+          }
+        ],
+        "note": "维护者估值：1高级野性印记＝8普通野性印记；普通印记单价为当前进度高级印记的1/8。"
+      }
+    },
+    {
+      "id": "pet-box",
+      "name": "宠物突破材料自选箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宠物",
+      "prices": {
+        "fc5": {
+          "value": 2,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。 身份已确认是宠物突破材料自选箱（血清1／活力药剂2／驯兽手册7，三选一）；沿用原宠物自选参考价，价格来源仍待复核。"
+        },
+        "t11": {
+          "value": 2,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。 身份已确认是宠物突破材料自选箱（血清1／活力药剂2／驯兽手册7，三选一）；沿用原宠物自选参考价，价格来源仍待复核。"
+        },
+        "gen6-fc8": {
+          "value": 1.667,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。 身份已确认是宠物突破材料自选箱（血清1／活力药剂2／驯兽手册7，三选一）；沿用原宠物自选参考价，价格来源仍待复核。"
+        },
+        "gen7-fc8": {
+          "value": 1.667,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。 身份已确认是宠物突破材料自选箱（血清1／活力药剂2／驯兽手册7，三选一）；沿用原宠物自选参考价，价格来源仍待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 1.667,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。 身份已确认是宠物突破材料自选箱（血清1／活力药剂2／驯兽手册7，三选一）；沿用原宠物自选参考价，价格来源仍待复核。"
+        },
+        "pre-crystal": {
+          "value": 6,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "驯兽手册礼包30元35本、宠物活力礼包30元10瓶、宠物血清礼包30元5个；按7手册／2药剂／1血清折成每箱6元；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 2.5,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "萌宠定制（火晶三—火晶五）30元选12个宠物突破材料自选箱。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        }
+      },
+      "aliases": [
+        "宠物箱子",
+        "突破材料自选箱"
+      ],
+      "artName": "宠物突破材料自选箱",
+      "nameSource": "item-probabilities",
+      "identityNote": "维护者按奖励确认：强化血清1、活力药剂2、驯兽手册7，任选一种；已合并原突破材料自选箱条目。",
+      "rewardRule": {
+        "type": "choice",
+        "source": "item-probabilities",
+        "contents": [
+          {
+            "itemId": "pet-manual",
+            "quantity": 7
+          },
+          {
+            "itemId": "pet-vitality",
+            "quantity": 2
+          },
+          {
+            "itemId": "pet-serum",
+            "quantity": 1
+          }
+        ],
+        "note": "自选箱：需明确实际选择的奖励，不能按等概率平均，也不能把所有奖励相加"
+      }
+    },
+    {
+      "id": "pet-food",
+      "name": "宠物口粮",
+      "unit": "个",
+      "priceScale": 10000,
+      "category": "宠物",
+      "prices": {
+        "fc5": {
+          "value": 23.25581395348837,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "萌宠定制·火晶五—战争学院及以后：30元选12900口粮，按10000个计价。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 23.259259,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 20,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 20,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 20,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 50,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "宠物口粮礼包：30元6000，按10000个折算；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 27.77777777777778,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "萌宠定制（火晶三—火晶五）30元选10800口粮；按10000个计价。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        }
+      },
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 23.259259,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "mithril",
+      "name": "秘银",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "fc5": {
+          "value": 30,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "t11": {
+          "value": 30,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 30,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 30,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 30,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "pre-crystal": {
+          "value": 30,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "装备赋能：30元1个；常规30元档，未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 30,
+          "kind": "reference",
+          "source": "pre-regular-2026-10-26",
+          "note": "常规装备赋能礼包30元1秘银；火三按常规价30元/个，未扣附赠。"
+        }
+      }
+    },
+    {
+      "id": "fire-crystal",
+      "name": "火晶",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "fc5": {
+          "value": 0.625,
+          "kind": "reference",
+          "source": "special-web-direct-2026-10-26",
+          "note": "奇货自选·火晶五—战争学院：30元选48个，采用直接折算价。自选只计选中一项，不合计不同选项；未扣除附赠。"
+        },
+        "t11": {
+          "value": 0.453704,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.385,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.385,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.341686,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc3": {
+          "value": 0.8333333333333334,
+          "kind": "reference",
+          "source": "fc3-special-2026-10-26",
+          "note": "奇货自选30元选36火晶，采用直接折算价，不扣火晶能源礼包中的附带加速。 自选只计所选一列，不累加其他选项；未扣除附赠，限购按实际活动。"
+        }
+      },
+      "unlock": {
+        "fireProgress": "fc3"
+      },
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc3",
+          "previous": {
+            "value": 0.8333333333333334,
+            "kind": "channel",
+            "source": "early-gifts",
+            "note": "奇货火三—火五：30元36个；渠道折算，非已确认统一基准。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": {
+            "value": 0.833333,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        }
+      ]
+    },
+    {
+      "id": "refined-fire-crystal",
+      "name": "精炼火晶",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "火晶精炼",
+      "prices": {},
+      "valuation": {
+        "type": "refinement",
+        "source": "refinement-screenshots",
+        "note": "按玩家采用的周精炼方式与当前进度火晶参考价折算"
+      },
+      "identityNote": "独立于火晶、火晶微粒；成本随精炼方式变化，不是统一固定价格。",
+      "unlock": {
+        "fireProgress": "fc8"
+      }
+    },
+    {
+      "id": "fire-particle",
+      "name": "火晶微粒",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "t11": {
+          "value": 0.349074,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 0.296154,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.296154,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.262835,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "unlock": {
+        "fireProgress": "t11"
+      }
+    },
+    {
+      "id": "steel",
+      "name": "钢材",
+      "unit": "个",
+      "priceScale": 10000,
+      "category": "资源与成长",
+      "prices": {
+        "t11": {
+          "value": 4,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 4,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 4,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 4,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "fc5": {
+          "value": 7.5,
+          "kind": "reference",
+          "source": "steel-regular-owner-2026-10-26",
+          "note": "维护者指定本进度采用常规钢材礼包：30元40000钢材，30÷40000×10000＝7.5元/万；不采用特惠奇货价格，未扣除附赠。"
+        },
+        "fc3": {
+          "value": 7.5,
+          "kind": "reference",
+          "source": "steel-regular-owner-2026-10-26",
+          "note": "维护者指定本进度采用常规钢材礼包：30元40000钢材，30÷40000×10000＝7.5元/万；不采用特惠奇货价格，未扣除附赠。"
+        }
+      },
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "fc5",
+          "previous": null,
+          "reason": "维护者指定冲突项采用特惠网页30元档"
+        },
+        {
+          "stage": "fc3",
+          "asOf": "2026-10-26",
+          "previous": null,
+          "reason": "维护者指定火三火五钢材采用常规价"
+        },
+        {
+          "stage": "fc5",
+          "asOf": "2026-10-26",
+          "previous": {
+            "value": 4,
+            "kind": "reference",
+            "source": "special-web-direct-2026-10-26",
+            "note": "奇货自选·火晶五—战争学院：30元选75000钢材，按10000个计价。自选只计选中一项，不合计不同选项；未扣除附赠。"
+          },
+          "reason": "维护者指定火三火五钢材采用常规价"
+        }
+      ]
+    },
+    {
+      "id": "charm-random",
+      "name": "领主宝石材料随机宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "t11": {
+          "value": 2.146296,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 1.15875,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.965625,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.965625,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "valuation": {
+        "type": "random",
+        "source": "item-probabilities",
+        "outcomes": [
+          {
+            "itemId": "charm-guide",
+            "quantity": 15,
+            "probability": 0.005
+          },
+          {
+            "itemId": "charm-guide",
+            "quantity": 8,
+            "probability": 0.03
+          },
+          {
+            "itemId": "charm-guide",
+            "quantity": 4,
+            "probability": 0.15
+          },
+          {
+            "itemId": "charm-guide",
+            "quantity": 2,
+            "probability": 0.315
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 15,
+            "probability": 0.005
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 8,
+            "probability": 0.03
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 4,
+            "probability": 0.15
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 2,
+            "probability": 0.315
+          }
+        ],
+        "note": "按网站奖励概率加权，手册与图纸各期望1.545个"
+      }
+    },
+    {
+      "id": "diamond",
+      "name": "钻石",
+      "unit": "个",
+      "priceScale": 10000,
+      "category": "资源与成长",
+      "prices": {
+        "t11": {
+          "value": 12.5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 12.5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 12.5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 12.5,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-stage-ratios-2026-10-26",
+        "contents": [
+          {
+            "itemId": "pet-blue",
+            "quantity": 0.002
+          }
+        ],
+        "note": "维护者估值：1普通野性印记＝500钻石；每万钻石＝20个普通印记。不是实际双向兑换承诺。"
+      }
+    },
+    {
+      "id": "island-shard",
+      "name": "传说通用装饰物组件",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "t11": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        },
+        "gen6-fc8": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        },
+        "gen7-fc8": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        },
+        "pre-crystal": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        },
+        "fc3": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        },
+        "fc5": {
+          "value": 6.8,
+          "kind": "reference",
+          "source": "owner-stage-ratios-2026-10-26",
+          "note": "维护者指定海岛橙碎全进度统一：最低68元/建筑÷10组件＝6.8元/个；未扣除附赠。"
+        }
+      },
+      "artName": "传说通用装饰物组件",
+      "artNote": "传说通用装饰物组件；维护者已确认原资料“晨曦岛碎片”对应此道具",
+      "aliases": [
+        "晨曦岛碎片"
+      ],
+      "nameSource": "item-probabilities",
+      "identityNote": "2026-10-25维护者确认名称对应，沿用稳定ID及原有库存、价格。",
+      "priceHistory": [
+        {
+          "asOf": "2026-10-26",
+          "stage": "t11",
+          "previous": {
+            "value": 6,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "gen6-fc8",
+          "previous": {
+            "value": 6,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "gen7-fc8",
+          "previous": {
+            "value": 6,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        },
+        {
+          "asOf": "2026-10-26",
+          "stage": "gen7-fc10-gen8",
+          "previous": {
+            "value": 6.8,
+            "kind": "reference",
+            "source": "island-building-owner",
+            "note": "维护者确认：建筑礼包最低68元/个建筑，1个建筑按10个组件折算，68÷10＝6.8元/个；未扣除附赠奖励。公开礼包价格链接待补，非30元档。"
+          },
+          "reason": "维护者确认统一价、折算或接入火三礼包"
+        }
+      ]
+    },
+    {
+      "id": "chief-random",
+      "name": "领主装备材料随机宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "t11": {
+          "value": 1.385787,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen6-fc8": {
+          "value": 1.149072,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc8": {
+          "value": 0.948533,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.948533,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      },
+      "valuation": {
+        "type": "random",
+        "source": "item-probabilities",
+        "outcomes": [
+          {
+            "itemId": "alloy",
+            "quantity": 5000,
+            "probability": 0.005
+          },
+          {
+            "itemId": "alloy",
+            "quantity": 2500,
+            "probability": 0.03
+          },
+          {
+            "itemId": "alloy",
+            "quantity": 1200,
+            "probability": 0.15
+          },
+          {
+            "itemId": "alloy",
+            "quantity": 600,
+            "probability": 0.315
+          },
+          {
+            "itemId": "polish",
+            "quantity": 50,
+            "probability": 0.0025
+          },
+          {
+            "itemId": "polish",
+            "quantity": 25,
+            "probability": 0.015
+          },
+          {
+            "itemId": "polish",
+            "quantity": 12,
+            "probability": 0.075
+          },
+          {
+            "itemId": "polish",
+            "quantity": 6,
+            "probability": 0.1575
+          },
+          {
+            "itemId": "chief-design",
+            "quantity": 50,
+            "probability": 0.0025
+          },
+          {
+            "itemId": "chief-design",
+            "quantity": 20,
+            "probability": 0.015
+          },
+          {
+            "itemId": "chief-design",
+            "quantity": 10,
+            "probability": 0.075
+          },
+          {
+            "itemId": "chief-design",
+            "quantity": 5,
+            "probability": 0.1575
+          }
+        ],
+        "note": "按网站奖励概率加权：合金469个、抛光液2.345个、图纸1.9625个"
+      }
+    },
+    {
+      "id": "journey",
+      "name": "征途补给",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "gen7-fc8": {
+          "value": 2,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 2,
+          "kind": "reference",
+          "source": "value-table",
+          "note": "30元参考档；沿用资料，待复核。"
+        }
+      }
+    },
+    {
+      "id": "expert-mark",
+      "name": "通用专家印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "gen7-fc8": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "pre-crystal": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "fc3": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "fc5": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "t11": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "gen6-fc8": {
+          "value": 3.75,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家印记常规礼包：30元8个，3.75元/个；全进度同礼包，三代开放；未扣除附带赠品。"
+        }
+      },
+      "priceHistory": [
+        {
+          "stage": "gen7-fc10-gen8",
+          "asOf": "2026-10-25",
+          "previous": {
+            "value": 3.75,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          }
+        },
+        {
+          "stage": "gen7-fc8",
+          "asOf": "2026-10-26",
+          "reason": "维护者确认专家全进度使用常规礼包",
+          "previous": {
+            "value": 3.75,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          }
+        },
+        {
+          "stage": "gen7-fc10-gen8",
+          "asOf": "2026-10-26",
+          "reason": "维护者确认专家全进度使用常规礼包",
+          "previous": {
+            "value": 3.75,
+            "kind": "reference",
+            "source": "expert-packs-screenshot",
+            "note": "专家印记礼包：30元8个通用专家印记，30÷8=3.75元/个；未扣除附带钻石、资源、VIP等赠品。",
+            "evidence": "src/data/expert-packs.json",
+            "confirmation": "截图主奖励已核对；估值口径沿用维护者表"
+          }
+        }
+      ],
+      "unlock": {
+        "heroGeneration": 3
+      }
+    },
+    {
+      "id": "affection",
+      "name": "专家好感度",
+      "unit": "个",
+      "priceScale": 10000,
+      "category": "资源与成长",
+      "prices": {
+        "gen7-fc8": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "pre-crystal": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "fc3": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "fc5": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "t11": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        },
+        "gen6-fc8": {
+          "value": 34.090909090909086,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家赠礼常规套装：30元8800好感度，折合34.090909元/万点；全进度同礼包，三代开放；未扣除附带赠品。"
+        }
+      },
+      "priceHistory": [
+        {
+          "stage": "gen7-fc10-gen8",
+          "asOf": "2026-10-25",
+          "previous": {
+            "value": 34.091,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          }
+        },
+        {
+          "stage": "gen7-fc8",
+          "asOf": "2026-10-26",
+          "reason": "维护者确认专家全进度使用常规礼包",
+          "previous": {
+            "value": 34.091,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          }
+        },
+        {
+          "stage": "gen7-fc10-gen8",
+          "asOf": "2026-10-26",
+          "reason": "维护者确认专家全进度使用常规礼包",
+          "previous": {
+            "value": 34.091,
+            "kind": "reference",
+            "source": "expert-packs-screenshot",
+            "note": "专家赠礼套装：8个征服之帆×1000＋8个炙热之心×100＝8800好感度；30÷8800×10000≈34.091元/万点；沿用原表舍入值，未扣除附带赠品。",
+            "evidence": "src/data/expert-packs.json",
+            "confirmation": "截图主奖励已核对；估值口径沿用维护者表"
+          }
+        }
+      ],
+      "artName": "炙热之心",
+      "artNote": "用炙热之心表示专家好感度；仅作计量项代表图，不表示一件礼物等于一万好感度",
+      "unlock": {
+        "heroGeneration": 3
+      }
+    },
+    {
+      "id": "knowledge",
+      "name": "学识之书",
+      "unit": "个",
+      "priceScale": 1000,
+      "category": "资源与成长",
+      "prices": {
+        "gen7-fc8": {
+          "value": 51.104,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 51.104,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        },
+        "pre-crystal": {
+          "value": 44,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        },
+        "fc3": {
+          "value": 44,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        },
+        "fc5": {
+          "value": 49.629632,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        },
+        "t11": {
+          "value": 49.333328,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        },
+        "gen6-fc8": {
+          "value": 51.104,
+          "kind": "reference",
+          "source": "expert-packs-screenshot",
+          "evidence": "src/data/expert-packs.json",
+          "note": "专家技能常规礼包：30元500本＋8小时加速；各类小时加速同价，按当前进度加速价扣除，未扣除其他附赠。"
+        }
+      },
+      "priceHistory": [
+        {
+          "stage": "gen7-fc10-gen8",
+          "asOf": "2026-10-25",
+          "previous": {
+            "value": 12,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          }
+        },
+        {
+          "stage": "gen7-fc8",
+          "asOf": "2026-10-26",
+          "reason": "维护者确认专家全进度使用常规礼包",
+          "previous": {
+            "value": 12,
+            "kind": "reference",
+            "source": "value-table",
+            "note": "30元参考档；沿用资料，待复核。"
+          }
+        },
+        {
+          "stage": "gen7-fc10-gen8",
+          "asOf": "2026-10-26",
+          "reason": "维护者确认专家全进度使用常规礼包",
+          "previous": {
+            "value": 51.104,
+            "kind": "reference",
+            "source": "expert-packs-screenshot",
+            "note": "专家技能礼包：30元500本学识之书＋8小时加速；维护者确认各类小时加速同价，按0.556元/小时扣除：(30−8×0.556)÷500×1000＝51.104元/1000本。未扣除附带钻石等赠品。",
+            "evidence": "src/data/expert-packs.json",
+            "confirmation": "截图主奖励已核对；估值口径沿用维护者表"
+          }
+        }
+      ],
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "regularPackPricing": {
+        "cash": 30,
+        "quantity": 500,
+        "deductItemId": "speed-legacy",
+        "hours": 8,
+        "fallbackHourly": 1
+      }
+    },
+    {
+      "id": "speed-general",
+      "name": "1小时通用加速",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {},
+      "priceAlias": "speed-legacy",
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "aliases": [
+        "通用加速"
+      ]
+    },
+    {
+      "id": "speed-build",
+      "name": "1小时建造加速",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "fc3": {
+          "value": 0.9090909090909091,
+          "kind": "channel",
+          "source": "early-gifts",
+          "note": "奇货火三—火五：30元对应类型33小时；渠道折算，非已确认统一基准。"
+        }
+      },
+      "priceAlias": "speed-legacy",
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "aliases": [
+        "建造加速"
+      ]
+    },
+    {
+      "id": "speed-research",
+      "name": "1小时研究加速",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "fc3": {
+          "value": 0.9090909090909091,
+          "kind": "channel",
+          "source": "early-gifts",
+          "note": "奇货火三—火五：30元对应类型33小时；渠道折算，非已确认统一基准。"
+        }
+      },
+      "priceAlias": "speed-legacy",
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "aliases": [
+        "研究加速"
+      ]
+    },
+    {
+      "id": "speed-training",
+      "name": "1小时训练加速",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {
+        "fc3": {
+          "value": 0.9090909090909091,
+          "kind": "channel",
+          "source": "early-gifts",
+          "note": "奇货火三—火五：30元对应类型33小时；渠道折算，非已确认统一基准。"
+        }
+      },
+      "priceAlias": "speed-legacy",
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "aliases": [
+        "训练加速"
+      ]
+    },
+    {
+      "id": "hero-xp",
+      "name": "英雄经验",
+      "unit": "点",
+      "priceScale": 10000,
+      "category": "资源与成长",
+      "prices": {}
+    },
+    {
+      "id": "molly-shard",
+      "name": "茉莉碎片",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "exploration-book",
+      "name": "传说探险技能书",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "expedition-book",
+      "name": "传说远征技能书",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "golden-key",
+      "name": "黄金钥匙",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "pet-manual",
+      "name": "驯兽手册",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宠物",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-item-prices-2026-10-26",
+        "contents": [
+          {
+            "itemId": "pet-box",
+            "quantity": 0.14285714285714285
+          }
+        ],
+        "note": "维护者指定：1个宠物突破材料自选箱可换7个驯兽手册；单价＝当前进度宠物箱单价÷7。"
+      }
+    },
+    {
+      "id": "pet-vitality",
+      "name": "活力药剂",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宠物",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-item-prices-2026-10-26",
+        "contents": [
+          {
+            "itemId": "pet-box",
+            "quantity": 0.5
+          }
+        ],
+        "note": "维护者指定：1个宠物突破材料自选箱可换2个活力药剂；单价＝当前进度宠物箱单价÷2。"
+      }
+    },
+    {
+      "id": "pet-serum",
+      "name": "强化血清",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宠物",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-item-prices-2026-10-26",
+        "contents": [
+          {
+            "itemId": "pet-box",
+            "quantity": 1
+          }
+        ],
+        "note": "维护者指定：1个宠物突破材料自选箱可换1个强化血清；单价＝当前进度宠物箱单价÷1。"
+      }
+    },
+    {
+      "id": "mystic-badge",
+      "name": "神秘徽章",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {
+        "pre-crystal": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        },
+        "fc5": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        },
+        "t11": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        },
+        "gen6-fc8": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        },
+        "gen7-fc8": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 0.012,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元2500个，30÷2500＝0.012元/个；未扣除附赠奖励。"
+        }
+      },
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "previous-hero-component",
+      "name": "N-1代英雄组件自选箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "原资料名称未明确品质或具体组件，暂不强行改为网站某个自选箱；名称与内容待确认。"
+    },
+    {
+      "id": "migration-ticket",
+      "name": "移民授权书",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "equipment-choice-box",
+      "name": "英雄装备自选箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {},
+      "identityNote": "原资料名称未明确品质或具体组件，暂不强行改为网站某个自选箱；名称与内容待确认。"
+    },
+    {
+      "id": "fire-ember",
+      "name": "火晶余烬",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "advanced-teleport",
+      "name": "高级迁城",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "random-teleport",
+      "name": "随机迁城",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "march-speed-2",
+      "name": "行军加速器2阶",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "aliases": [
+        "二阶行军加速"
+      ],
+      "nameSource": "item-probabilities"
+    },
+    {
+      "id": "march-speed-1",
+      "name": "行军加速器1阶",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "aliases": [
+        "一阶行军加速"
+      ],
+      "nameSource": "item-probabilities"
+    },
+    {
+      "id": "march-recall",
+      "name": "出征召回",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "anti-scout-2h",
+      "name": "2小时反侦察",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "迁城与消耗",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "aliases": [
+        "两小时反侦察"
+      ],
+      "nameSource": "item-probabilities"
+    },
+    {
+      "id": "heroic-proof",
+      "name": "英勇之证",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
+    },
+    {
+      "id": "hero-component-choice",
+      "name": "英雄组件自选箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {
+        "pre-crystal": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        },
+        "fc3": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        },
+        "fc5": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        },
+        "t11": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        },
+        "gen6-fc8": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        },
+        "gen7-fc8": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        },
+        "gen7-fc10-gen8": {
+          "value": 6,
+          "kind": "reference",
+          "source": "owner-item-prices-2026-10-26",
+          "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
+        }
+      },
+      "identityNote": "贴图按顶部实际英雄代数切换：1至7代使用本地原图，8至10代显示维护者截图中的组件箱区域；维护者确认11代及以后使用对应代数盾兵英雄专武原图代替，并标注代用关系。具体价格与奖励仍待补，不因切换贴图自动推断。"
+    },
+    {
+      "id": "hero-song-choice",
+      "name": "英雄战歌自选箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "valuation": {
+        "type": "choice",
+        "source": "item-probabilities",
+        "contents": [
+          {
+            "itemId": "orange-shard",
+            "quantity": 2
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 8
+          },
+          {
+            "itemId": "screw",
+            "quantity": 5
+          },
+          {
+            "itemId": "mastery-stone",
+            "quantity": 3
+          },
+          {
+            "itemId": "chief-random",
+            "quantity": 3
+          },
+          {
+            "itemId": "chief-design",
+            "quantity": 6
+          },
+          {
+            "itemId": "charm-guide",
+            "quantity": 4
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 4
+          }
+        ],
+        "note": "自选箱：需明确实际选择的奖励，不能按等概率平均，也不能把所有奖励相加"
+      }
+    },
+    {
+      "id": "speed-healing",
+      "name": "1小时医疗加速",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {},
+      "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
+      "priceAlias": "speed-legacy",
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "aliases": [
+        "医疗加速"
+      ]
+    },
+    {
+      "id": "rare-gear",
+      "name": "稀有英雄装备",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {},
+      "nameSource": "item-probabilities",
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-valuation",
+        "contents": [
+          {
+            "itemId": "screw",
+            "quantity": 0.6
+          }
+        ],
+        "note": "用户指定：蓝装折算0.6个强化经验零件"
+      }
+    },
+    {
+      "id": "epic-gear",
+      "name": "史诗英雄装备",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "装备与宝石",
+      "prices": {},
+      "nameSource": "item-probabilities",
+      "valuation": {
+        "type": "fixed",
+        "source": "owner-valuation",
+        "contents": [
+          {
+            "itemId": "screw",
+            "quantity": 1.5
+          }
+        ],
+        "note": "用户指定：紫装折算1.5个强化经验零件"
+      }
+    },
+    {
+      "id": "fire-crystal-box",
+      "name": "火晶宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "资源与成长",
+      "prices": {},
+      "nameSource": "item-probabilities",
+      "valuation": {
+        "type": "random",
+        "source": "item-probabilities",
+        "outcomes": [
+          {
+            "itemId": "fire-crystal",
+            "quantity": 5,
+            "probability": 0.55
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 10,
+            "probability": 0.27
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 20,
+            "probability": 0.105
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 50,
+            "probability": 0.055
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 100,
+            "probability": 0.015
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 200,
+            "probability": 0.005
+          }
+        ],
+        "note": "按网站奖励概率加权，期望12.8个火晶"
+      },
+      "unlock": {
+        "fireProgress": "fc3"
+      }
+    },
+    {
+      "id": "speed-learning",
+      "name": "1小时学习加速",
+      "unit": "小时",
+      "priceScale": 1,
+      "category": "专家材料",
+      "prices": {},
+      "priceAlias": "speed-legacy",
+      "artName": "1小时通用加速",
+      "artNote": "通用加速代表图；原图不含时长文字，模型按小时计量",
+      "aliases": [
+        "学习加速"
+      ],
+      "unlock": {
+        "heroGeneration": 3
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "value-table",
+      "title": "冬日工具箱 · 礼包估值表",
+      "url": "https://wjgl.store/function/gift-value-calculator.html",
+      "status": "参考估值待复核"
+    },
+    {
+      "id": "early-gifts",
+      "title": "冬日工具箱 · 特惠礼包资料",
+      "url": "https://wjgl.store/function/Zero/special-gift-data.html",
+      "status": "火晶三前按用户定义归为火晶前"
+    },
+    {
+      "id": "gems",
+      "title": "冬日工具箱 · 领主装备与宝石计算器",
+      "url": "https://wjgl.store/function/lord-equipment-gem-calculator.html",
+      "status": "原始消耗快照待复核"
+    },
+    {
+      "id": "item-probabilities",
+      "title": "WosGift · 道具名称与宝箱奖励概率",
+      "url": "https://wosgift.com/zh-cn/items/",
+      "status": "2026-10-25读取；期望按材料单价计算，基础单价仍待复核"
+    },
+    {
+      "id": "owner-valuation",
+      "title": "维护者指定 · 装备折算与100箱保底",
+      "url": "",
+      "status": "2026-10-25：蓝装0.6个零件、紫装1.5个零件；最多100箱出橙装"
+    },
+    {
+      "id": "expert-packs-screenshot",
+      "title": "维护者截图 · 专家常规礼包30元档",
+      "url": "/public/evidence/expert-regular-packs-2026-10-25.png",
+      "status": "三款礼包主奖励已核对；右侧未完全显示；附带钻石等不计入本次原表定价口径"
+    },
+    {
+      "id": "island-building-owner",
+      "title": "维护者确认 · 晨曦岛建筑礼包68元折算",
+      "url": "",
+      "status": "2026-10-25：最低68元/建筑，1建筑按10组件计，折合6.8元/组件。价格与比例来自维护者；官方道具说明仅确认组件用途，公开礼包售价证据待补。"
+    },
+    {
+      "id": "refinement-screenshots",
+      "title": "维护者截图 · 普通火晶精炼概率与消耗规则",
+      "url": "/public/evidence/refinement-probabilities-1.png",
+      "status": "2026-10-25：五档20/50/100/130/160火晶，每日首次半价，按周累计次数计档；未纳入超级精炼及第100次之后。"
+    },
+    {
+      "id": "owner-item-prices-2026-10-26",
+      "title": "维护者确认 · 宠物兑换与常规30元礼包",
+      "url": "",
+      "status": "2026-10-26：宠物箱兑换比例为驯兽手册7／活力药剂2／强化血清1；神秘徽章30元2500个；英雄组件自选箱30元5个。数值来自维护者，非外网独立复核。"
+    },
+    {
+      "id": "pre-regular-2026-10-26",
+      "title": "常规礼包30元档 · 火晶前折算（含比例估算）",
+      "url": "https://wjgl.store/function/Zero/regular-gift-data.html",
+      "status": "2026-10-26核对常规礼包接口29条。维护者指定火晶前按常规礼包计算；零件/幸运箱、抛光液/合金未找到独售档，按获准的火五相对价格比例分摊；附赠不抵扣。并非已独立验证所有材料的火晶前开放条件。"
+    },
+    {
+      "id": "owner-stage-ratios-2026-10-26",
+      "title": "维护者确认 · 跨进度统一价与野性印记/钻石换算",
+      "url": "",
+      "status": "2026-10-26：橙碎全进度2.5元；海岛橙碎按68÷10全进度6.8元；1高级野性印记等值8普通印记；1普通印记等值500钻石。均为估值比例，不代表游戏内可双向兑换。"
+    },
+    {
+      "id": "fc3-special-2026-10-26",
+      "title": "冬日工具箱 · 火三特惠礼包30元档",
+      "url": "https://wjgl.store/function/Zero/special-gift-data.html",
+      "status": "2026-10-26接入明确火三/火三—火五阶段的单项自选和加速礼包。来源快照docs/火三特惠礼包来源-2026-10-26.json；附赠不抵扣。混合材料身份与分摊未确认的继续保留待核对。"
+    },
+    {
+      "id": "regular-pack-residual-2026-10-26",
+      "title": "常规礼包 · 宝石秘典残值折算",
+      "url": "https://wjgl.store/function/Zero/regular-gift-data.html",
+      "status": "维护者指定秘典按常规礼包：30元7手册＋7图纸＋2秘典；扣除当前阶段图纸、手册价值后除以2。"
+    },
+    {
+      "id": "fc3-chief-screenshots-2026-10-26",
+      "title": "维护者截图 · 火三工匠宝库",
+      "url": "/public/evidence/fc3-chief-craft-2026-10-26.png",
+      "status": "巧思30元35图纸＋10材料箱；精工30元17图纸＋10材料箱（覆盖网页误录17箱）；妙艺30元150抛光液＋15000合金。抛光液与100合金等值沿用现有分摊比例，不是独售价。材料箱按已录入固定内容计值。另两张证据fc3-chief-precision及fc3-chief-materials。"
+    },
+    {
+      "id": "chief-web-priority-2026-10-26",
+      "title": "维护者指定 · 领主装备以特惠网页为准",
+      "url": "https://wjgl.store/function/Zero/special-gift-data.html",
+      "status": "2026-10-26维护者明确领主装备采用网页数据，覆盖旧截图数量。火三精工17图纸＋17箱；火五精工20图纸＋20箱。抛光液与100合金等值分摊；箱按1图纸＋4抛光液＋400合金。"
+    },
+    {
+      "id": "special-web-direct-2026-10-26",
+      "title": "维护者确认 · 特惠网页30元档直接折算",
+      "url": "https://wjgl.store/function/Zero/special-gift-data.html",
+      "status": "2026-10-26：冲突项更新为网页对应进度30元档直接价，不采用旧表648档乘600/648；保留维护者蓝印记/钻石比例、火晶前常规口径及领主装备分摊口径。"
+    },
+    {
+      "id": "steel-regular-owner-2026-10-26",
+      "title": "维护者指定 · 火三火五常规钢材礼包",
+      "url": "https://wjgl.store/function/Zero/regular-gift-data.html",
+      "status": "2026-10-26维护者指定火三、火五钢材按常规礼包30元40000钢材，7.5元/万，覆盖火五奇货4元/万；不延伸到其他进度。"
+    }
+  ],
+  "issues": [
+    {
+      "title": "“一阶段”按礼包分别确认",
+      "detail": "工匠宝库宝石装备、领主装备强化优惠、宝石匠人不统一归入火晶前。未将这些价格作为火晶前基准。",
+      "status": "待确认"
+    },
+    {
+      "title": "基准价与渠道价分开",
+      "detail": "早期价格是具体礼包的折算成本，默认不参与参考估值；用户可显式开启。自选内容未按同时全部获得处理。",
+      "status": "已落实"
+    },
+    {
+      "title": "12级宝石保留原始需求",
+      "detail": "本次快照使用580手册、450图纸、15秘典；购买秘典附带的材料应进入库存，不提前抵扣升级配方。",
+      "status": "待游戏核实"
+    },
+    {
+      "title": "加速类型分开",
+      "detail": "2026-10-25维护者确认各类按小时计的加速同价，保留类型以记录库存；使用对应进度统一参考价。行军加速器按个计，不纳入小时加速。",
+      "status": "已落实"
+    },
+    {
+      "title": "未提供价格不等于零",
+      "detail": "缺价条目保留为未知。七代火十／八代传说通用装饰物组件按维护者明确确认的68元建筑礼包及1:10比例计为6.8元/个，标明非30元档及公开售价证据待补；其他进度原有6元参考价尚待逐项复核。",
+      "status": "已落实"
+    },
+    {
+      "title": "优化器所需数据",
+      "detail": "还需每个系统的完整升级前置、礼包限购、兑换方向和解锁条件，才能求实际最优购买策略。",
+      "status": "待补数据"
+    },
+    {
+      "title": "宝箱估值使用内容期望",
+      "detail": "固定箱求和、随机箱按概率加权；英雄装备幸运宝箱保持原价，使用100箱保底及蓝紫装备折算反推传说英雄装备单价。自选箱需明确所选奖励，宠物箱子已确认为宠物突破材料自选箱，三选一，不将全部奖励相加。",
+      "status": "已接入"
+    }
+  ]
+}

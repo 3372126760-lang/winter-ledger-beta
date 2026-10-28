@@ -1,0 +1,814 @@
+{
+  "asOf": "2026-10-26",
+  "sourceUrl": "https://woscalc.com/charms",
+  "gearSource": "https://woscalc.com/gear",
+  "mappingSource": "https://wjdrgl.wjdr.cn/chief-gear/chief-gear/",
+  "note": "五阶/六阶及13—18级宝石采用维护者游戏截图原图区域，其余采用已保存独立贴图；阶星由档位文字解析显示，截图原件不作像素编辑。",
+  "images": {
+    "helmet:green": {
+      "key": "helmet:green",
+      "path": "/public/assets/chief/helmet-green.png",
+      "sourceUrl": "https://woscalc.com/images/gear/helmet-green.png"
+    },
+    "helmet:blue": {
+      "key": "helmet:blue",
+      "path": "/public/assets/chief/helmet-blue.png",
+      "sourceUrl": "https://woscalc.com/images/gear/helmet-blue.png"
+    },
+    "helmet:purple": {
+      "key": "helmet:purple",
+      "path": "/public/assets/chief/helmet-purple.png",
+      "sourceUrl": "https://woscalc.com/images/gear/helmet-purple.png"
+    },
+    "helmet:gold": {
+      "key": "helmet:gold",
+      "path": "/public/assets/chief/helmet-gold.png",
+      "sourceUrl": "https://woscalc.com/images/gear/helmet-gold.png"
+    },
+    "helmet:red": {
+      "key": "helmet:red",
+      "path": "/public/assets/chief/helmet-red.png",
+      "sourceUrl": "https://woscalc.com/images/gear/helmet-red.png"
+    },
+    "helmet:t4-legendary": {
+      "key": "helmet:t4-legendary",
+      "path": "/public/assets/chief/helmet-t4-legendary.png",
+      "sourceUrl": "https://woscalc.com/images/gear/helmet-t4-legendary.png"
+    },
+    "watch:green": {
+      "key": "watch:green",
+      "path": "/public/assets/chief/watch-green.png",
+      "sourceUrl": "https://woscalc.com/images/gear/watch-green.png"
+    },
+    "watch:blue": {
+      "key": "watch:blue",
+      "path": "/public/assets/chief/watch-blue.png",
+      "sourceUrl": "https://woscalc.com/images/gear/watch-blue.png"
+    },
+    "watch:purple": {
+      "key": "watch:purple",
+      "path": "/public/assets/chief/watch-purple.png",
+      "sourceUrl": "https://woscalc.com/images/gear/watch-purple.png"
+    },
+    "watch:gold": {
+      "key": "watch:gold",
+      "path": "/public/assets/chief/watch-gold.png",
+      "sourceUrl": "https://woscalc.com/images/gear/watch-gold.png"
+    },
+    "watch:red": {
+      "key": "watch:red",
+      "path": "/public/assets/chief/watch-red.png",
+      "sourceUrl": "https://woscalc.com/images/gear/watch-red.png"
+    },
+    "watch:t4-legendary": {
+      "key": "watch:t4-legendary",
+      "path": "/public/assets/chief/watch-t4-legendary.png",
+      "sourceUrl": "https://woscalc.com/images/gear/watch-t4-legendary.png"
+    },
+    "chestplate:green": {
+      "key": "chestplate:green",
+      "path": "/public/assets/chief/chestplate-green.png",
+      "sourceUrl": "https://woscalc.com/images/gear/chestplate-green.png"
+    },
+    "chestplate:blue": {
+      "key": "chestplate:blue",
+      "path": "/public/assets/chief/chestplate-blue.png",
+      "sourceUrl": "https://woscalc.com/images/gear/chestplate-blue.png"
+    },
+    "chestplate:purple": {
+      "key": "chestplate:purple",
+      "path": "/public/assets/chief/chestplate-purple.png",
+      "sourceUrl": "https://woscalc.com/images/gear/chestplate-purple.png"
+    },
+    "chestplate:gold": {
+      "key": "chestplate:gold",
+      "path": "/public/assets/chief/chestplate-gold.png",
+      "sourceUrl": "https://woscalc.com/images/gear/chestplate-gold.png"
+    },
+    "chestplate:red": {
+      "key": "chestplate:red",
+      "path": "/public/assets/chief/chestplate-red.png",
+      "sourceUrl": "https://woscalc.com/images/gear/chestplate-red.png"
+    },
+    "chestplate:t4-legendary": {
+      "key": "chestplate:t4-legendary",
+      "path": "/public/assets/chief/chestplate-t4-legendary.png",
+      "sourceUrl": "https://woscalc.com/images/gear/chestplate-t4-legendary.png"
+    },
+    "pants:green": {
+      "key": "pants:green",
+      "path": "/public/assets/chief/pants-green.png",
+      "sourceUrl": "https://woscalc.com/images/gear/pants-green.png"
+    },
+    "pants:blue": {
+      "key": "pants:blue",
+      "path": "/public/assets/chief/pants-blue.png",
+      "sourceUrl": "https://woscalc.com/images/gear/pants-blue.png"
+    },
+    "pants:purple": {
+      "key": "pants:purple",
+      "path": "/public/assets/chief/pants-purple.png",
+      "sourceUrl": "https://woscalc.com/images/gear/pants-purple.png"
+    },
+    "pants:gold": {
+      "key": "pants:gold",
+      "path": "/public/assets/chief/pants-gold.png",
+      "sourceUrl": "https://woscalc.com/images/gear/pants-gold.png"
+    },
+    "pants:red": {
+      "key": "pants:red",
+      "path": "/public/assets/chief/pants-red.png",
+      "sourceUrl": "https://woscalc.com/images/gear/pants-red.png"
+    },
+    "pants:t4-legendary": {
+      "key": "pants:t4-legendary",
+      "path": "/public/assets/chief/pants-t4-legendary.png",
+      "sourceUrl": "https://woscalc.com/images/gear/pants-t4-legendary.png"
+    },
+    "ring:green": {
+      "key": "ring:green",
+      "path": "/public/assets/chief/ring-green.png",
+      "sourceUrl": "https://woscalc.com/images/gear/ring-green.png"
+    },
+    "ring:blue": {
+      "key": "ring:blue",
+      "path": "/public/assets/chief/ring-blue.png",
+      "sourceUrl": "https://woscalc.com/images/gear/ring-blue.png"
+    },
+    "ring:purple": {
+      "key": "ring:purple",
+      "path": "/public/assets/chief/ring-purple.png",
+      "sourceUrl": "https://woscalc.com/images/gear/ring-purple.png"
+    },
+    "ring:gold": {
+      "key": "ring:gold",
+      "path": "/public/assets/chief/ring-gold.png",
+      "sourceUrl": "https://woscalc.com/images/gear/ring-gold.png"
+    },
+    "ring:red": {
+      "key": "ring:red",
+      "path": "/public/assets/chief/ring-red.png",
+      "sourceUrl": "https://woscalc.com/images/gear/ring-red.png"
+    },
+    "ring:t4-legendary": {
+      "key": "ring:t4-legendary",
+      "path": "/public/assets/chief/ring-t4-legendary.png",
+      "sourceUrl": "https://woscalc.com/images/gear/ring-t4-legendary.png"
+    },
+    "staff:green": {
+      "key": "staff:green",
+      "path": "/public/assets/chief/staff-green.png",
+      "sourceUrl": "https://woscalc.com/images/gear/staff-green.png"
+    },
+    "staff:blue": {
+      "key": "staff:blue",
+      "path": "/public/assets/chief/staff-blue.png",
+      "sourceUrl": "https://woscalc.com/images/gear/staff-blue.png"
+    },
+    "staff:purple": {
+      "key": "staff:purple",
+      "path": "/public/assets/chief/staff-purple.png",
+      "sourceUrl": "https://woscalc.com/images/gear/staff-purple.png"
+    },
+    "staff:gold": {
+      "key": "staff:gold",
+      "path": "/public/assets/chief/staff-gold.png",
+      "sourceUrl": "https://woscalc.com/images/gear/staff-gold.png"
+    },
+    "staff:red": {
+      "key": "staff:red",
+      "path": "/public/assets/chief/staff-red.png",
+      "sourceUrl": "https://woscalc.com/images/gear/staff-red.png"
+    },
+    "staff:t4-legendary": {
+      "key": "staff:t4-legendary",
+      "path": "/public/assets/chief/staff-t4-legendary.png",
+      "sourceUrl": "https://woscalc.com/images/gear/staff-t4-legendary.png"
+    },
+    "Lancer:1": {
+      "key": "Lancer:1",
+      "path": "/public/assets/chief/lancer-1.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_1.png"
+    },
+    "Lancer:2": {
+      "key": "Lancer:2",
+      "path": "/public/assets/chief/lancer-2.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_2.png"
+    },
+    "Lancer:3": {
+      "key": "Lancer:3",
+      "path": "/public/assets/chief/lancer-3.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_3.png"
+    },
+    "Lancer:4": {
+      "key": "Lancer:4",
+      "path": "/public/assets/chief/lancer-4.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_4.png"
+    },
+    "Lancer:5": {
+      "key": "Lancer:5",
+      "path": "/public/assets/chief/lancer-5.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_5.png"
+    },
+    "Lancer:6": {
+      "key": "Lancer:6",
+      "path": "/public/assets/chief/lancer-6.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_6.png"
+    },
+    "Lancer:7": {
+      "key": "Lancer:7",
+      "path": "/public/assets/chief/lancer-7.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_7.png"
+    },
+    "Lancer:8": {
+      "key": "Lancer:8",
+      "path": "/public/assets/chief/lancer-8.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_8.png"
+    },
+    "Lancer:9": {
+      "key": "Lancer:9",
+      "path": "/public/assets/chief/lancer-9.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_9.png"
+    },
+    "Lancer:10": {
+      "key": "Lancer:10",
+      "path": "/public/assets/chief/lancer-10.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_10.png"
+    },
+    "Lancer:11": {
+      "key": "Lancer:11",
+      "path": "/public/assets/chief/lancer-11.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_11.png"
+    },
+    "Lancer:12": {
+      "key": "Lancer:12",
+      "path": "/public/assets/chief/lancer-12.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Lancer_12.png"
+    },
+    "Lancer:13": {
+      "key": "Lancer:13",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 258,
+        "y": 224,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Lancer:14": {
+      "key": "Lancer:14",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 258,
+        "y": 320,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Lancer:15": {
+      "key": "Lancer:15",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 258,
+        "y": 416,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Lancer:16": {
+      "key": "Lancer:16",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 258,
+        "y": 513,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Infantry:1": {
+      "key": "Infantry:1",
+      "path": "/public/assets/chief/infantry-1.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_1.png"
+    },
+    "Infantry:2": {
+      "key": "Infantry:2",
+      "path": "/public/assets/chief/infantry-2.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_2.png"
+    },
+    "Infantry:3": {
+      "key": "Infantry:3",
+      "path": "/public/assets/chief/infantry-3.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_3.png"
+    },
+    "Infantry:4": {
+      "key": "Infantry:4",
+      "path": "/public/assets/chief/infantry-4.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_4.png"
+    },
+    "Infantry:5": {
+      "key": "Infantry:5",
+      "path": "/public/assets/chief/infantry-5.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_5.png"
+    },
+    "Infantry:6": {
+      "key": "Infantry:6",
+      "path": "/public/assets/chief/infantry-6.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_6.png"
+    },
+    "Infantry:7": {
+      "key": "Infantry:7",
+      "path": "/public/assets/chief/infantry-7.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_7.png"
+    },
+    "Infantry:8": {
+      "key": "Infantry:8",
+      "path": "/public/assets/chief/infantry-8.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_8.png"
+    },
+    "Infantry:9": {
+      "key": "Infantry:9",
+      "path": "/public/assets/chief/infantry-9.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_9.png"
+    },
+    "Infantry:10": {
+      "key": "Infantry:10",
+      "path": "/public/assets/chief/infantry-10.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_10.png"
+    },
+    "Infantry:11": {
+      "key": "Infantry:11",
+      "path": "/public/assets/chief/infantry-11.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_11.png"
+    },
+    "Infantry:12": {
+      "key": "Infantry:12",
+      "path": "/public/assets/chief/infantry-12.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Infantry_12.png"
+    },
+    "Infantry:13": {
+      "key": "Infantry:13",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 170,
+        "y": 224,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Infantry:14": {
+      "key": "Infantry:14",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 170,
+        "y": 320,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Infantry:15": {
+      "key": "Infantry:15",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 170,
+        "y": 416,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Infantry:16": {
+      "key": "Infantry:16",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 170,
+        "y": 513,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Marksman:1": {
+      "key": "Marksman:1",
+      "path": "/public/assets/chief/marksman-1.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_1.png"
+    },
+    "Marksman:2": {
+      "key": "Marksman:2",
+      "path": "/public/assets/chief/marksman-2.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_2.png"
+    },
+    "Marksman:3": {
+      "key": "Marksman:3",
+      "path": "/public/assets/chief/marksman-3.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_3.png"
+    },
+    "Marksman:4": {
+      "key": "Marksman:4",
+      "path": "/public/assets/chief/marksman-4.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_4.png"
+    },
+    "Marksman:5": {
+      "key": "Marksman:5",
+      "path": "/public/assets/chief/marksman-5.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_5.png"
+    },
+    "Marksman:6": {
+      "key": "Marksman:6",
+      "path": "/public/assets/chief/marksman-6.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_6.png"
+    },
+    "Marksman:7": {
+      "key": "Marksman:7",
+      "path": "/public/assets/chief/marksman-7.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_7.png"
+    },
+    "Marksman:8": {
+      "key": "Marksman:8",
+      "path": "/public/assets/chief/marksman-8.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_8.png"
+    },
+    "Marksman:9": {
+      "key": "Marksman:9",
+      "path": "/public/assets/chief/marksman-9.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_9.png"
+    },
+    "Marksman:10": {
+      "key": "Marksman:10",
+      "path": "/public/assets/chief/marksman-10.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_10.png"
+    },
+    "Marksman:11": {
+      "key": "Marksman:11",
+      "path": "/public/assets/chief/marksman-11.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_11.png"
+    },
+    "Marksman:12": {
+      "key": "Marksman:12",
+      "path": "/public/assets/chief/marksman-12.png",
+      "sourceUrl": "https://woscalc.com/images/charms/Marksman_12.png"
+    },
+    "Marksman:13": {
+      "key": "Marksman:13",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 346,
+        "y": 224,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Marksman:14": {
+      "key": "Marksman:14",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 346,
+        "y": 320,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Marksman:15": {
+      "key": "Marksman:15",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 346,
+        "y": 416,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Marksman:16": {
+      "key": "Marksman:16",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 346,
+        "y": 513,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "helmet:t5": {
+      "key": "helmet:t5",
+      "path": "/public/evidence/chief-icons/helmet-tier-5.png",
+      "source": "维护者游戏截图",
+      "sourceId": "4d99a688-405a-4b03-9a72-1a336f795370",
+      "bakedTier": 5,
+      "gameName": "极光使者",
+      "region": {
+        "x": 30,
+        "y": 469,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "watch:t5": {
+      "key": "watch:t5",
+      "path": "/public/evidence/chief-icons/watch-tier-5.png",
+      "source": "维护者游戏截图",
+      "sourceId": "36167df1-1014-4f14-bd51-ee9d54e7bfb2",
+      "bakedTier": 5,
+      "gameName": "时光棱镜",
+      "region": {
+        "x": 76,
+        "y": 469,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "chestplate:t5": {
+      "key": "chestplate:t5",
+      "path": "/public/evidence/chief-icons/chestplate-tier-5.png",
+      "source": "维护者游戏截图",
+      "sourceId": "bf30714e-8041-4b31-9fde-37d487d17e5d",
+      "bakedTier": 5,
+      "gameName": "星辰咏叹",
+      "region": {
+        "x": 133,
+        "y": 469,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "pants:t5": {
+      "key": "pants:t5",
+      "path": "/public/evidence/chief-icons/pants-tier-5.png",
+      "source": "维护者游戏截图",
+      "sourceId": "657abb57-9c18-4eba-8e88-b1233e974e60",
+      "bakedTier": 5,
+      "gameName": "幻夜舞曲",
+      "region": {
+        "x": 30,
+        "y": 247,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "ring:t5": {
+      "key": "ring:t5",
+      "path": "/public/evidence/chief-icons/ring-tier-5.png",
+      "source": "维护者游戏截图",
+      "sourceId": "056e9e6d-02aa-4354-a4e4-701e04228e09",
+      "bakedTier": 5,
+      "gameName": "永夜印记",
+      "region": {
+        "x": 76,
+        "y": 247,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "staff:t5": {
+      "key": "staff:t5",
+      "path": "/public/evidence/chief-icons/staff-tier-5.png",
+      "source": "维护者游戏截图",
+      "sourceId": "fd914a68-a9c8-4105-8703-462e13dd9b93",
+      "bakedTier": 5,
+      "gameName": "凛冬之心",
+      "region": {
+        "x": 133,
+        "y": 247,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "helmet:t6": {
+      "key": "helmet:t6",
+      "path": "/public/evidence/chief-icons/helmet-tier-6.png",
+      "source": "维护者游戏截图",
+      "sourceId": "dc4d00e9-cfe4-41d4-91d2-e4d8e5ba8892",
+      "bakedTier": 6,
+      "gameName": "极光使者",
+      "region": {
+        "x": 30,
+        "y": 339,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "watch:t6": {
+      "key": "watch:t6",
+      "path": "/public/evidence/chief-icons/watch-tier-6.png",
+      "source": "维护者游戏截图",
+      "sourceId": "a8020c4f-02ed-4f1c-bbb8-ce3259699ea4",
+      "bakedTier": 6,
+      "gameName": "时光棱镜",
+      "region": {
+        "x": 76,
+        "y": 339,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "chestplate:t6": {
+      "key": "chestplate:t6",
+      "path": "/public/evidence/chief-icons/chestplate-tier-6.png",
+      "source": "维护者游戏截图",
+      "sourceId": "0f8a1d02-65d8-45b0-aae8-138138d2d2ea",
+      "bakedTier": 6,
+      "gameName": "星辰咏叹",
+      "region": {
+        "x": 133,
+        "y": 339,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "pants:t6": {
+      "key": "pants:t6",
+      "path": "/public/evidence/chief-icons/pants-tier-6.png",
+      "source": "维护者游戏截图",
+      "sourceId": "2359d5cf-cb84-45dd-968f-2a431cb976cd",
+      "bakedTier": 6,
+      "gameName": "幻夜舞曲",
+      "region": {
+        "x": 30,
+        "y": 443,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "ring:t6": {
+      "key": "ring:t6",
+      "path": "/public/evidence/chief-icons/ring-tier-6.png",
+      "source": "维护者游戏截图",
+      "sourceId": "ae99356b-a4a0-4be3-89df-fe72afa573c1",
+      "bakedTier": 6,
+      "gameName": "永夜印记",
+      "region": {
+        "x": 76,
+        "y": 443,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "staff:t6": {
+      "key": "staff:t6",
+      "path": "/public/evidence/chief-icons/staff-tier-6.png",
+      "source": "维护者游戏截图",
+      "sourceId": "ae07baf7-4665-40d4-bba5-913c90f951e0",
+      "bakedTier": 6,
+      "gameName": "凛冬之心",
+      "region": {
+        "x": 133,
+        "y": 443,
+        "width": 72,
+        "height": 72,
+        "imageWidth": 489,
+        "imageHeight": 871
+      }
+    },
+    "Infantry:17": {
+      "key": "Infantry:17",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 170,
+        "y": 610,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Infantry:18": {
+      "key": "Infantry:18",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 170,
+        "y": 707,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Lancer:17": {
+      "key": "Lancer:17",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 258,
+        "y": 610,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Lancer:18": {
+      "key": "Lancer:18",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 258,
+        "y": 707,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Marksman:17": {
+      "key": "Marksman:17",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 346,
+        "y": 610,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    },
+    "Marksman:18": {
+      "key": "Marksman:18",
+      "path": "/public/evidence/chief-icons/gem-atlas.png",
+      "source": "维护者宝石图鉴截图",
+      "sourceId": "1a510a78-a417-4722-b5b2-c9884fe99c14",
+      "region": {
+        "x": 346,
+        "y": 707,
+        "width": 70,
+        "height": 70,
+        "imageWidth": 528,
+        "imageHeight": 905
+      }
+    }
+  },
+  "failed": []
+}
