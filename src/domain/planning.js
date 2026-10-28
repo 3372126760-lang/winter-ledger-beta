@@ -1,4 +1,5 @@
 import {getPrice} from './model.js';
+import {isLegacyMastery,masterySequence} from './hero-mastery.js';
 import {FIRE_PROGRESS,migrateFireProgress} from './stages.js';
 import {validateChiefSelection} from './chief-loadout.js';
 
@@ -10,6 +11,7 @@ export function validatePlanningState(value){
   if(value===undefined)return {...DEFAULT_PLANNING};
   const fail=()=>{throw new Error('提升规划记录格式不符');};
   if(!value||typeof value!=='object'||Array.isArray(value))fail();
+  if(isLegacyMastery(value.pathId))value={...value,pathId:value.pathId+'-staged',from:masterySequence(value.from),to:masterySequence(value.to)};
   const text=(v,empty=false)=>typeof v==='string'&&v.length<=(empty?180:80)&&(empty||v.trim().length>0)&&!/[\u0000-\u001f]/.test(v);
   if(!text(value.systemId)||!text(value.pathId,true))fail();
   if(![value.from,value.to,value.pieces].every(Number.isInteger)||value.from<0||value.to<=value.from||value.to>10000||value.pieces<1||value.pieces>18)fail();
