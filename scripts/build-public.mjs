@@ -20,7 +20,7 @@ export async function buildPublic({root=projectRoot,out=resolve(root,'dist'),bas
   basePath=normalizeBasePath(basePath);
   const destination=resolve(out),allowedRoot=resolve(root,'dist');
   // Only clear the dedicated build output, never user storage or arbitrary paths.
-  if(destination!==allowedRoot)throw new Error('公开版输出仅允许使用项目 dist 文件夹');
+  if(destination!==allowedRoot)throw new Error('内测版输出仅允许使用项目 dist 文件夹');
   await rm(destination,{recursive:true,force:true});await mkdir(destination,{recursive:true});
   let files=0,bytes=0;
   async function copy(path){
@@ -42,7 +42,7 @@ export async function buildPublic({root=projectRoot,out=resolve(root,'dist'),bas
       if(path.endsWith('.json'))text=JSON.stringify(publicData(JSON.parse(text)));
       text=publicText(text,basePath);
       if(path==='src/runtime.js')text=`export const PUBLIC_BETA = true;\nexport const BASE_PATH = ${JSON.stringify(basePath)};\n`;
-      if(path==='index.html')text=text.replace('<title>冬日账本 · 无尽冬日性价比模型</title>','<title>冬日账本 · 公开内测版</title>').replace('正在载入本地资料与库存…','正在载入内测版资料…');
+      if(path==='index.html')text=text.replace('<title>冬日账本 · 无尽冬日性价比模型</title>','<title>冬日账本 · 内测版</title>').replace('正在载入本地资料与库存…','正在载入内测版资料…');
       await writeFile(target,text);bytes+=Buffer.byteLength(text);
     }else{await copyFile(input,target);bytes+=(await readFile(input)).length;}
     files++;
