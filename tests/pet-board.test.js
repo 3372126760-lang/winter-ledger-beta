@@ -23,3 +23,14 @@ test('账号只填当前，规划显示独立计划与六项洗炼展开项',()=
  assert.ok(html('planning').includes('data-growth-record="planned"'));assert.ok(!html('current').includes('data-growth-record="planned"'));
  assert.ok(html('planning').includes('盾兵穿透'));assert.ok(html('planning').includes('射手生命'));
 });
+import {refinementTier} from '../src/domain/pets.js';
+test('自动判色匹配维护者游戏截图，并核对分界与总上限',()=>{
+ assert.deepEqual(refinementTier(1.61,6.7),{color:'green',name:'绿',cap:2.01,total:6.7});
+ assert.equal(refinementTier(16.25,44.69).cap,22.35);
+ assert.equal(refinementTier(24.89,49.16).cap,34.41);
+ assert.equal(refinementTier(2.01,6.7).color,'green');assert.equal(refinementTier(2.02,6.7).color,'blue');
+ assert.equal(refinementTier(6.7,6.7).color,'orange');assert.equal(refinementTier(undefined,6.7).cap,null);
+ assert.throws(()=>refinementTier(6.71,6.7));
+ const record=validatePetRefinements({[path.id]:{current:{'infantry.health':{value:1.61,color:'orange'}}}});
+ assert.equal(record[path.id].current['infantry.health'].color,'green');
+});
