@@ -1,6 +1,6 @@
 import heroArt from '../data/hero-gear-art.json' with {type:'json'};
 import {validateBattleProfile} from '../domain/battle-profile.js';
-export const GROWTH_SYSTEMS=['hero-gear','experts','buildings','pets'];
+export const GROWTH_SYSTEMS=['hero-gear','experts','pets'];
 export function growthRecordsView(data,systemId,state,esc,{mode='planning'}={}){
  const currentOnly=mode==='current',fields=currentOnly?['levels']:['levels','planned'];
  const system=data.systems.find(s=>s.id===systemId),p=validateBattleProfile(state.battleProfile);

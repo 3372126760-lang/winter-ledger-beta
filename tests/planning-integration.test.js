@@ -5,8 +5,8 @@ import {calculatePlan} from '../src/domain/planning.js';
 import {initialState,validateState} from '../src/domain/model.js';
 const data=JSON.parse(await readFile(new URL('../src/data/planning.json',import.meta.url)));
 const {items}=JSON.parse(await readFile(new URL('../src/data/catalog.json',import.meta.url)));
-test('九系统资料路径保留可追溯来源，全部已列区间可测算且未知属性不补造',()=>{
- assert.deepEqual(data.systems.map(s=>s.id),['chief-gear','chief-gems','hero-gear','research','t11','t12','experts','buildings','pets']);
+test('八系统资料路径保留可追溯来源，全部已列区间可测算且未知属性不补造',()=>{
+ assert.deepEqual(data.systems.map(s=>s.id),['chief-gear','chief-gems','hero-gear','research','t11','t12','experts','pets']);
  for(const system of data.systems)for(const path of system.paths){
   assert.ok(data.sources.some(s=>s.id===path.source),path.id+' source');
   assert.equal(new Set(path.rows.map(r=>r.level)).size,path.rows.length,path.id+' levels');

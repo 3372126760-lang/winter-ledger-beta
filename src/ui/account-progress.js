@@ -6,7 +6,7 @@ import {createResearchTreePanel} from './research-tree.js';
 
 // Browsing account records has its own selection; it never writes state.planning.
 export function createAccountProgressPanel(data,art,{esc,options,getState,onChiefChange,onTechnologyChange,onRefresh,onNavigate,onGrowthChange,notify}){
- const choices=[['chief-gear','领主装备与宝石'],['research','普通战斗科技'],['t11','T11科技'],['t12','T12科技'],['hero-gear','英雄装备'],['experts','专家'],['buildings','建筑等级'],['pets','宠物']];
+ const choices=[['chief-gear','领主装备与宝石'],['research','普通战斗科技'],['t11','T11科技'],['t12','T12科技'],['hero-gear','英雄装备'],['experts','专家'],['pets','宠物']];
  let selected={systemId:'chief-gear',pathId:'',from:0,to:1,pieces:1};
  const browsing=new Map();
  const findPath=id=>data.systems.flatMap(s=>s.paths).find(p=>p.id===id);

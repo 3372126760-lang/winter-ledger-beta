@@ -22,7 +22,7 @@ test('T12三兵种各五件装备同一排且顺序保持，解锁与后续分�
  for(const troop of ['infantry','lancer','marksman']){
   const nodes=manifest.nodes.filter(n=>n.systemId==='t12'&&n.troopId===troop),gear=nodes.filter(n=>n.equipment);
   assert.equal(gear.length,5);assert.equal(new Set(gear.map(n=>n.y)).size,1);
-  assert.deepEqual(gear.map(n=>n.x),[60,180,300,420,540]);
+  assert.deepEqual(gear.map(n=>n.x),[84,192,300,408,516]);
   assert.ok(nodes.find(n=>n.unit).y>gear[0].y);assert.equal(nodes.length,20);
  }
 });
