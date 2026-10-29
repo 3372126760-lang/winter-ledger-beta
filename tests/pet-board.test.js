@@ -34,3 +34,11 @@ test('自动判色匹配维护者游戏截图，并核对分界与总上限',()=
  const record=validatePetRefinements({[path.id]:{current:{'infantry.health':{value:1.61,color:'orange'}}}});
  assert.equal(record[path.id].current['infantry.health'].color,'green');
 });
+
+test('每项洗炼当前与计划在同一行，账号页仍只展示当前',()=>{
+ const html=mode=>growthRecordsView(data,'pets',{battleProfile:{}},String,{mode});
+ const rows=[...html('planning').matchAll(/<div class="pet-refine-stat">(.*?)<\/progress><\/label><\/div>/g)];
+ assert.equal(rows.length,14*6);
+ for(const [row] of rows){assert.equal((row.match(/data-refine-mode="current"/g)||[]).length,1);assert.equal((row.match(/data-refine-mode="planned"/g)||[]).length,1);}
+ assert.ok(!html('current').includes('data-refine-mode="planned"'));
+});
