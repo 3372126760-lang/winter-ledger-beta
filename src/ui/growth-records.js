@@ -1,3 +1,4 @@
+import {petBoardView,bindPetBoard} from './pet-board.js';
 import heroArt from '../data/hero-gear-art.json' with {type:'json'};
 import {validateBattleProfile} from '../domain/battle-profile.js';
 export const GROWTH_SYSTEMS=['hero-gear','experts','pets'];
@@ -6,6 +7,7 @@ export function growthRecordsView(data,systemId,state,esc,{mode='planning'}={}){
  const system=data.systems.find(s=>s.id===systemId),p=validateBattleProfile(state.battleProfile);
  if(!system||!GROWTH_SYSTEMS.includes(systemId))return '';
  const field=(path,type)=>{const value=p[type][path.id],rows=[...(path.baseline?[path.baseline]:[]),...path.rows].filter(r=>type!=='planned'||p.levels[path.id]===undefined||r.level>p.levels[path.id]),known=rows.some(r=>r.level===value);return `<label>${type==='levels'?'当前':'计划'}<select data-growth-record="${type}" data-growth-path="${esc(path.id)}" data-growth-system="${systemId}"><option value="">${type==='levels'?'未记录':'未设置'}</option>${value!==undefined&&!known?`<option value="${value}" selected>${value}级（原记录，档位待核对）</option>`:''}${rows.map(r=>`<option value="${r.level}" ${r.level===value?'selected':''}>${esc(r.label||r.level+'级')}</option>`).join('')}</select></label>`;};
+ if(systemId==='pets')return petBoardView(system,p,esc,{currentOnly,field});
  if(systemId==='hero-gear'){
   return `<section class="card growth-records hero-gear-board"><h2>英雄装备 · ${currentOnly?'当前等级':'当前与计划'}</h2><p class="hint">盾、矛、射各四件，共12件。每件强化与专精分别保存；橙装1—100级，红装1—100级。</p>${[['infantry','盾兵'],['lancer','矛兵'],['marksman','射手']].map(([troop,name])=>`<section class="hero-troop-group"><h3>${name}装备 · 4件</h3><div class="hero-piece-grid">${['goggles','gloves','belt','boots'].map(slot=>{
    const strength=system.paths.find(x=>x.heroGearSlot?.troop===troop&&x.heroGearSlot.slot===slot&&x.heroGearSlot.kind==='strength'),mastery=system.paths.find(x=>x.heroGearSlot?.troop===troop&&x.heroGearSlot.slot===slot&&x.heroGearSlot.kind==='mastery');
@@ -20,6 +22,7 @@ export function growthRecordsView(data,systemId,state,esc,{mode='planning'}={}){
  return `<section class="card growth-records"><h2>${esc(system.name)} · ${currentOnly?'当前等级':'当前与计划'}</h2><p class="hint">${currentOnly?'这里仅记录当前等级，计划目标在提升规划中填写。':'当前等级与账号同步；计划目标单独保存。'}缺资料的档位不估算消耗。</p><div class="inventory-grid">${system.paths.filter(path=>!path.heroGearTemplate||p.levels[path.id]!==undefined||p.planned[path.id]!==undefined).map(path=>`<article><h3>${esc(path.name)}</h3>${path.heroGearSlot?`<p class="hint">${['goggles','boots'].includes(path.heroGearSlot.slot)?'对应兵种穿透部位':'对应兵种生命部位'} · ${path.heroGearSlot.kind==='strength'?'橙装1—100／红装1—100':'专精等级独立记录'}</p>`:''}<div class="chief-inline-levels" ${currentOnly?'style="grid-template-columns:1fr"':''}>${fields.map(type=>field(path,type)).join('')}</div></article>`).join('')}${systemId==='experts'?`<article><h3>加雷斯专家等级（独立记录）</h3><p class="hint">旧记录保留；对应等级效果待补，不自动计入收益。</p>${fields.map(type=>`<label>${type==='levels'?'当前':'计划'}<input type="number" min="0" step="1" data-growth-record="${type}" data-growth-path="gareth" data-growth-system="experts" value="${p[type].gareth??''}"></label>`).join('')}</article>`:''}</div></section>`;
 }
 export function bindGrowthRecords({getState,onSave,onSelect,onRefresh}){
+ bindPetBoard({getState,onSave,onSelect,onRefresh});
  paintOriginalGear();
  document.querySelectorAll('[data-growth-record]').forEach(e=>e.addEventListener('change',()=>{
   const profile=validateBattleProfile(getState().battleProfile),group=profile[e.dataset.growthRecord],id=e.dataset.growthPath;
