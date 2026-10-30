@@ -1,12 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {calculatePlan} from '../src/domain/planning.js';
 import {ordinaryResearchPaths,ordinaryResearchControls,ordinaryResearchDetails} from '../src/ui/ordinary-research.js';
 const read=async file=>JSON.parse(await readFile(new URL('../'+file,import.meta.url),'utf8'));
 const data=await read('src/data/planning.json'),system=data.systems.find(s=>s.id==='research'),battle=system.paths.filter(p=>p.researchTree==='battle');
-const imported=await read('reference/research-2026-10-28/battle-research.json');
+const archiveAvailable=existsSync(new URL('../reference/research-2026-10-28/battle-research.json',import.meta.url));
+const imported=archiveAvailable?await read('reference/research-2026-10-28/battle-research.json'):null;
 const {items}=await read('src/data/catalog.json');
 const context={items,stage:'gen7-fc10-gen8',progress:{heroGeneration:11,fireProgress:'fc10'},inventory:{steel:1000}};
 const path=name=>battle.find(p=>p.name===name);
@@ -44,16 +46,18 @@ test('三兵种及全体攻击防御生命穿透分别保留，六阶段已有�
  assert.equal(system.paths.filter(p=>p.researchTree==='growth').length,6);
  assert.equal(calculatePlan(path('武器特训6'),1,2,1,context).attributes[0].delta,2.25);
 });
-test('459个累计交叉核对值保留，来源错误工期和前置名称不擅自补造',()=>{
+test('459个累计交叉核对值保留，来源错误工期和前置名称不擅自补造',{skip:!archiveAvailable},()=>{
  assert.equal(imported.checks.length,459);
  for(const check of imported.checks){const p=battle.find(p=>p.englishName===check.name);assert.equal(p.rows.find(r=>r.level===check.level).attributes[0].value,check.cumulative);}
  const unknown=battle.flatMap(p=>p.rows.filter(r=>r.timeHours===null).map(r=>({p,r})));assert.equal(unknown.length,2);
  for(const {p,r} of unknown){assert.equal(r.timeRaw,'08:53::20');assert.equal(calculatePlan(p,0,1,1,context).timeHours,null);}
  assert.match(path('长矛改良1').rows[0].prerequisites,/Survival Expansion/);
 });
-test('归档102份官方表哈希可校验，网页筛选各阶段17项并保留发展旧资料',async()=>{
+test('归档102份官方表哈希可校验',{skip:!archiveAvailable},async()=>{
  const manifest=await read('reference/research-2026-10-28/battle-manifest.json');assert.equal(manifest.entries.length,102);
  for(const entry of manifest.entries){const html=await readFile(new URL('../reference/research-2026-10-28/'+entry.file,import.meta.url));assert.equal(createHash('sha256').update(html).digest('hex'),entry.sha256);}
+});
+test('网页筛选各阶段17项并保留发展旧资料',()=>{
  const esc=String,options=(list,value)=>list.map(([id,name])=>id+':'+name+(id===value?'*':'')).join('|');
  for(let t=1;t<=6;t++){const p=path('武器特训'+t);assert.equal(ordinaryResearchPaths(system,p).length,17);assert.match(ordinaryResearchControls(system,p,{esc,options}),/第1阶段/);}
  const html=ordinaryResearchDetails(path('武器特训1'),0,2,{esc,fmt:String});assert.match(html,/解锁条件/);assert.match(html,/本阶段累计/);assert.equal((html.match(/class="research-selected"/g)||[]).length,2);
