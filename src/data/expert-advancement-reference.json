@@ -1,0 +1,578 @@
+{
+  "asOf": "2026-10-29",
+  "source": "https://github.com/chiefpansancolt/whiteout-survival-data/blob/main/data/chief/experts.json",
+  "experts": {
+    "巴尔德": [
+      {
+        "afterLevel": 10,
+        "mark": 6,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 12,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 18,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 24,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 30,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 36,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 42,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 48,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 54,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 60,
+        "relation": "莫逆于心"
+      }
+    ],
+    "法比安": [
+      {
+        "afterLevel": 10,
+        "mark": 12,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 24,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 36,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 48,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 60,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 72,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 84,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 96,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 108,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 120,
+        "relation": "莫逆于心"
+      }
+    ],
+    "西里尔": [
+      {
+        "afterLevel": 10,
+        "mark": 5,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 10,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 15,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 20,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 25,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 30,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 35,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 40,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 45,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 50,
+        "relation": "莫逆于心"
+      }
+    ],
+    "艾格尼丝": [
+      {
+        "afterLevel": 10,
+        "mark": 5,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 10,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 15,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 20,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 25,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 30,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 35,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 40,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 45,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 50,
+        "relation": "莫逆于心"
+      }
+    ],
+    "霍尔格": [
+      {
+        "afterLevel": 10,
+        "mark": 8,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 16,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 24,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 32,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 40,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 48,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 56,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 64,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 72,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 80,
+        "relation": "莫逆于心"
+      }
+    ],
+    "罗慕路斯": [
+      {
+        "afterLevel": 10,
+        "mark": 20,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 40,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 80,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 120,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 160,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 200,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 240,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 280,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 320,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 360,
+        "relation": "莫逆于心"
+      }
+    ],
+    "瓦莱莉亚": [
+      {
+        "afterLevel": 10,
+        "mark": 20,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 40,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 60,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 80,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 100,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 120,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 140,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 160,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 180,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 200,
+        "relation": "莫逆于心"
+      }
+    ],
+    "罗妮": [
+      {
+        "afterLevel": 10,
+        "mark": 8,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 16,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 24,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 32,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 40,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 48,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 56,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 64,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 72,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 80,
+        "relation": "莫逆于心"
+      }
+    ],
+    "加雷斯": [
+      {
+        "afterLevel": 10,
+        "mark": 30,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 60,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 120,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 180,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 240,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 300,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 360,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 420,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 480,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 540,
+        "relation": "莫逆于心"
+      }
+    ],
+    "凯西": [
+      {
+        "afterLevel": 10,
+        "mark": 10,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 20,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 30,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 40,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 50,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 60,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 70,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 80,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 90,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 100,
+        "relation": "莫逆于心"
+      }
+    ],
+    "Justus": [
+      {
+        "afterLevel": 10,
+        "mark": 8,
+        "relation": "泛泛之交Ⅰ"
+      },
+      {
+        "afterLevel": 20,
+        "mark": 16,
+        "relation": "泛泛之交Ⅱ"
+      },
+      {
+        "afterLevel": 30,
+        "mark": 24,
+        "relation": "泛泛之交Ⅲ"
+      },
+      {
+        "afterLevel": 40,
+        "mark": 32,
+        "relation": "志趣相投Ⅰ"
+      },
+      {
+        "afterLevel": 50,
+        "mark": 40,
+        "relation": "志趣相投Ⅱ"
+      },
+      {
+        "afterLevel": 60,
+        "mark": 48,
+        "relation": "志趣相投Ⅲ"
+      },
+      {
+        "afterLevel": 70,
+        "mark": 56,
+        "relation": "推心置腹Ⅰ"
+      },
+      {
+        "afterLevel": 80,
+        "mark": 64,
+        "relation": "推心置腹Ⅱ"
+      },
+      {
+        "afterLevel": 90,
+        "mark": 72,
+        "relation": "推心置腹Ⅲ"
+      },
+      {
+        "afterLevel": 100,
+        "mark": 80,
+        "relation": "莫逆于心"
+      }
+    ]
+  }
+}

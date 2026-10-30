@@ -1,3 +1,4 @@
+import {chiefRulesView} from './chief-rules.js';
 import {CHIEF_ROWS,chiefRecordedCount,chiefArt,buildChiefPlanning,chiefGearMarks,chiefGearLabel} from '../domain/chief-loadout.js';
 import {chiefAttributesAt,summarizeChiefLoadout} from '../domain/chief-attributes.js';
 import {batchChiefLevels,undoChiefBatch} from '../domain/chief-bulk.js';
@@ -66,7 +67,7 @@ export function createChiefLoadoutPanel(data,art,{esc,options,getState,onRecord,
         }).join('')||'<tr><td colspan="3">当前尚未提升，累计加成为0。</td></tr>'}</tbody></table></div></details>`;
       }
     }
-    return `<section class="chief-totals"><div class="section-heading"><h3>按兵种汇总 · 当前累计属性</h3><span class="pill">${result.complete?'已完整记录':'已录入部分合计'}</span></div><div class="table-scroll"><table><thead><tr><th>兵种</th><th>攻击</th><th>防御</th><th>生命</th><th>穿透</th><th>记录进度</th></tr></thead><tbody>${result.troops.map(t=>`<tr><td><strong>${t.name}</strong></td><td>${pct(t.attack)}</td><td>${pct(t.defense)}</td><td>${pct(t.health)}</td><td>${pct(t.lethality)}</td><td><small>装备 ${t.gearRecorded}/2<br>宝石 ${t.gemsRecorded}/6</small></td></tr>`).join('')}</tbody></table></div><div class="chief-general"><span>通用出征容量<strong>${result.capacity===null?'未记录':`+${fmt(result.capacity,0)}`}</strong></span><span>领主装备实力<strong>${result.gearPower===null?'未记录':fmt(result.gearPower,0)}</strong></span></div><p class="hint">每件按单档增量逐级累加，再分配到对应兵种；每颗宝石同时增加该兵种生命和穿透。未记录的部位尚未计入；当前合计只含装备和宝石自身属性，套装及其他系统加成另计。</p>${detail}</section>`;
+    return `${chiefRulesView(loadout)}<section class="chief-totals"><div class="section-heading"><h3>按兵种汇总 · 当前累计属性</h3><span class="pill">${result.complete?'已完整记录':'已录入部分合计'}</span></div><div class="table-scroll"><table><thead><tr><th>兵种</th><th>攻击</th><th>防御</th><th>生命</th><th>穿透</th><th>记录进度</th></tr></thead><tbody>${result.troops.map(t=>`<tr><td><strong>${t.name}</strong></td><td>${pct(t.attack)}</td><td>${pct(t.defense)}</td><td>${pct(t.health)}</td><td>${pct(t.lethality)}</td><td><small>装备 ${t.gearRecorded}/2<br>宝石 ${t.gemsRecorded}/6</small></td></tr>`).join('')}</tbody></table></div><div class="chief-general"><span>通用出征容量<strong>${result.capacity===null?'未记录':`+${fmt(result.capacity,0)}`}</strong></span><span>领主装备实力<strong>${result.gearPower===null?'未记录':fmt(result.gearPower,0)}</strong></span></div><p class="hint">每件按单档增量逐级累加，再分配到对应兵种；每颗宝石同时增加该兵种生命和穿透。未记录的部位尚未计入；当前合计包含装备、宝石和已达标套装加成；其他系统另计。</p>${detail}</section>`;
   }
   function levelEditor(levels,value,kind,slotId,gemIndex=null){
     const state=getState(),target=kind==='gear'?state.chiefTargets?.[slotId]?.gear:state.chiefTargets?.[slotId]?.gems[gemIndex];

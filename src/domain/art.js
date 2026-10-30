@@ -51,7 +51,7 @@ export function createArtResolver(entries, items, getGeneration=()=>1) {
   return input => {
     const item=typeof input==='object'?input:items.find(i=>i.id===input||[i.name,...(i.aliases||[])].some(n=>normalizeArtName(n)===normalizeArtName(input)));
     if (item) {
-      if(item.id==='hero-component-choice')return progressArt(entries,getGeneration());
+      if(item.id==='hero-component-choice'||item.artGeneration)return progressArt(entries,item.artGeneration||getGeneration());
       for (const name of (item.artName?[item.artName]:MODEL_ART_NAMES[item.id]||[item.name])) { const found=find(name);if(found)return found; }
       return null;
     }

@@ -1,0 +1,8 @@
+import {chiefSetBonuses,chiefExchangeUnlocks,CHIEF_SET_TIERS,CHIEF_EXCHANGES,GEM_EXCHANGES} from '../domain/chief-set.js';
+const names={'chief-design':'设计图纸',amber:'月光琥珀',polish:'抛光液',alloy:'强韧合金','charm-guide':'宝石手册','charm-design':'宝石图纸',codex:'宝石秘典'};
+export function chiefRulesView(loadout){
+ const set=chiefSetBonuses(loadout),unlocks=chiefExchangeUnlocks(loadout);
+ const track=(rule,name)=>`<div><strong>${name} +${rule.value}%</strong><p>${rule.active?rule.active.name+(rule.active.verified?'':'（推算）'):'尚未达到套装门槛'}${rule.next?`；下一档${rule.next.name} +${rule.next.bonus}%（${rule.next.owned}/${rule.count}）`:''}</p></div>`;
+ const exchanges=(list,status)=>`<p>${status===true?'已满足解锁条件':status===null?'当前记录不足，解锁状态待确认':'尚未满足解锁条件'}</p><div class="table-scroll"><table><thead><tr><th>消耗</th><th>获得</th><th>截图剩余次数</th></tr></thead><tbody>${list.map(r=>`<tr><td>${r.cost} ${names[r.from]}</td><td>${r.gain} ${names[r.to]}</td><td>${r.limit}</td></tr>`).join('')}</tbody></table></div>`;
+ return `<section class="chief-rules"><h3>领主装备套装效果</h3>${track(set.defense,'3件 · 全兵种防御')}${track(set.attack,'6件 · 全兵种攻击')}<p class="hint">两条分别取最高达标档，不叠加低档；高阶装备计入低阶门槛。已计入下方属性合计。${set.complete?'':'有装备未记录，目前仅显示已确认达标部分。'}</p><details><summary>套装档位表 · 实机与推算</summary><table><thead><tr><th>品质</th><th>3件防御／6件攻击（各兵种）</th><th>依据</th></tr></thead><tbody>${CHIEF_SET_TIERS.map(t=>`<tr><td>${t.name}</td><td>+${t.bonus}%</td><td>${t.verified?'截图样本':'按档位递增推算，待核对'}</td></tr>`).join('')}</tbody></table></details><details><summary>材料兑换 · 解锁与比例</summary><h4>领主装备：任意一件传说2阶3星</h4>${exchanges(CHIEF_EXCHANGES,unlocks.gear)}<h4>领主宝石：任意一颗11级宝石</h4>${exchanges(GEM_EXCHANGES,unlocks.gems)}<p class="hint">次数按维护者截图记录，重置周期尚未确认。此处展示规则，不自动兑换、扣库存或把兑换价当作材料单价。</p></details></section>`;
+}

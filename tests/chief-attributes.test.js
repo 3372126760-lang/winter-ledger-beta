@@ -24,8 +24,8 @@ test('六件装备和十八宝石按盾矛射分别加总，通用容量只累�
  for(const id of CHIEF_SLOT_IDS)loadout[id].gems=[16,16,16];
  const summary=summarizeChiefLoadout(data,loadout);
  assert.deepEqual(summary.troops.map(t=>t.id),['infantry','lancer','marksman']);
- assert.deepEqual(summary.troops.map(t=>t.attack),[459,391,233.75]);
- for(const t of summary.troops){assert.equal(t.attack,t.defense);assert.equal(t.health,600);assert.equal(t.lethality,600);}
+ assert.deepEqual(summary.troops.map(t=>t.attack),[469,401,243.75]);
+ for(const t of summary.troops){assert.equal(t.defense,t.attack+10);assert.equal(t.health,600);assert.equal(t.lethality,600);}
  assert.equal(summary.capacity,6720);assert.equal(summary.gearPower,26010000);assert.equal(summary.complete,true);
 });
 test('未记录与明确0档分开，已记录部分不冒充完整总属性',()=>{

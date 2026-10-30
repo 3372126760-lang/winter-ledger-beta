@@ -1,0 +1,1823 @@
+{
+  "asOf": "2026-10-29",
+  "layoutSource": "https://www.taptap.cn/moment/716699224531534035",
+  "experts": [
+    {
+      "id": "巴尔德",
+      "name": "巴尔德",
+      "slug": "baldur",
+      "portrait": "/public/assets/experts/baldur-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/baldur/",
+      "statLabel": "部队攻击力 部队防御力",
+      "levelPath": "expert-巴尔德-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.019,
+          "mark": 6,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.028,
+          "mark": 12,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.037,
+          "mark": 18,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.046,
+          "mark": 24,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": null,
+          "mark": 30,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.064,
+          "mark": 36,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.073,
+          "mark": 42,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.082,
+          "mark": 48,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.091,
+          "mark": 54,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.1,
+          "mark": 60,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "谈判大师",
+          "status": "已导入",
+          "type": "talent",
+          "levels": [
+            {
+              "level": 1,
+              "relation": "萍水相逢",
+              "talentLevel": 1,
+              "description": "使联盟商店购买商品的价格降低5%，此外个人活跃激励宝箱的奖励也将提升20%"
+            },
+            {
+              "level": 10,
+              "relation": "泛泛之交Ⅰ",
+              "talentLevel": 2,
+              "description": "使联盟商店购买商品的价格降低5%，此外个人活跃激励宝箱的奖励也将提升28%"
+            },
+            {
+              "level": 20,
+              "relation": "泛泛之交Ⅱ",
+              "talentLevel": 3,
+              "description": "使联盟商店购买商品的价格降低5%，此外个人活跃激励宝箱的奖励也将提升36%"
+            },
+            {
+              "level": 30,
+              "relation": "泛泛之交Ⅲ",
+              "talentLevel": 4,
+              "description": "使联盟商店购买商品的价格降低5%，此外个人活跃激励宝箱的奖励也将提升44%"
+            },
+            {
+              "level": 40,
+              "relation": "志趣相投Ⅰ",
+              "talentLevel": 5,
+              "description": "使联盟商店购买商品的价格降低5%，此外个人活跃激励宝箱的奖励也将提升52%"
+            },
+            {
+              "level": 50,
+              "relation": "志趣相投Ⅱ",
+              "talentLevel": 6,
+              "description": "使联盟商店购买商品的价格降低10%，此外个人活跃激励宝箱的奖励也将提升60%"
+            },
+            {
+              "level": 60,
+              "relation": "志趣相投Ⅲ",
+              "talentLevel": 7,
+              "description": "使联盟商店购买商品的价格降低10%，此外个人活跃激励宝箱的奖励也将提升68%"
+            },
+            {
+              "level": 70,
+              "relation": "推心置腹Ⅰ",
+              "talentLevel": 8,
+              "description": "使联盟商店购买商品的价格降低10%，此外个人活跃激励宝箱的奖励也将提升76%"
+            },
+            {
+              "level": 80,
+              "relation": "推心置腹Ⅱ",
+              "talentLevel": 9,
+              "description": "使联盟商店购买商品的价格降低10%，此外个人活跃激励宝箱的奖励也将提升84%"
+            },
+            {
+              "level": 90,
+              "relation": "推心置腹Ⅲ",
+              "talentLevel": 10,
+              "description": "使联盟商店购买商品的价格降低10%，此外个人活跃激励宝箱的奖励也将提升92%"
+            },
+            {
+              "level": 100,
+              "relation": "莫逆于心",
+              "talentLevel": 11,
+              "description": "使联盟商店购买商品的价格降低15%，此外个人活跃激励宝箱的奖励也将提升100%"
+            }
+          ],
+          "image": "/public/assets/experts/baldur-1.webp"
+        }
+      ],
+      "skills": [
+        {
+          "name": "曙色荣辉",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-巴尔德-skill-1",
+          "image": "/public/assets/experts/baldur-2.webp"
+        },
+        {
+          "name": "战火与荣耀",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-巴尔德-skill-2",
+          "image": "/public/assets/experts/baldur-3.webp"
+        },
+        {
+          "name": "万金悬赏",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-巴尔德-skill-3",
+          "image": "/public/assets/experts/baldur-4.webp"
+        },
+        {
+          "name": "曙光战歌",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-巴尔德-skill-4",
+          "image": "/public/assets/experts/baldur-5.webp"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "谈判大师",
+          "image": "/public/assets/experts/baldur-1.webp"
+        },
+        {
+          "name": "曙色荣辉",
+          "image": "/public/assets/experts/baldur-2.webp"
+        },
+        {
+          "name": "战火与荣耀",
+          "image": "/public/assets/experts/baldur-3.webp"
+        },
+        {
+          "name": "万金悬赏",
+          "image": "/public/assets/experts/baldur-4.webp"
+        },
+        {
+          "name": "曙光战歌",
+          "image": "/public/assets/experts/baldur-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-巴尔德-advancement"
+    },
+    {
+      "id": "法比安",
+      "name": "法比安",
+      "slug": "fabian",
+      "portrait": "/public/assets/experts/fabian-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/fabian/",
+      "statLabel": "部队穿透力 部队生命力",
+      "levelPath": "expert-法比安-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.0285,
+          "mark": 12,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.042,
+          "mark": 24,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.0555,
+          "mark": 36,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.069,
+          "mark": 48,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.0825,
+          "mark": 60,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.096,
+          "mark": 72,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.1095,
+          "mark": 84,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.123,
+          "mark": 96,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "mark": 108,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "mark": 120,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [],
+      "skills": [
+        {
+          "name": "回收熔铸",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-法比安-skill-1",
+          "image": "/public/assets/experts/fabian-2.webp"
+        },
+        {
+          "name": "绝境救援",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-法比安-skill-2",
+          "image": "/public/assets/experts/fabian-3.webp"
+        },
+        {
+          "name": "烈火武装",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-法比安-skill-3",
+          "image": "/public/assets/experts/fabian-4.webp"
+        },
+        {
+          "name": "军工巨擘",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-法比安-skill-4",
+          "image": "/public/assets/experts/fabian-5.webp",
+          "originalName": "军工巨臂"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "战争工匠",
+          "image": "/public/assets/experts/fabian-1.webp"
+        },
+        {
+          "name": "回收熔铸",
+          "image": "/public/assets/experts/fabian-2.webp"
+        },
+        {
+          "name": "绝境救援",
+          "image": "/public/assets/experts/fabian-3.webp"
+        },
+        {
+          "name": "烈火武装",
+          "image": "/public/assets/experts/fabian-4.webp"
+        },
+        {
+          "name": "军工巨擘",
+          "image": "/public/assets/experts/fabian-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-法比安-advancement"
+    },
+    {
+      "id": "西里尔",
+      "name": "西里尔",
+      "slug": "cyrille",
+      "portrait": "/public/assets/experts/cyrille-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/cyrille/",
+      "statLabel": "部队攻击力",
+      "levelPath": "expert-西里尔-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.0285,
+          "mark": 5,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.042,
+          "mark": 10,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.0555,
+          "mark": 15,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.069,
+          "mark": 20,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.0825,
+          "mark": 25,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.096,
+          "mark": 30,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.1095,
+          "mark": 35,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.123,
+          "mark": 40,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.1365,
+          "mark": 45,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.15,
+          "mark": 50,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [],
+      "skills": [
+        {
+          "name": "四方围猎",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-西里尔-skill-1",
+          "image": "/public/assets/experts/cyrille-2.webp"
+        },
+        {
+          "name": "回收利用",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-西里尔-skill-2",
+          "image": "/public/assets/experts/cyrille-3.webp"
+        },
+        {
+          "name": "武备专精",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-西里尔-skill-3",
+          "image": "/public/assets/experts/cyrille-4.webp",
+          "originalName": "万金悬赏"
+        },
+        {
+          "name": "巨熊克星",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-西里尔-skill-4",
+          "image": "/public/assets/experts/cyrille-5.webp"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "猎手之心",
+          "image": "/public/assets/experts/cyrille-1.webp"
+        },
+        {
+          "name": "四方围猎",
+          "image": "/public/assets/experts/cyrille-2.webp"
+        },
+        {
+          "name": "回收利用",
+          "image": "/public/assets/experts/cyrille-3.webp"
+        },
+        {
+          "name": "武备专精",
+          "image": "/public/assets/experts/cyrille-4.webp"
+        },
+        {
+          "name": "巨熊克星",
+          "image": "/public/assets/experts/cyrille-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-西里尔-advancement"
+    },
+    {
+      "id": "艾格尼丝",
+      "name": "艾格尼丝",
+      "slug": "agnes",
+      "portrait": "/public/assets/experts/agnes-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/agnes/",
+      "statLabel": "部队防御力",
+      "levelPath": "expert-艾格尼丝-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.0285,
+          "mark": 5,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.042,
+          "mark": 10,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.0555,
+          "mark": 15,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.069,
+          "mark": 20,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.0825,
+          "mark": 25,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.096,
+          "mark": 30,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.1095,
+          "mark": 35,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.123,
+          "mark": 40,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.1365,
+          "mark": 45,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.15,
+          "mark": 50,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "钻探先锋",
+          "status": "已导入",
+          "type": "talent",
+          "levels": [
+            {
+              "level": 1,
+              "relation": "萍水相逢",
+              "talentLevel": 1,
+              "description": "每采集120分钟，可获得1个探寻者宝箱，每天最多可获得10个"
+            },
+            {
+              "level": 10,
+              "relation": "泛泛之交Ⅰ",
+              "talentLevel": 2,
+              "description": "每采集120分钟，可获得1个探寻者宝箱，每天最多可获得12个"
+            },
+            {
+              "level": 20,
+              "relation": "泛泛之交Ⅱ",
+              "talentLevel": 3,
+              "description": "每采集120分钟，可获得1个探寻者宝箱，每天最多可获得14个"
+            },
+            {
+              "level": 30,
+              "relation": "泛泛之交Ⅲ",
+              "talentLevel": 4,
+              "description": "每采集120分钟，可获得2个探寻者宝箱，每天最多可获得16个"
+            },
+            {
+              "level": 40,
+              "relation": "志趣相投Ⅰ",
+              "talentLevel": 5,
+              "description": "每采集120分钟，可获得2个探寻者宝箱，每天最多可获得18个"
+            },
+            {
+              "level": 50,
+              "relation": "志趣相投Ⅱ",
+              "talentLevel": 6,
+              "description": "每采集120分钟，可获得3个探寻者宝箱，每天最多可获得20个"
+            },
+            {
+              "level": 60,
+              "relation": "志趣相投Ⅲ",
+              "talentLevel": 7,
+              "description": "每采集120分钟，可获得3个探寻者宝箱，每天最多可获得22个"
+            },
+            {
+              "level": 70,
+              "relation": "推心置腹Ⅰ",
+              "talentLevel": 8,
+              "description": "每采集120分钟，可获得4个探寻者宝箱，每天最多可获得24个"
+            },
+            {
+              "level": 80,
+              "relation": "推心置腹Ⅱ",
+              "talentLevel": 9,
+              "description": "每采集120分钟，可获得4个探寻者宝箱，每天最多可获得26个"
+            },
+            {
+              "level": 90,
+              "relation": "推心置腹Ⅲ",
+              "talentLevel": 10,
+              "description": "每采集120分钟，可获得5个探寻者宝箱，每天最多可获得28个"
+            },
+            {
+              "level": 100,
+              "relation": "莫逆于心",
+              "talentLevel": 11,
+              "description": "每采集120分钟，可获得5个探寻者宝箱，每天最多可获得30个"
+            }
+          ],
+          "image": "/public/assets/experts/agnes-1.webp"
+        }
+      ],
+      "skills": [
+        {
+          "name": "高效侦察",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-艾格尼丝-skill-1",
+          "image": "/public/assets/experts/agnes-2.webp",
+          "imageSourceName": "效率侦察"
+        },
+        {
+          "name": "产能升级",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-艾格尼丝-skill-2",
+          "image": "/public/assets/experts/agnes-3.webp"
+        },
+        {
+          "name": "工程管理",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-艾格尼丝-skill-3",
+          "image": "/public/assets/experts/agnes-4.webp"
+        },
+        {
+          "name": "隐秘知识",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-艾格尼丝-skill-4",
+          "image": "/public/assets/experts/agnes-5.webp",
+          "imageSourceName": "隐密知识"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "钻探先锋",
+          "image": "/public/assets/experts/agnes-1.webp"
+        },
+        {
+          "name": "效率侦察",
+          "image": "/public/assets/experts/agnes-2.webp"
+        },
+        {
+          "name": "产能升级",
+          "image": "/public/assets/experts/agnes-3.webp"
+        },
+        {
+          "name": "工程管理",
+          "image": "/public/assets/experts/agnes-4.webp"
+        },
+        {
+          "name": "隐密知识",
+          "image": "/public/assets/experts/agnes-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-艾格尼丝-advancement"
+    },
+    {
+      "id": "霍尔格",
+      "name": "霍尔格",
+      "slug": "holger",
+      "portrait": "/public/assets/experts/holger-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/holger/",
+      "statLabel": "部队攻击力 部队防御力",
+      "levelPath": "expert-霍尔格-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.0285,
+          "mark": 8,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.042,
+          "mark": 16,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.0555,
+          "mark": 24,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.069,
+          "mark": 32,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.0825,
+          "mark": 40,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.096,
+          "mark": 48,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.1095,
+          "mark": 56,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.123,
+          "mark": 64,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.1365,
+          "mark": 72,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.15,
+          "mark": 80,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "战刃之舞",
+          "status": "已导入",
+          "type": "talent",
+          "levels": [
+            {
+              "level": 1,
+              "relation": "萍水相逢",
+              "talentLevel": 1,
+              "description": ""
+            },
+            {
+              "level": 10,
+              "relation": "泛泛之交Ⅰ",
+              "talentLevel": 2,
+              "description": ""
+            },
+            {
+              "level": 20,
+              "relation": "泛泛之交Ⅱ",
+              "talentLevel": 3,
+              "description": ""
+            },
+            {
+              "level": 30,
+              "relation": "泛泛之交Ⅲ",
+              "talentLevel": 4,
+              "description": ""
+            },
+            {
+              "level": 40,
+              "relation": "志趣相投Ⅰ",
+              "talentLevel": 5,
+              "description": ""
+            },
+            {
+              "level": 50,
+              "relation": "志趣相投Ⅱ",
+              "talentLevel": 6,
+              "description": ""
+            },
+            {
+              "level": 60,
+              "relation": "志趣相投Ⅲ",
+              "talentLevel": 7,
+              "description": ""
+            },
+            {
+              "level": 70,
+              "relation": "推心置腹Ⅰ",
+              "talentLevel": 8,
+              "description": ""
+            },
+            {
+              "level": 80,
+              "relation": "推心置腹Ⅱ",
+              "talentLevel": 9,
+              "description": ""
+            },
+            {
+              "level": 90,
+              "relation": "推心置腹Ⅲ",
+              "talentLevel": 10,
+              "description": ""
+            },
+            {
+              "level": 100,
+              "relation": "莫逆于心",
+              "talentLevel": 11,
+              "description": ""
+            }
+          ],
+          "image": "/public/assets/experts/holger-1.webp"
+        }
+      ],
+      "skills": [
+        {
+          "name": "角斗精英",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-霍尔格-skill-1",
+          "image": "/public/assets/experts/holger-2.webp"
+        },
+        {
+          "name": "闪耀擂台",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-霍尔格-skill-2",
+          "image": "/public/assets/experts/holger-3.webp"
+        },
+        {
+          "name": "竞技场之星",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-霍尔格-skill-3",
+          "image": "/public/assets/experts/holger-4.webp"
+        },
+        {
+          "name": "勇冠全场",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-霍尔格-skill-4",
+          "image": "/public/assets/experts/holger-5.webp"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "战刃之舞",
+          "image": "/public/assets/experts/holger-1.webp"
+        },
+        {
+          "name": "角斗精英",
+          "image": "/public/assets/experts/holger-2.webp"
+        },
+        {
+          "name": "闪耀擂台",
+          "image": "/public/assets/experts/holger-3.webp"
+        },
+        {
+          "name": "竞技场之星",
+          "image": "/public/assets/experts/holger-4.webp"
+        },
+        {
+          "name": "勇冠全场",
+          "image": "/public/assets/experts/holger-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-霍尔格-advancement"
+    },
+    {
+      "id": "罗慕路斯",
+      "name": "罗慕路斯",
+      "slug": "romulus",
+      "portrait": "/public/assets/experts/romulus-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/romulus/",
+      "statLabel": "部队穿透力 部队生命力",
+      "levelPath": "expert-罗慕路斯-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.038,
+          "mark": 20,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.056,
+          "mark": 40,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.074,
+          "mark": 80,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.092,
+          "mark": 120,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.11,
+          "mark": 160,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.128,
+          "mark": 200,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.146,
+          "mark": 240,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.164,
+          "mark": 280,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.182,
+          "mark": 320,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.2,
+          "mark": 360,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [],
+      "skills": [
+        {
+          "name": "战火的呼唤",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗慕路斯-skill-1",
+          "image": "/public/assets/experts/romulus-2.webp"
+        },
+        {
+          "name": "最后的阵线",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗慕路斯-skill-2",
+          "image": "/public/assets/experts/romulus-3.webp"
+        },
+        {
+          "name": "埃厄忒斯之威",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗慕路斯-skill-3",
+          "image": "/public/assets/experts/romulus-4.webp"
+        },
+        {
+          "name": "万众齐心",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗慕路斯-skill-4",
+          "image": "/public/assets/experts/romulus-5.webp"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "钢铁雄师",
+          "image": "/public/assets/experts/romulus-1.webp"
+        },
+        {
+          "name": "战火的呼唤",
+          "image": "/public/assets/experts/romulus-2.webp"
+        },
+        {
+          "name": "最后的阵线",
+          "image": "/public/assets/experts/romulus-3.webp"
+        },
+        {
+          "name": "埃厄忒斯之威",
+          "image": "/public/assets/experts/romulus-4.webp"
+        },
+        {
+          "name": "万众齐心",
+          "image": "/public/assets/experts/romulus-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-罗慕路斯-advancement"
+    },
+    {
+      "id": "瓦莱莉亚",
+      "name": "瓦莱莉亚",
+      "slug": "valeria",
+      "portrait": "/public/assets/experts/valeria-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/valeria/",
+      "statLabel": "部队穿透力 部队生命力",
+      "levelPath": "expert-瓦莱莉亚-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.038,
+          "mark": 20,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.056,
+          "mark": 40,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.074,
+          "mark": 60,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.092,
+          "mark": 80,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.11,
+          "mark": 100,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.128,
+          "mark": 120,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.146,
+          "mark": 140,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.164,
+          "mark": 160,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.182,
+          "mark": 180,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.2,
+          "mark": 200,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [],
+      "skills": [
+        {
+          "name": "整备待战",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-瓦莱莉亚-skill-1",
+          "image": "/public/assets/experts/valeria-2.webp"
+        },
+        {
+          "name": "烈日荣勋",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-瓦莱莉亚-skill-2",
+          "image": "/public/assets/experts/valeria-3.webp"
+        },
+        {
+          "name": "战场协奏曲",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-瓦莱莉亚-skill-3",
+          "image": "/public/assets/experts/valeria-4.webp"
+        },
+        {
+          "name": "万钧之势",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-瓦莱莉亚-skill-4",
+          "image": "/public/assets/experts/valeria-5.webp"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "征服者之心",
+          "image": "/public/assets/experts/valeria-1.webp"
+        },
+        {
+          "name": "整备待战",
+          "image": "/public/assets/experts/valeria-2.webp"
+        },
+        {
+          "name": "烈日荣勋",
+          "image": "/public/assets/experts/valeria-3.webp"
+        },
+        {
+          "name": "战场协奏曲",
+          "image": "/public/assets/experts/valeria-4.webp"
+        },
+        {
+          "name": "万钧之势",
+          "image": "/public/assets/experts/valeria-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-瓦莱莉亚-advancement"
+    },
+    {
+      "id": "罗妮",
+      "name": "罗妮",
+      "slug": "ronne",
+      "portrait": "/public/assets/experts/ronne-0.webp",
+      "source": "https://wos.h5joy-games.com/zh-CN/experts/ronne/",
+      "statLabel": "部队攻击力 部队防御力",
+      "levelPath": "expert-罗妮-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.0285,
+          "mark": 8,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.042,
+          "mark": 16,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.0555,
+          "mark": 24,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.069,
+          "mark": 32,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.0825,
+          "mark": 40,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.096,
+          "mark": 48,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.1095,
+          "mark": 56,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.123,
+          "mark": 64,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.1365,
+          "mark": 72,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.15,
+          "mark": 80,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "商路掌控者",
+          "status": "已导入",
+          "type": "talent",
+          "levels": [
+            {
+              "level": 1,
+              "relation": "萍水相逢",
+              "talentLevel": 1,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+2%"
+            },
+            {
+              "level": 10,
+              "relation": "泛泛之交Ⅰ",
+              "talentLevel": 2,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+4%"
+            },
+            {
+              "level": 20,
+              "relation": "泛泛之交Ⅱ",
+              "talentLevel": 3,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+6%"
+            },
+            {
+              "level": 30,
+              "relation": "泛泛之交Ⅲ",
+              "talentLevel": 4,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+9%"
+            },
+            {
+              "level": 40,
+              "relation": "志趣相投Ⅰ",
+              "talentLevel": 5,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+12%"
+            },
+            {
+              "level": 50,
+              "relation": "志趣相投Ⅱ",
+              "talentLevel": 6,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+15%"
+            },
+            {
+              "level": 60,
+              "relation": "志趣相投Ⅲ",
+              "talentLevel": 7,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+18%"
+            },
+            {
+              "level": 70,
+              "relation": "推心置腹Ⅰ",
+              "talentLevel": 8,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+21%"
+            },
+            {
+              "level": 80,
+              "relation": "推心置腹Ⅱ",
+              "talentLevel": 9,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+24%"
+            },
+            {
+              "level": 90,
+              "relation": "推心置腹Ⅲ",
+              "talentLevel": 10,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+27%"
+            },
+            {
+              "level": 100,
+              "relation": "莫逆于心",
+              "talentLevel": 11,
+              "description": "在雪原商路遭遇掠夺抑或主动攻击其他货车时，部队攻击力和防御力+30%"
+            }
+          ],
+          "image": "/public/assets/experts/ronne-1.webp",
+          "originalName": "战刃之舞"
+        }
+      ],
+      "skills": [
+        {
+          "name": "路线规划",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗妮-skill-1",
+          "image": "/public/assets/experts/ronne-2.webp"
+        },
+        {
+          "name": "敏锐洞察",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗妮-skill-2",
+          "image": "/public/assets/experts/ronne-3.webp"
+        },
+        {
+          "name": "迅猛反击",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗妮-skill-3",
+          "image": "/public/assets/experts/ronne-4.webp"
+        },
+        {
+          "name": "金牌护卫",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-罗妮-skill-4",
+          "image": "/public/assets/experts/ronne-5.webp"
+        }
+      ],
+      "referenceIcons": [
+        {
+          "name": "商路掌控者",
+          "image": "/public/assets/experts/ronne-1.webp"
+        },
+        {
+          "name": "路线规划",
+          "image": "/public/assets/experts/ronne-2.webp"
+        },
+        {
+          "name": "敏锐洞察",
+          "image": "/public/assets/experts/ronne-3.webp"
+        },
+        {
+          "name": "迅猛反击",
+          "image": "/public/assets/experts/ronne-4.webp"
+        },
+        {
+          "name": "金牌护卫",
+          "image": "/public/assets/experts/ronne-5.webp"
+        }
+      ],
+      "maxLevel": 100,
+      "advancementPath": "expert-罗妮-advancement"
+    },
+    {
+      "id": "加雷斯",
+      "name": "加雷斯",
+      "slug": "gareth",
+      "portrait": "/public/assets/experts/gareth-avatar.png",
+      "source": "https://www.whiteoutsurvival.wiki/experts/gareth-3/",
+      "statLabel": "部队穿透力 部队生命力",
+      "levelPath": "expert-加雷斯-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "stat": 0.057,
+          "mark": 30,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "stat": 0.084,
+          "mark": 60,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "stat": 0.111,
+          "mark": 120,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "stat": 0.138,
+          "mark": 180,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "stat": 0.165,
+          "mark": 240,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "stat": 0.192,
+          "mark": 300,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "stat": 0.219,
+          "mark": 360,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "stat": 0.246,
+          "mark": 420,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "stat": 0.273,
+          "mark": 480,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "stat": 0.3,
+          "mark": 540,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "重振旗鼓",
+          "status": "已导入",
+          "type": "talent",
+          "levels": [
+            {
+              "level": 1,
+              "relation": "萍水相逢",
+              "talentLevel": 1,
+              "description": "军医所容量+50000，治疗速度+3%"
+            },
+            {
+              "level": 10,
+              "relation": "泛泛之交Ⅰ",
+              "talentLevel": 2,
+              "description": "军医所容量+60000，治疗速度+6%"
+            },
+            {
+              "level": 20,
+              "relation": "泛泛之交Ⅱ",
+              "talentLevel": 3,
+              "description": "军医所容量+70000，治疗速度+10%"
+            },
+            {
+              "level": 30,
+              "relation": "泛泛之交Ⅲ",
+              "talentLevel": 4,
+              "description": "军医所容量+80000，治疗速度+15%"
+            },
+            {
+              "level": 40,
+              "relation": "志趣相投Ⅰ",
+              "talentLevel": 5,
+              "description": "军医所容量+90000，治疗速度+20%"
+            },
+            {
+              "level": 50,
+              "relation": "志趣相投Ⅱ",
+              "talentLevel": 6,
+              "description": "军医所容量+100000，治疗速度+25%"
+            },
+            {
+              "level": 60,
+              "relation": "志趣相投Ⅲ",
+              "talentLevel": 7,
+              "description": "军医所容量+120000，治疗速度+30%"
+            },
+            {
+              "level": 70,
+              "relation": "推心置腹Ⅰ",
+              "talentLevel": 8,
+              "description": "军医所容量+140000，治疗速度+35%"
+            },
+            {
+              "level": 80,
+              "relation": "推心置腹Ⅱ",
+              "talentLevel": 9,
+              "description": "军医所容量+160000，治疗速度+40%"
+            },
+            {
+              "level": 90,
+              "relation": "推心置腹Ⅲ",
+              "talentLevel": 10,
+              "description": "军医所容量+180000，治疗速度+45%"
+            },
+            {
+              "level": 100,
+              "relation": "莫逆于心",
+              "talentLevel": 11,
+              "description": "军医所容量+200000，治疗速度+50%"
+            }
+          ],
+          "image": "/public/assets/experts/gareth-talent.png",
+          "imageSource": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/07/expert_skill_icon_7010-1.png"
+        }
+      ],
+      "skills": [
+        {
+          "name": "铁森林馈赠",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-加雷斯-skill-1",
+          "image": "/public/assets/experts/gareth1.png",
+          "imageSource": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/07/expert_skill_icon_70101-1.png"
+        },
+        {
+          "name": "铁棘战阵",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-加雷斯-skill-2",
+          "image": "/public/assets/experts/gareth2.png",
+          "imageSource": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/07/expert_skill_icon_70102-1.png"
+        },
+        {
+          "name": "不败铁军",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-加雷斯-skill-3",
+          "image": "/public/assets/experts/gareth3.png",
+          "imageSource": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/07/expert_skill_icon_70103-1.png"
+        },
+        {
+          "name": "威名震慑",
+          "status": "已导入",
+          "type": "skill",
+          "pathId": "expert-加雷斯-skill-4",
+          "image": "/public/assets/experts/gareth4.png",
+          "imageSource": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/07/expert_skill_icon_70104-1.png"
+        }
+      ],
+      "referenceIcons": [],
+      "maxLevel": 100,
+      "portraitSource": "https://gom-s3-user-avatar.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/07/%E5%86%9B%E4%BA%8B%E4%B8%93%E5%AE%B62%E5%A4%B4%E5%83%8F%E6%A1%86icon-150x150.png",
+      "advancementPath": "expert-加雷斯-advancement"
+    },
+    {
+      "id": "凯西",
+      "name": "凯西",
+      "slug": "kathy",
+      "portrait": "/public/assets/experts/kathy-avatar.png",
+      "source": "https://wjdrgl.wjdr.cn/experts/凯西/",
+      "statLabel": "部队穿透力 部队生命值",
+      "levelPath": "expert-凯西-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "mark": 10,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "mark": 20,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "mark": 30,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "mark": 40,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "mark": 50,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "mark": 60,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "mark": 70,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "mark": 80,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "mark": 90,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "mark": 100,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "燃霜之子",
+          "type": "talent",
+          "image": "/public/assets/experts/kathy-talent.png",
+          "levels": [
+            {
+              "level": 1,
+              "talentLevel": 1,
+              "description": "燃霜矿区部队穿透力+2%；燃霜矿区部队生命值+2%"
+            },
+            {
+              "level": 10,
+              "talentLevel": 2,
+              "description": "燃霜矿区部队穿透力+4%；燃霜矿区部队生命值+4%"
+            },
+            {
+              "level": 20,
+              "talentLevel": 3,
+              "description": "燃霜矿区部队穿透力+6%；燃霜矿区部队生命值+6%"
+            },
+            {
+              "level": 30,
+              "talentLevel": 4,
+              "description": "燃霜矿区部队穿透力+9%；燃霜矿区部队生命值+9%"
+            },
+            {
+              "level": 40,
+              "talentLevel": 5,
+              "description": "燃霜矿区部队穿透力+12%；燃霜矿区部队生命值+12%"
+            },
+            {
+              "level": 50,
+              "talentLevel": 6,
+              "description": "燃霜矿区部队穿透力+15%；燃霜矿区部队生命值+15%"
+            },
+            {
+              "level": 60,
+              "talentLevel": 7,
+              "description": "燃霜矿区部队穿透力+18%；燃霜矿区部队生命值+18%"
+            },
+            {
+              "level": 70,
+              "talentLevel": 8,
+              "description": "燃霜矿区部队穿透力+21%；燃霜矿区部队生命值+21%"
+            },
+            {
+              "level": 80,
+              "talentLevel": 9,
+              "description": "燃霜矿区部队穿透力+24%；燃霜矿区部队生命值+24%"
+            },
+            {
+              "level": 90,
+              "talentLevel": 10,
+              "description": "燃霜矿区部队穿透力+27%；燃霜矿区部队生命值+27%"
+            },
+            {
+              "level": 100,
+              "talentLevel": 11,
+              "description": "燃霜矿区部队穿透力+30%；燃霜矿区部队生命值+30%"
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "冰火游猎",
+          "englishName": "Icefire Hunter",
+          "type": "skill",
+          "pathId": "expert-凯西-skill-1",
+          "image": "/public/assets/experts/kathy-skill-1.png"
+        },
+        {
+          "name": "霜风烈火",
+          "englishName": "Valorous Cold",
+          "type": "skill",
+          "pathId": "expert-凯西-skill-2",
+          "image": "/public/assets/experts/kathy-skill-2.png"
+        },
+        {
+          "name": "霜焰珍宝",
+          "englishName": "Winter Treasures",
+          "type": "skill",
+          "pathId": "expert-凯西-skill-3",
+          "image": "/public/assets/experts/kathy-skill-3.png"
+        },
+        {
+          "name": "效率开采",
+          "englishName": "Efficient Mining",
+          "type": "skill",
+          "pathId": "expert-凯西-skill-4",
+          "image": "/public/assets/experts/kathy-skill-4.png"
+        }
+      ],
+      "referenceIcons": [],
+      "maxLevel": 100,
+      "referenceStatus": "国服中文资料已对照 · 逐级消耗待实机核对",
+      "englishName": "Kathy",
+      "advancementPath": "expert-凯西-advancement"
+    },
+    {
+      "id": "Justus",
+      "name": "贾斯特斯",
+      "slug": "justus",
+      "portrait": "/public/assets/experts/justus-avatar.png",
+      "source": "https://wostools.net/wiki/experts/justus",
+      "statLabel": "常驻属性逐级值待核对",
+      "levelPath": "expert-Justus-relation",
+      "milestones": [
+        {
+          "afterLevel": 10,
+          "mark": 8,
+          "relation": "泛泛之交Ⅰ"
+        },
+        {
+          "afterLevel": 20,
+          "mark": 16,
+          "relation": "泛泛之交Ⅱ"
+        },
+        {
+          "afterLevel": 30,
+          "mark": 24,
+          "relation": "泛泛之交Ⅲ"
+        },
+        {
+          "afterLevel": 40,
+          "mark": 32,
+          "relation": "志趣相投Ⅰ"
+        },
+        {
+          "afterLevel": 50,
+          "mark": 40,
+          "relation": "志趣相投Ⅱ"
+        },
+        {
+          "afterLevel": 60,
+          "mark": 48,
+          "relation": "志趣相投Ⅲ"
+        },
+        {
+          "afterLevel": 70,
+          "mark": 56,
+          "relation": "推心置腹Ⅰ"
+        },
+        {
+          "afterLevel": 80,
+          "mark": 64,
+          "relation": "推心置腹Ⅱ"
+        },
+        {
+          "afterLevel": 90,
+          "mark": 72,
+          "relation": "推心置腹Ⅲ"
+        },
+        {
+          "afterLevel": 100,
+          "mark": 80,
+          "relation": "莫逆于心"
+        }
+      ],
+      "talents": [
+        {
+          "name": "Former Glory",
+          "type": "talent",
+          "image": "/public/assets/experts/justus-talent.png",
+          "levels": [
+            {
+              "level": 1,
+              "talentLevel": 1,
+              "description": ""
+            },
+            {
+              "level": 10,
+              "talentLevel": 2,
+              "description": ""
+            },
+            {
+              "level": 20,
+              "talentLevel": 3,
+              "description": ""
+            },
+            {
+              "level": 30,
+              "talentLevel": 4,
+              "description": ""
+            },
+            {
+              "level": 40,
+              "talentLevel": 5,
+              "description": ""
+            },
+            {
+              "level": 50,
+              "talentLevel": 6,
+              "description": ""
+            },
+            {
+              "level": 60,
+              "talentLevel": 7,
+              "description": ""
+            },
+            {
+              "level": 70,
+              "talentLevel": 8,
+              "description": ""
+            },
+            {
+              "level": 80,
+              "talentLevel": 9,
+              "description": ""
+            },
+            {
+              "level": 90,
+              "talentLevel": 10,
+              "description": ""
+            },
+            {
+              "level": 100,
+              "talentLevel": 11,
+              "description": ""
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "Glorious Gains",
+          "englishName": "Glorious Gains",
+          "type": "skill",
+          "pathId": "expert-Justus-skill-1",
+          "image": "/public/assets/experts/justus-skill-1.png"
+        },
+        {
+          "name": "Treasure Seeker",
+          "englishName": "Treasure Seeker",
+          "type": "skill",
+          "pathId": "expert-Justus-skill-2",
+          "image": "/public/assets/experts/justus-skill-2.png"
+        },
+        {
+          "name": "Master Diplomat",
+          "englishName": "Master Diplomat",
+          "type": "skill",
+          "pathId": "expert-Justus-skill-3",
+          "image": "/public/assets/experts/justus-skill-3.png"
+        },
+        {
+          "name": "Fortune Wayfarer",
+          "englishName": "Fortune Wayfarer",
+          "type": "skill",
+          "pathId": "expert-Justus-skill-4",
+          "image": "/public/assets/experts/justus-skill-4.png"
+        }
+      ],
+      "referenceIcons": [],
+      "maxLevel": 100,
+      "referenceStatus": "国服中文名已由用户确认 · 数值待核对",
+      "englishName": "Justus",
+      "advancementPath": "expert-Justus-advancement"
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "items": [
     {
       "id": "screw",
-      "name": "强化经验零件",
+      "name": "100点强化经验零件",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {
         "fc5": {
           "value": 1,
@@ -53,7 +53,8 @@
         }
       },
       "aliases": [
-        "螺丝"
+        "螺丝",
+        "强化经验零件"
       ],
       "nameSource": "item-probabilities",
       "priceHistory": [
@@ -86,7 +87,7 @@
       "name": "传说通用英雄信物",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄",
       "prices": {
         "fc5": {
           "value": 2.5,
@@ -198,7 +199,7 @@
       "name": "英雄装备幸运宝箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {
         "fc5": {
           "value": 1.6666666666666667,
@@ -302,7 +303,7 @@
       "name": "传说英雄装备",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {
         "fc5": {
           "value": 46.938333,
@@ -379,7 +380,7 @@
       "name": "专精能源石",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {
         "fc5": {
           "value": 1.6666666666666667,
@@ -529,7 +530,7 @@
       "name": "宝石手册",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主宝石",
       "prices": {
         "fc5": {
           "value": 0.5882352941176471,
@@ -604,7 +605,7 @@
       "name": "宝石图纸",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主宝石",
       "prices": {
         "fc5": {
           "value": 0.5263157894736842,
@@ -679,7 +680,7 @@
       "name": "宝石秘典",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主宝石",
       "prices": {
         "fc5": {
           "value": 11.759259,
@@ -744,7 +745,7 @@
       "name": "抛光液",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主装备",
       "prices": {
         "fc5": {
           "value": 0.08333333333333333,
@@ -819,7 +820,7 @@
       "name": "强韧合金",
       "unit": "个",
       "priceScale": 100,
-      "category": "装备与宝石",
+      "category": "领主装备",
       "prices": {
         "fc5": {
           "value": 0.08333333333333333,
@@ -898,7 +899,7 @@
       "name": "设计图纸",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主装备",
       "prices": {
         "fc5": {
           "value": 0.4074074074074074,
@@ -988,7 +989,7 @@
       "name": "领主装备材料宝箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主装备",
       "prices": {
         "fc5": {
           "value": 1.288889,
@@ -1050,7 +1051,7 @@
       "name": "月光琥珀",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "领主装备",
       "prices": {
         "fc5": {
           "value": 4.888889,
@@ -1355,7 +1356,7 @@
       "name": "秘银",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "英雄装备",
       "prices": {
         "fc5": {
           "value": 30,
@@ -1406,7 +1407,7 @@
       "name": "火晶",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "火晶",
       "prices": {
         "fc5": {
           "value": 0.625,
@@ -1478,7 +1479,7 @@
       "name": "精炼火晶",
       "unit": "个",
       "priceScale": 1,
-      "category": "火晶精炼",
+      "category": "火晶",
       "prices": {},
       "valuation": {
         "type": "refinement",
@@ -1495,7 +1496,7 @@
       "name": "火晶微粒",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "火晶",
       "prices": {
         "t11": {
           "value": 0.349074,
@@ -1594,14 +1595,16 @@
           },
           "reason": "维护者指定火三火五钢材采用常规价"
         }
-      ]
+      ],
+      "inventoryScale": 10000,
+      "inventoryUnit": "万"
     },
     {
       "id": "charm-random",
       "name": "领主宝石材料随机宝箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "领主宝石",
       "prices": {
         "t11": {
           "value": 2.146296,
@@ -1718,7 +1721,9 @@
           }
         ],
         "note": "维护者估值：1普通野性印记＝500钻石；每万钻石＝20个普通印记。不是实际双向兑换承诺。"
-      }
+      },
+      "inventoryScale": 10000,
+      "inventoryUnit": "万"
     },
     {
       "id": "island-shard",
@@ -1829,7 +1834,7 @@
       "name": "领主装备材料随机宝箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "领主装备",
       "prices": {
         "t11": {
           "value": 1.385787,
@@ -1950,7 +1955,7 @@
       "name": "通用专家印记",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "专家",
       "prices": {
         "gen7-fc8": {
           "value": 3.75,
@@ -2047,7 +2052,7 @@
       "name": "专家好感度",
       "unit": "个",
       "priceScale": 10000,
-      "category": "资源与成长",
+      "category": "专家",
       "prices": {
         "gen7-fc8": {
           "value": 34.090909090909086,
@@ -2146,7 +2151,7 @@
       "name": "学识之书",
       "unit": "个",
       "priceScale": 1000,
-      "category": "资源与成长",
+      "category": "专家",
       "prices": {
         "gen7-fc8": {
           "value": 51.104,
@@ -2327,7 +2332,7 @@
       "name": "英雄经验",
       "unit": "点",
       "priceScale": 10000,
-      "category": "资源与成长",
+      "category": "英雄",
       "prices": {}
     },
     {
@@ -2335,7 +2340,7 @@
       "name": "茉莉碎片",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
     },
@@ -2344,7 +2349,7 @@
       "name": "传说探险技能书",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
     },
@@ -2353,7 +2358,7 @@
       "name": "传说远征技能书",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
     },
@@ -2362,7 +2367,7 @@
       "name": "黄金钥匙",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
     },
@@ -2431,7 +2436,7 @@
       "name": "神秘徽章",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {
         "pre-crystal": {
           "value": 0.012,
@@ -2483,7 +2488,7 @@
       "name": "N-1代英雄组件自选箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "原资料名称未明确品质或具体组件，暂不强行改为网站某个自选箱；名称与内容待确认。"
     },
@@ -2501,7 +2506,7 @@
       "name": "英雄装备自选箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {},
       "identityNote": "原资料名称未明确品质或具体组件，暂不强行改为网站某个自选箱；名称与内容待确认。"
     },
@@ -2510,7 +2515,7 @@
       "name": "火晶余烬",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "火晶",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
     },
@@ -2585,7 +2590,7 @@
       "name": "英勇之证",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。"
     },
@@ -2594,7 +2599,7 @@
       "name": "英雄组件自选箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {
         "pre-crystal": {
           "value": 6,
@@ -2639,14 +2644,14 @@
           "note": "维护者确认：30元5个，30÷5＝6元/个；未扣除附赠奖励。"
         }
       },
-      "identityNote": "贴图按顶部实际英雄代数切换：1至7代使用本地原图，8至10代显示维护者截图中的组件箱区域；维护者确认11代及以后使用对应代数盾兵英雄专武原图代替，并标注代用关系。具体价格与奖励仍待补，不因切换贴图自动推断。"
+      "identityNote": "按当前英雄代数显示专武箱；11代采用维护者截图去除数量后的贴图，其他代数保留现有图源。往届箱子在库存按代数独立记录，旧未分代库存保留。"
     },
     {
       "id": "hero-song-choice",
       "name": "英雄战歌自选箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "英雄与成长",
+      "category": "英雄",
       "prices": {},
       "identityNote": "根据礼包明确名称建立独立条目，适用进度和价格待补。",
       "valuation": {
@@ -2709,7 +2714,7 @@
       "name": "稀有英雄装备",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {},
       "nameSource": "item-probabilities",
       "valuation": {
@@ -2729,7 +2734,7 @@
       "name": "史诗英雄装备",
       "unit": "个",
       "priceScale": 1,
-      "category": "装备与宝石",
+      "category": "英雄装备",
       "prices": {},
       "nameSource": "item-probabilities",
       "valuation": {
@@ -2749,7 +2754,7 @@
       "name": "火晶宝箱",
       "unit": "个",
       "priceScale": 1,
-      "category": "资源与成长",
+      "category": "火晶",
       "prices": {},
       "nameSource": "item-probabilities",
       "valuation": {
@@ -2809,6 +2814,755 @@
       "unlock": {
         "heroGeneration": 3
       }
+    },
+    {
+      "id": "expert-compass",
+      "name": "指南针",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "affinityPoints": 10,
+      "aliases": [
+        "怀表",
+        "指南针"
+      ]
+    },
+    {
+      "id": "expert-heart",
+      "name": "炙热之心",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "affinityPoints": 100
+    },
+    {
+      "id": "expert-sail",
+      "name": "征服之帆",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "affinityPoints": 1000
+    },
+    {
+      "id": "expert-sigil-baldur",
+      "name": "巴尔德印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "baldur"
+    },
+    {
+      "id": "expert-sigil-fabian",
+      "name": "法比安印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "fabian"
+    },
+    {
+      "id": "expert-sigil-cyrille",
+      "name": "西里尔印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "cyrille"
+    },
+    {
+      "id": "expert-sigil-agnes",
+      "name": "艾格尼丝印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "agnes"
+    },
+    {
+      "id": "expert-sigil-holger",
+      "name": "霍尔格印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "holger"
+    },
+    {
+      "id": "expert-sigil-romulus",
+      "name": "罗慕路斯印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "romulus"
+    },
+    {
+      "id": "expert-sigil-valeria",
+      "name": "瓦莱莉亚印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "valeria"
+    },
+    {
+      "id": "expert-sigil-ronne",
+      "name": "罗妮印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "ronne"
+    },
+    {
+      "id": "expert-sigil-gareth",
+      "name": "加雷斯印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "gareth"
+    },
+    {
+      "id": "expert-sigil-kathy",
+      "name": "凯西印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "priceAlias": "expert-mark",
+      "expertSlug": "kathy"
+    },
+    {
+      "id": "expert-sigil-justus",
+      "name": "贾斯特斯印记",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "专家",
+      "prices": {},
+      "priceAlias": "expert-mark",
+      "expertSlug": "justus",
+      "unlock": {
+        "heroGeneration": 3
+      }
+    },
+    {
+      "id": "hero-component-s1",
+      "name": "第1代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 1,
+      "artGeneration": 1,
+      "unlock": {
+        "heroGeneration": 2
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s2",
+      "name": "第2代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 2,
+      "artGeneration": 2,
+      "unlock": {
+        "heroGeneration": 3
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s3",
+      "name": "第3代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 3,
+      "artGeneration": 3,
+      "unlock": {
+        "heroGeneration": 4
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s4",
+      "name": "第4代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 4,
+      "artGeneration": 4,
+      "unlock": {
+        "heroGeneration": 5
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s5",
+      "name": "第5代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 5,
+      "artGeneration": 5,
+      "unlock": {
+        "heroGeneration": 6
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s6",
+      "name": "第6代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 6,
+      "artGeneration": 6,
+      "unlock": {
+        "heroGeneration": 7
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s7",
+      "name": "第7代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 7,
+      "artGeneration": 7,
+      "unlock": {
+        "heroGeneration": 8
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s8",
+      "name": "第8代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 8,
+      "artGeneration": 8,
+      "unlock": {
+        "heroGeneration": 9
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s9",
+      "name": "第9代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 9,
+      "artGeneration": 9,
+      "unlock": {
+        "heroGeneration": 10
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s10",
+      "name": "第10代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 10,
+      "artGeneration": 10,
+      "unlock": {
+        "heroGeneration": 11
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s11",
+      "name": "第11代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 11,
+      "artGeneration": 11,
+      "unlock": {
+        "heroGeneration": 12
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s12",
+      "name": "第12代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 12,
+      "artGeneration": 12,
+      "unlock": {
+        "heroGeneration": 13
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s13",
+      "name": "第13代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 13,
+      "artGeneration": 13,
+      "unlock": {
+        "heroGeneration": 14
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "hero-component-s14",
+      "name": "第14代专武箱子",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "英雄",
+      "prices": {},
+      "inventoryGeneration": 14,
+      "artGeneration": 14,
+      "unlock": {
+        "heroGeneration": 15
+      },
+      "identityNote": "往届专武箱按实际代数独立记录，不与当前代或其他代数库存合并；单价待核对。"
+    },
+    {
+      "id": "fire-weekly-chest",
+      "name": "火晶周卡宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "火晶",
+      "prices": {},
+      "acquisition": "火晶周卡每日登录奖励。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "fire-crystal",
+            "quantity": 100,
+            "probability": 0.004
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 60,
+            "probability": 0.008
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 40,
+            "probability": 0.016
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 20,
+            "probability": 0.025
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 10,
+            "probability": 0.085
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 5,
+            "probability": 0.862
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      },
+      "unlock": {
+        "fireProgress": "fc3"
+      }
+    },
+    {
+      "id": "mobilization-supply-chest",
+      "name": "动员补给箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宝箱",
+      "prices": {},
+      "acquisition": "联盟总动员达到个人最大积分目标后，每增加200点个人积分，可额外获得1箱。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "orange-shard",
+            "quantity": 1,
+            "probability": 0.03
+          },
+          {
+            "itemId": "equipment-box",
+            "quantity": 1,
+            "probability": 0.04
+          },
+          {
+            "itemId": "diamond",
+            "quantity": 1000,
+            "probability": 0.06
+          },
+          {
+            "itemId": "screw",
+            "quantity": 1,
+            "probability": 0.1
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 0.16666666666666666,
+            "probability": 0.37
+          },
+          {
+            "itemId": "diamond",
+            "quantity": 100,
+            "probability": 0.4
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      }
+    },
+    {
+      "id": "seekers-chest",
+      "name": "探寻者宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宝箱",
+      "prices": {},
+      "acquisition": "艾格尼丝天赋技能：累计采集一定时间可获得。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "fire-crystal",
+            "quantity": 10,
+            "probability": 0.01
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 1,
+            "probability": 0.2
+          },
+          {
+            "itemId": "diamond",
+            "quantity": 1000,
+            "probability": 0.02
+          },
+          {
+            "itemId": "diamond",
+            "quantity": 10,
+            "probability": 0.2
+          },
+          {
+            "itemId": "screw",
+            "quantity": 1,
+            "probability": 0.03
+          },
+          {
+            "itemId": "screw",
+            "quantity": 0.1,
+            "probability": 0.2
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 1,
+            "probability": 0.04
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 0.08333333333333333,
+            "probability": 0.3
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      }
+    },
+    {
+      "id": "arena-star-chest",
+      "name": "角斗之星宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宝箱",
+      "prices": {},
+      "acquisition": "霍尔格天赋技能：每次挑战竞技场有概率获得。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "orange-shard",
+            "quantity": 1,
+            "probability": 0.04
+          },
+          {
+            "itemId": "mastery-stone",
+            "quantity": 1,
+            "probability": 0.06
+          },
+          {
+            "itemId": "screw",
+            "quantity": 1,
+            "probability": 0.08
+          },
+          {
+            "itemId": "screw",
+            "quantity": 0.2,
+            "probability": 0.2
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 1,
+            "probability": 0.1
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 0.08333333333333333,
+            "probability": 0.52
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      }
+    },
+    {
+      "id": "ironbark-chest",
+      "name": "铁枝宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宝箱",
+      "prices": {},
+      "acquisition": "加雷斯一技能：每训练100名士兵可获得。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "fire-crystal",
+            "quantity": 100,
+            "probability": 0.001
+          },
+          {
+            "itemId": "troop-defense-boost-2-12h",
+            "quantity": 1,
+            "probability": 0.0025
+          },
+          {
+            "itemId": "troop-health-boost-2-12h",
+            "quantity": 1,
+            "probability": 0.0025
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 5,
+            "probability": 0.044000000000000004
+          },
+          {
+            "itemId": "speed-general",
+            "quantity": 1,
+            "probability": 0.1
+          },
+          {
+            "itemId": "speed-training",
+            "quantity": 0.5,
+            "probability": 0.35
+          },
+          {
+            "itemId": "speed-healing",
+            "quantity": 0.5,
+            "probability": 0.5
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      }
+    },
+    {
+      "id": "kingdom-light-chest",
+      "name": "王国之光宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宝箱",
+      "prices": {},
+      "acquisition": "贾斯特斯天赋技能及三、四技能：探险挂机、雪原游历、发起集结和获胜时有概率获得；具体触发条件以技能等级说明为准。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "speed-learning",
+            "quantity": 8,
+            "probability": 0.006999999999999999
+          },
+          {
+            "itemId": "expert-sail",
+            "quantity": 2,
+            "probability": 0.018000000000000002
+          },
+          {
+            "itemId": "expert-mark",
+            "quantity": 1,
+            "probability": 0.035
+          },
+          {
+            "itemId": "knowledge",
+            "quantity": 100,
+            "probability": 0.05
+          },
+          {
+            "itemId": "speed-learning",
+            "quantity": 1,
+            "probability": 0.11
+          },
+          {
+            "itemId": "speed-learning",
+            "quantity": 0.4166666666666667,
+            "probability": 0.3
+          },
+          {
+            "itemId": "expert-compass",
+            "quantity": 6,
+            "probability": 0.48
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      }
+    },
+    {
+      "id": "elite-guard-chest",
+      "name": "精英护卫宝箱",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "宝箱",
+      "prices": {},
+      "acquisition": "罗妮“迅猛反击”升到6级后，雪原商路活动中额外护送不可被掠夺的宝箱。",
+      "valuation": {
+        "type": "random",
+        "source": "owner-reward-boxes-2026-10-30",
+        "outcomes": [
+          {
+            "itemId": "diamond",
+            "quantity": 1000,
+            "probability": 0.142
+          },
+          {
+            "itemId": "fire-crystal",
+            "quantity": 5,
+            "probability": 0.14300000000000002
+          },
+          {
+            "itemId": "orange-shard",
+            "quantity": 1,
+            "probability": 0.14300000000000002
+          },
+          {
+            "itemId": "chief-design",
+            "quantity": 2,
+            "probability": 0.14300000000000002
+          },
+          {
+            "itemId": "charm-design",
+            "quantity": 2,
+            "probability": 0.14300000000000002
+          },
+          {
+            "itemId": "charm-guide",
+            "quantity": 2,
+            "probability": 0.14300000000000002
+          },
+          {
+            "itemId": "mastery-stone",
+            "quantity": 1,
+            "probability": 0.14300000000000002
+          }
+        ],
+        "note": "依据维护者游戏截图，随机获得一项奖励；按概率加权计算每箱期望。10点强化经验零件按0.1个100点零件折算，加速统一换算为小时。"
+      }
+    },
+    {
+      "id": "troop-defense-boost-2-12h",
+      "name": "部队防御力提升2阶（12小时）",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "增益",
+      "inventoryHidden": true,
+      "prices": {},
+      "identityNote": "截图已确认奖励身份与概率，价值缺少依据，暂不计完整箱价。"
+    },
+    {
+      "id": "troop-health-boost-2-12h",
+      "name": "部队生命提升2阶（12小时）",
+      "unit": "个",
+      "priceScale": 1,
+      "category": "增益",
+      "inventoryHidden": true,
+      "prices": {},
+      "identityNote": "截图已确认奖励身份与概率，价值缺少依据，暂不计完整箱价。"
     }
   ],
   "sources": [
@@ -2913,6 +3667,12 @@
       "title": "维护者指定 · 火三火五常规钢材礼包",
       "url": "https://wjgl.store/function/Zero/regular-gift-data.html",
       "status": "2026-10-26维护者指定火三、火五钢材按常规礼包30元40000钢材，7.5元/万，覆盖火五奇货4元/万；不延伸到其他进度。"
+    },
+    {
+      "id": "owner-reward-boxes-2026-10-30",
+      "title": "维护者游戏截图 · 周卡、动员与专家宝箱",
+      "url": "",
+      "status": "2026-10-30：17张截图，完整录入奖励与概率；按截图与维护者说明记录获取方式。"
     }
   ],
   "issues": [

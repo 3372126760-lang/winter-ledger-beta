@@ -1,3 +1,6 @@
+import {applyTechnologyQuickEdit} from '../domain/technology-quick-entry.js';
+import {technologyQuickRows} from './technology-quick-entry.js';
+import {calculatePlan} from '../domain/planning.js';
 import manifest from '../data/research-trees.json' with {type:'json'};
 import {technologyTree,planTechnologyNode} from '../domain/research-tree.js';
 import {setTechnologyLevel} from '../domain/technology-levels.js';
@@ -8,7 +11,7 @@ export function createResearchTreePanel(data,{esc,getSelection,getState,onChange
  const editingCurrent=mode==='current';
  const zooms={research:1,t11:0.7,t12:1};
  const troopNames={infantry:'盾兵',lancer:'矛兵',marksman:'射手'};
- let current=null,editorId=null,pendingViewport=null;
+ let current=null,editorId=null,pendingViewport=null,viewMode='quick',quickQuery='',quickScope=null;
  const records=()=>getState().account.technologyLevels||{};
  const targets=()=>getState().technologyTargets||{};
  const activeViewport=()=>document.querySelector(`#game-tech-tree[data-tech-mode="${mode}"] #tech-viewport`);
@@ -54,10 +57,10 @@ export function createResearchTreePanel(data,{esc,getSelection,getState,onChange
   const node=current.selected,level=node?records()[node.id]??null:null;
   const copy=document.querySelector('#tech-selection-copy');
   if(copy)copy.innerHTML=`已选：<strong>${esc(node?.name||path.name)}</strong>${node?.troopId?' · '+troopNames[node.troopId]:''} · 当前 ${level===null?'未记录':level+'级'}${!editingCurrent&&level!==null?' · 计划 '+(level===node.max?level:p.to)+'级':''}`;
-  const count=document.querySelector('#tech-record-count');if(count)count.textContent=`点击图标填写当前等级；${manifest.nodes.filter(n=>n.systemId===current.systemId&&Object.hasOwn(records(),n.id)).length} 项科技已记录。`;
+  const count=document.querySelector('#tech-record-count');if(count)count.textContent=`填写当前等级；${manifest.nodes.filter(n=>n.systemId===current.systemId&&Object.hasOwn(records(),n.id)).length} 项科技已记录。`;
   const tier=document.querySelector('#research-tier');if(tier&&path.researchTier)tier.value=String(path.researchTier);
   const note=document.querySelector('#ordinary-stage-note');if(note)note.textContent=`当前第${path.researchTier}阶段 · 17类战斗科技。名称后的数字表示科技阶段；当前／目标等级是该阶段内的研究等级。`;
-  openEditor();onSelectionChange?.();
+  syncQuickRows();openEditor();onSelectionChange?.();
  }
  function canvas(tree,p){
   const zoom=zooms[tree.systemId];
@@ -67,11 +70,11 @@ export function createResearchTreePanel(data,{esc,getSelection,getState,onChange
   }).join('')}</div>`;
  }
  function view(system,path,p){
-  const tree=technologyTree(manifest,system,path,p);current=tree;if(!tree)return '';
+  const tree=technologyTree(manifest,system,path,p);if(current?.systemId!==tree?.systemId){quickScope=null;quickQuery='';}else if(tree?.systemId==='t12'&&current.troopId!==tree.troopId)quickScope=tree.troopId;current=tree;if(!tree)return '';
   const recorded=tree.selected?records()[tree.selected.id]??null:null;
   const caption=recorded===null?`现有等级未记录${editingCurrent?'，点击图标填写':'，点击图标直接填写'}`:recorded===tree.selected?.max?`现有 ${recorded}级 · 已满级`:`现有 ${recorded}级${editingCurrent?'':` · 目标 ${p.to}级`}`;
   const tabs=tree.systemId==='t12'?`<div class="tech-troop-tabs" role="group" aria-label="T12兵种">${Object.entries(troopNames).map(([id,name])=>`<button type="button" data-tech-troop="${id}" aria-pressed="${tree.troopId===id}" class="${tree.troopId===id?'active':''}">煌耀${name}</button>`).join('')}</div>`:'';
-  return `<section class="game-tech-tree tech-theme-${tree.systemId}" id="game-tech-tree" data-tech-mode="${mode}" aria-label="${esc(system.name)}游戏科技树"><div class="tech-tree-heading"><div><span>${tree.systemId==='research'?'TECH RESEARCH':tree.systemId==='t11'?'FIRE CRYSTAL TECH':'EXALTED TECH'}</span><h3>${tree.systemId==='research'?'研究所 · 战斗科技':tree.systemId==='t11'?'火晶科技 · T11':'炽炎科技 · T12'}</h3></div>${editingCurrent?'<span class="tech-mode-label">记录现状</span>':'<button type="button" class="tech-detail-jump" id="tech-jump-detail">查看所选科技消耗 ↓</button>'}</div>${tabs}<div class="tech-map-controls">${tree.systemId==='t11'?`<div class="tech-focus-buttons"><button type="button" data-tech-focus="all">全图</button>${Object.entries(troopNames).map(([id,name])=>`<button type="button" data-tech-focus="${id}">${name}分支</button>`).join('')}</div>`:tree.systemId==='research'?`<div class="tech-focus-buttons">${[1,2,3,4,5,6].map(t=>`<button type="button" data-tech-stage="${t}">${t}阶段</button>`).join('')}</div>`:'<span>五件装备 → 兵种解锁 → 四列属性分支</span>'}<div class="tech-zoom"><button type="button" id="tech-zoom-out" aria-label="缩小科技树">−</button><span id="tech-zoom-label">${Math.round(zooms[tree.systemId]*100)}%</span><button type="button" id="tech-zoom-in" aria-label="放大科技树">＋</button></div></div><div class="tech-viewport" id="tech-viewport" tabindex="0" role="region" aria-label="科技树画布，可滚动查看">${canvas(tree,p)}</div><div class="tech-selection"><span id="tech-selection-copy">已选：<strong>${esc(tree.selected?.name||path.name)}</strong>${tree.troopId?` · ${troopNames[tree.troopId]}`:''} · ${esc(caption)}</span><small>${editingCurrent?'点击图标填写当前等级，自动保存；“—”表示未记录，0级表示尚未研究。':'点击图标可修改账号当前等级和计划目标，两者分开保存；下方消耗自动更新，页面保持原位。'}</small>${tree.systemId==='t11'?'<small>T11三兵种暂共用原工具箱的同等级材料模板；矛、射分支按效果命名，国服专名仍待核对。</small>':''}</div><details class="tech-layout-source"><summary>查看排版依据</summary><p>节点位置和分支参考游戏内截图，科技贴图来自官方Wiki并已保存至本地。T12兵种解锁节点使用文字标记。</p>${manifest.sources.filter((s,i)=>i===(tree.systemId==='research'?0:tree.systemId==='t11'?1:2)||i===3).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noreferrer">${esc(s.title)} ↗</a>`).join('')}</details></section>`;
+  return `<section class="game-tech-tree tech-theme-${tree.systemId}" id="game-tech-tree" data-tech-mode="${mode}" data-entry-view="${viewMode}" aria-label="${esc(system.name)}游戏科技树"><div class="tech-tree-heading"><div><span>${tree.systemId==='research'?'TECH RESEARCH':tree.systemId==='t11'?'FIRE CRYSTAL TECH':'EXALTED TECH'}</span><h3>${tree.systemId==='research'?'研究所 · 战斗科技':tree.systemId==='t11'?'火晶科技 · T11':'炽炎科技 · T12'}</h3></div>${editingCurrent?'<span class="tech-mode-label">记录现状</span>':'<button type="button" class="tech-detail-jump" id="tech-jump-detail">查看所选科技消耗 ↓</button>'}</div>${tabs}<div class="tech-map-controls">${tree.systemId==='t11'?`<div class="tech-focus-buttons"><button type="button" data-tech-focus="all">全图</button>${Object.entries(troopNames).map(([id,name])=>`<button type="button" data-tech-focus="${id}">${name}分支</button>`).join('')}</div>`:tree.systemId==='research'?`<div class="tech-focus-buttons">${[1,2,3,4,5,6].map(t=>`<button type="button" data-tech-stage="${t}">${t}阶段</button>`).join('')}</div>`:'<span>五件装备 → 兵种解锁 → 四列属性分支</span>'}<div class="tech-zoom"><button type="button" id="tech-zoom-out" aria-label="缩小科技树">−</button><span id="tech-zoom-label">${Math.round(zooms[tree.systemId]*100)}%</span><button type="button" id="tech-zoom-in" aria-label="放大科技树">＋</button></div></div><div class="tech-view-switch" role="group" aria-label="科技填写方式"><button type="button" data-tech-view="quick" class="${viewMode==='quick'?'active':''}">快速填等级</button><button type="button" data-tech-view="map" class="${viewMode==='map'?'active':''}">科技图</button><span>填完按 Enter 下一项 · Tab 切换字段 · 自动保存</span></div><div class="tech-workspace"><div class="tech-quick-panel" id="tech-quick-panel" ${viewMode==='quick'?'':'hidden'}><div class="tech-quick-filters"><label>筛选科技<input id="tech-quick-search" type="search" placeholder="输入科技名称" value="${esc(quickQuery)}"></label><label>${tree.systemId==='research'?'阶段':'兵种'}<select id="tech-quick-scope">${scopeOptions(tree)}</select></label></div><div class="tech-quick-scroll"><table class="tech-quick-table"><thead><tr><th>科技</th><th>当前等级</th>${editingCurrent?'':'<th>目标等级</th>'}<th>状态</th></tr></thead><tbody id="tech-quick-rows">${quickRows(tree)}</tbody></table></div><p class="tech-quick-help">空白是未记录，0是尚未研究。“满”按钮仅设置所在字段，不修改另一列。</p></div><div id="tech-map-pane" ${viewMode==='map'?'':'hidden'}><div class="tech-viewport" id="tech-viewport" tabindex="0" role="region" aria-label="科技树画布，可滚动查看">${canvas(tree,p)}</div></div><aside class="tech-editor-host" id="tech-editor-host" aria-label="所选科技快速编辑"></aside></div><div class="tech-selection"><span id="tech-selection-copy">已选：<strong>${esc(tree.selected?.name||path.name)}</strong>${tree.troopId?` · ${troopNames[tree.troopId]}`:''} · ${esc(caption)}</span><small>${editingCurrent?'直接填写当前等级，自动保存；“—”表示未记录，0级表示尚未研究。':'直接填写账号当前等级和计划目标，两者分开保存；下方消耗自动更新，页面保持原位。'}</small>${tree.systemId==='t11'?'<small>T11三兵种暂共用原工具箱的同等级材料模板；矛、射分支按效果命名，国服专名仍待核对。</small>':''}</div><details class="tech-layout-source"><summary>查看排版依据</summary><p>节点位置和分支参考游戏内截图，科技贴图来自官方Wiki并已保存至本地。T12兵种解锁节点使用文字标记。</p>${manifest.sources.filter((s,i)=>i===(tree.systemId==='research'?0:tree.systemId==='t11'?1:2)||i===3).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noreferrer">${esc(s.title)} ↗</a>`).join('')}</details></section>`;
  }
  function moveTo(x,y){
   const viewport=activeViewport();if(!viewport||!current)return;
@@ -81,43 +84,81 @@ export function createResearchTreePanel(data,{esc,getSelection,getState,onChange
   const element=activeViewport();
   pendingViewport=element?{left:element.scrollLeft,top:element.scrollTop,pageX:window.scrollX,pageY:window.scrollY,focus:document.activeElement?.id}:null;
  }
- function closeEditor(){editorId=null;activeViewport()?.querySelector('#tech-node-editor')?.remove();}
- function positionEditor(){
-  const viewport=activeViewport(),editor=viewport?.querySelector('#tech-node-editor'),button=viewport?.querySelector(`[data-tech-node="${editorId}"]`);
-  if(!viewport||!editor||!button)return;
-  const box=button.getBoundingClientRect(),region=viewport.getBoundingClientRect();
-  if(box.bottom<region.top||box.top>region.bottom||box.right<region.left||box.left>region.right||box.bottom<0||box.top>window.innerHeight||box.right<0||box.left>window.innerWidth){closeEditor();return;}
-  const width=Math.min(320,viewport.clientWidth-24,window.innerWidth-24);editor.style.width=width+'px';
-  const left=Math.max(12,Math.min(window.innerWidth-width-12,box.left+box.width/2-width/2));
-  const availableTop=window.innerHeight-editor.offsetHeight-12;
-  const preferred=box.bottom+8>availableTop&&box.top-editor.offsetHeight-8>=12?box.top-editor.offsetHeight-8:box.bottom+8;
-  const top=Math.max(12,Math.min(availableTop,preferred));
-  editor.style.left=left+'px';editor.style.top=top+'px';
+ function closeEditor(){editorId=null;document.querySelector('#tech-editor-host')?.replaceChildren();}
+ function scopeOptions(tree){
+  const scope=quickScope??(tree.systemId==='research'?String(findPath(tree.selected?.pathId)?.researchTier||1):tree.troopId||'infantry');
+  const choices=tree.systemId==='research'?[['all','全部阶段'],...[1,2,3,4,5,6].map(n=>[String(n),`第${n}阶段`])]:[...(tree.systemId==='t11'?[['all','全部兵种']]:[]),...Object.entries(troopNames)];
+  return choices.map(([id,name])=>`<option value="${id}" ${id===scope?'selected':''}>${name}</option>`).join('');
+ }
+ function quickNodes(tree=current){
+  const scope=quickScope??(tree.systemId==='research'?String(findPath(tree.selected?.pathId)?.researchTier||1):tree.troopId||'infantry');
+  const pool=manifest.nodes.filter(n=>n.systemId===tree.systemId);
+  return pool.filter(n=>(scope==='all'||(tree.systemId==='research'?String(findPath(n.pathId)?.researchTier)===scope:n.troopId===scope))&&n.name.includes(quickQuery));
+ }
+ function quickRows(tree=current){return technologyQuickRows(quickNodes(tree),records(),targets(),{esc,selectedId:tree.selected?.id,currentOnly:editingCurrent});}
+ function syncQuickRows(){
+  const table=document.querySelector('#tech-quick-rows');if(!table)return;
+  for(const row of table.querySelectorAll('[data-quick-row]')){
+   const node=manifest.nodes.find(n=>n.id===row.dataset.quickRow),level=records()[node.id],target=targets()[node.id];
+   row.classList.toggle('selected',current.selected?.id===node.id);
+   for(const input of row.querySelectorAll('input'))if(document.activeElement!==input)input.value=(input.dataset.quickKind==='current'?level:target)??'';
+   row.querySelector('.tech-quick-state').textContent=level===node.max?'已满级':level===undefined?target===undefined?'未记录':`预览0 → ${target}`:target===undefined?'待设目标':target<=level?'目标已达成':`${level} → ${target}`;
+   const max=row.querySelector('[data-quick-fill="target"]');if(max)max.disabled=level===node.max;
+  }
+ }
+ function selectQuickNode(node){
+  editorId=node.id;
+  const change=planFor(node),switchBranch=current.systemId==='t12'&&current.troopId!==node.troopId;
+  if(switchBranch){rememberViewport();onChange(change,true);}else{onChange(change,false);syncSelection();}
+ }
+ function commitQuick(node,kind,raw){
+  const next=applyTechnologyQuickEdit(node,records(),targets(),kind,raw);
+  if(kind==='current')onTechnologyChange(next.levels);else onTargetsChange?.(next.targets);
+  selectQuickNode(node);
  }
  function openEditor(){
-  const viewport=activeViewport(),node=current?.nodes.find(n=>n.id===editorId);if(!viewport||!node)return;
-  viewport.querySelector('#tech-node-editor')?.remove();
-  const level=records()[node.id]??null,{p}=getSelection(),maximum=level===node.max;
-  const goalMet=!editingCurrent&&level!==null&&targets()[node.id]!==undefined&&targets()[node.id]<=level;
-  const target=editingCurrent||level===null||maximum||goalMet?null:p.to>level&&p.to<=node.max?p.to:level+1;
-  const labels=Array.from({length:node.max+1},(_,i)=>`<option value="${i}" ${level===i?'selected':''}>${i}级${i===node.max?' · 最高级':''}</option>`).join('');
-  const currentInput=`<label>${editingCurrent?'现有等级':'账号当前等级'}<select id="tech-editor-current" aria-label="现有科技等级"><option value="" ${level===null?'selected':''}>未记录</option>${labels}</select></label>`;
-  const targetInput=level===null?'<p>先在这里填写账号当前等级，再设置计划目标。</p>':maximum?'<p class="tech-editor-max">已达到资料最高级。</p>':`<label>计划目标等级<select id="tech-editor-target" aria-label="计划目标等级">${goalMet?`<option value="" selected>原计划${targets()[node.id]}级已达成，选择新目标</option>`:''}${Array.from({length:node.max-level},(_,i)=>level+i+1).map(i=>`<option value="${i}" ${i===target?'selected':''}>${i}级</option>`).join('')}</select></label>`;
-  viewport.insertAdjacentHTML('beforeend',`<section class="tech-node-editor" id="tech-node-editor" aria-label="${editingCurrent?'记录':'规划'}${esc(node.name)}等级"><div class="tech-editor-heading"><strong>${esc(node.name)}${node.troopId?' · '+troopNames[node.troopId]:''}</strong><button type="button" id="tech-editor-close" aria-label="关闭等级编辑">×</button></div>${currentInput}${editingCurrent?'':targetInput}${technologyEffects(findPath(node.pathId),node,level,target,{esc})}${prerequisiteView(node,target)}<small>${editingCurrent?'保存的是账号实际等级，提升目标在“提升规划”中设置。':'当前等级修改会同步账号记录；计划目标单独保存。'}</small>${!editingCurrent?`${level!==null?`<button type="button" class="tech-editor-detail" id="tech-editor-detail">${maximum?'查看已满级状态':'查看详细消耗'} ↓</button>`:''}`:''}</section>`);
-  viewport.querySelector('#tech-editor-close').addEventListener('click',closeEditor);
-  viewport.querySelector('#tech-node-editor').addEventListener('keydown',event=>{if(event.key==='Escape'){const button=viewport.querySelector(`[data-tech-node="${node.id}"]`);closeEditor();button?.focus({preventScroll:true});}});
-  viewport.querySelector('#tech-editor-current').addEventListener('change',event=>{
-   try{
-    const next=setTechnologyLevel(records(),node.id,event.target.value===''?null:Number(event.target.value));
-    onTechnologyChange(next);onChange(planTechnologyNode(node,findPath(node.pathId),getSelection().p,next),false);syncSelection();activeViewport()?.querySelector('#tech-editor-current')?.focus({preventScroll:true});
-   }catch(error){notify(error.message);}
+  const host=document.querySelector('#tech-editor-host'),node=current?.selected;if(!host||!node)return;
+  const path=findPath(node.pathId),level=records()[node.id]??null,{p}=getSelection(),maximum=level===node.max;
+  const target=maximum?null:targets()[node.id]??p.to;
+  let preview='';
+  if(!maximum&&target>(level??0)){
+   const result=calculatePlan(path,level??0,target,1);
+   const names={steel:'钢材','refined-fire-crystal':'精炼火晶','fire-particle':'火晶微粒'};
+   preview=`<div class="tech-editor-materials"><h4>升级材料 · ${level??0} → ${target}级${level===null?'（预览）':''}</h4>${result.materials.length?result.materials.map(m=>`<div><span>${names[m.itemId]||m.itemId}</span><strong>${m.itemId==='steel'?Number((m.needed/10000).toFixed(4))+'万':Number(m.needed.toFixed(4))}</strong></div>`).join(''):'<p>原表未列额外材料，请核对实际解锁界面。</p>'}<p>${result.timeHours===0?'无需加速 · 0小时':result.timeHours===null?'基础工期待补':'基础工期 '+Number(result.timeHours.toFixed(4))+'小时'}</p></div>`;
+  }
+  host.innerHTML=`<section class="tech-node-editor" id="tech-node-editor" aria-label="${esc(node.name)}等级编辑"><div class="tech-editor-heading"><strong>${esc(node.name)}${node.troopId?' · '+troopNames[node.troopId]:''}</strong><span>上限${node.max}级</span></div><div class="tech-dock-inputs"><label>当前等级<input type="number" id="tech-editor-current" aria-label="现有科技等级" min="0" max="${node.max}" step="1" value="${level??''}" placeholder="未记录"></label>${editingCurrent?'':`<label>目标等级<input type="number" id="tech-editor-target" aria-label="计划目标等级" min="1" max="${node.max}" step="1" value="${target??''}" ${maximum?'disabled':''} placeholder="未设置"></label>`}</div>${level===null?'<p class="tech-preview-note">当前未记录：材料按0级起预览，不会自动记成0级。</p>':''}${maximum?'<p class="tech-editor-max">已满级</p>':preview}<details><summary>属性与解锁条件</summary>${technologyEffects(path,node,level,target,{esc})}${prerequisiteView(node,target)}</details><p class="hint">自动保存；当前等级与计划目标独立记录。</p></section>`;
+  for(const [id,kind]of [['tech-editor-current','current'],['tech-editor-target','target']])host.querySelector('#'+id)?.addEventListener('change',e=>{
+   try{commitQuick(node,kind,e.target.value);document.querySelector('#'+id)?.focus({preventScroll:true});}catch(error){notify(error.message);e.target.value=(kind==='current'?records()[node.id]:targets()[node.id])??'';}
   });
-  viewport.querySelector('#tech-editor-target')?.addEventListener('change',event=>{
-   try{if(event.target.value==='')return;const value=Number(event.target.value),plan=planFor(node);onTargetsChange?.(setTechnologyLevel(targets(),node.id,value));onChange({...plan,to:value},false);syncSelection();activeViewport()?.querySelector('#tech-editor-target')?.focus({preventScroll:true});}catch(error){notify(error.message);}
+ }
+ function bindQuick(){
+  const root=document.querySelector('#game-tech-tree');
+  root.querySelector('#tech-quick-search')?.addEventListener('input',e=>{quickQuery=e.target.value;root.querySelector('#tech-quick-rows').innerHTML=quickRows();});
+  root.querySelector('#tech-quick-scope')?.addEventListener('change',e=>{quickScope=e.target.value;if(current.systemId==='t12'&&quickScope!==current.troopId){selectQuickNode(manifest.nodes.find(n=>n.systemId==='t12'&&n.troopId===quickScope));}else root.querySelector('#tech-quick-rows').innerHTML=quickRows();});
+  root.querySelectorAll('[data-tech-view]').forEach(button=>button.addEventListener('click',()=>{
+   viewMode=button.dataset.techView;root.dataset.entryView=viewMode;root.querySelector('#tech-quick-panel').hidden=viewMode!=='quick';root.querySelector('#tech-map-pane').hidden=viewMode!=='map';
+   root.querySelectorAll('[data-tech-view]').forEach(b=>b.classList.toggle('active',b===button));
+  }));
+  const table=root.querySelector('#tech-quick-rows');
+  table.addEventListener('click',e=>{
+   const fill=e.target.closest('[data-quick-fill]'),choose=e.target.closest('[data-quick-select]');
+   try{if(fill){const node=manifest.nodes.find(n=>n.id===fill.dataset.quickNode);commitQuick(node,fill.dataset.quickFill,fill.dataset.quickValue);}else if(choose)selectQuickNode(manifest.nodes.find(n=>n.id===choose.dataset.quickSelect));}catch(error){notify(error.message);}
   });
-  viewport.querySelector('#tech-editor-current-link')?.addEventListener('click',()=>{closeEditor();onOpenCurrent?.({systemId:node.systemId,nodeId:node.id});});
-  viewport.querySelector('#tech-editor-detail')?.addEventListener('click',()=>{closeEditor();(document.querySelector('#technology-calculation')||document.querySelector('#planning-path'))?.scrollIntoView({block:'start'});});
-  positionEditor();
+  const saveQuickInput=e=>{
+   const input=e.target.closest('[data-quick-kind]');if(!input)return;
+   const node=manifest.nodes.find(n=>n.id===input.dataset.quickNode);
+   const saved=input.dataset.quickKind==='current'?records()[node.id]:targets()[node.id];if((input.value.trim()===''&&saved===undefined)||(input.value.trim()!==''&&Number(input.value)===saved))return;
+   try{if(input.validity.badInput)throw new Error('请输入有效等级');commitQuick(node,input.dataset.quickKind,input.value);input.setCustomValidity('');}
+   catch(error){input.setCustomValidity(error.message);input.reportValidity();input.value=(input.dataset.quickKind==='current'?records()[node.id]:targets()[node.id])??'';notify(error.message);}
+  };
+  table.addEventListener('change',saveQuickInput);
+  table.addEventListener('focusout',saveQuickInput);
+  table.addEventListener('input',e=>{e.target.setCustomValidity?.('');});
+  table.addEventListener('keydown',e=>{
+   const input=e.target.closest('[data-quick-kind]');if(!input||e.key!=='Enter')return;e.preventDefault();
+   const fields=[...table.querySelectorAll(`input[data-quick-kind="${input.dataset.quickKind}"]`)],next=fields[fields.indexOf(input)+1];input.dispatchEvent(new Event('change',{bubbles:true}));
+   if(input.validity.valid){next?.focus({preventScroll:true});next?.select();next?.scrollIntoView({block:'nearest',inline:'nearest'});}
+  });
  }
  function bind(){
   if(!current)return;
@@ -130,9 +171,10 @@ export function createResearchTreePanel(data,{esc,getSelection,getState,onChange
    const old=zooms[tree.systemId],x=(viewport.scrollLeft+viewport.clientWidth/2)/old,y=(viewport.scrollTop+viewport.clientHeight/2)/old;
    zooms[tree.systemId]=Math.max(0.2,Math.min(1.45,Number((old+change).toFixed(2))));redraw(x,y);
   });
-  document.querySelectorAll('[data-tech-stage]').forEach(button=>button.addEventListener('click',()=>{closeEditor();moveTo(300,(Number(button.dataset.techStage)-1)*1200+280);}));
+  document.querySelectorAll('[data-tech-stage]').forEach(button=>button.addEventListener('click',()=>{if(viewMode==='quick'){quickScope=button.dataset.techStage;document.querySelector('#tech-quick-scope').value=quickScope;document.querySelector('#tech-quick-rows').innerHTML=quickRows();}else moveTo(300,(Number(button.dataset.techStage)-1)*1200+280);}));
   document.querySelectorAll('[data-tech-focus]').forEach(button=>button.addEventListener('click',()=>{
    const troop=button.dataset.techFocus;
+   if(viewMode==='quick'){quickScope=troop;document.querySelector('#tech-quick-scope').value=troop;document.querySelector('#tech-quick-rows').innerHTML=quickRows();return;}
    closeEditor();
    if(troop==='all'){zooms.t11=Math.max(0.2,Math.min(0.45,viewport.clientWidth/tree.size.width,viewport.clientHeight/tree.size.height)*0.95);redraw(tree.size.width/2,tree.size.height/2);}
    else{zooms.t11=0.8;const branch=tree.nodes.filter(n=>n.troopId===troop);redraw(branch.reduce((n,p)=>n+p.x,0)/branch.length,branch.reduce((n,p)=>n+p.y,0)/branch.length);}
@@ -146,8 +188,8 @@ export function createResearchTreePanel(data,{esc,getSelection,getState,onChange
   const previous=pendingViewport;
   if(previous){pendingViewport=null;viewport.scrollLeft=previous.left;viewport.scrollTop=previous.top;window.scrollTo(previous.pageX,previous.pageY);}
   else if(tree.selected)moveTo(tree.selected.x,tree.selected.y+(tree.systemId==='research'?120:0));
-  openEditor();viewport.addEventListener('scroll',positionEditor);
+  bindQuick();openEditor();
  }
- window.addEventListener('scroll',positionEditor,{passive:true});window.addEventListener('resize',positionEditor);
- return {view,bind,prerequisiteFor:(target)=>current?.selected?technologyPrerequisites(manifest,current.selected,target,records()):null,reset:()=>{editorId=null;pendingViewport=null;},nodeFor:(system,path,p)=>technologyTree(manifest,system,path,p)?.selected,hasTree:()=>Boolean(current),recordedLevel:(system,path,p)=>{const node=technologyTree(manifest,system,path,p)?.selected;return node?records()[node.id]??null:null;},filterPaths:paths=>current?.systemId==='t12'?paths.filter(p=>current.nodes.some(n=>n.pathId===p.id)):paths,nameForPath:id=>current?.nodes.find(n=>n.pathId===id&&(current.systemId!=='t11'||n.troopId===current.troopId))?.name||findPath(id)?.name};
+
+ return {view,bind,prerequisiteFor:(target)=>current?.selected?technologyPrerequisites(manifest,current.selected,target,records()):null,reset:()=>{editorId=null;pendingViewport=null;quickScope=null;quickQuery='';},nodeFor:(system,path,p)=>technologyTree(manifest,system,path,p)?.selected,hasTree:()=>Boolean(current),recordedLevel:(system,path,p)=>{const node=technologyTree(manifest,system,path,p)?.selected;return node?records()[node.id]??null:null;},filterPaths:paths=>current?.systemId==='t12'?paths.filter(p=>current.nodes.some(n=>n.pathId===p.id)):paths,nameForPath:id=>current?.nodes.find(n=>n.pathId===id&&(current.systemId!=='t11'||n.troopId===current.troopId))?.name||findPath(id)?.name};
 }

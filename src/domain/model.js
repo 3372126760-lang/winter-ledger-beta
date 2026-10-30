@@ -51,6 +51,11 @@ export function getPrice(item, stage, overrides = {}, allowQuotes = false, items
         note:`按每周${method}方式计算，消耗${result.totalFire}火晶，期望产出${Number(result.totalOutput.toFixed(6))}个；每日首次半价，基础火晶价格待复核。`,refinement:result};
     }catch{return null;}
   }
+  if(item.affinityPoints){
+    const base=items.find(i=>i.id==='affection');
+    const price=base?getPrice(base,stage,{},allowQuotes,items,new Set([...seen,item.id]),context):null;
+    return price?{...price,value:price.value/base.priceScale*item.affinityPoints*item.priceScale,note:`每个提供${item.affinityPoints}点好感度，按当前好感度单价折算。`}:null;
+  }
   if(item.priceAlias){
     const target=items.find(i=>i.id===item.priceAlias);
     const shared=target?getPrice(target,stage,{},allowQuotes,items,new Set([...seen,item.id]),context):null;

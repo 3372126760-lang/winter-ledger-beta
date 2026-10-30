@@ -15,7 +15,7 @@ test('节点效果显示实际起点与目标属性，零级、未知与预览�
 test('T12保留原文效果，T11缺数值明确待补，不编造数值',()=>{
  for(const id of ['t12-infantry-0','t11-lancer-0']){
   const n=manifest.nodes.find(n=>n.id===id),html=technologyEffects(path(n.pathId),n,1,2,{esc});
-  assert.ok(html.includes(id.startsWith('t12')?'出征部队容量+600':'效果数值待补'));
+  assert.ok(html.includes(id.startsWith('t12')?'600人':'效果数值待补'));
  }
 });
 test('T12三兵种各五件装备同一排且顺序保持，解锁与后续分支保留',()=>{

@@ -1,4 +1,5 @@
 import {inventoryDifference,inventoryTimestamp,deleteInventorySnapshot,restoreDeletedSnapshot,clearDeletedSnapshots} from '../domain/inventory.js';
+import {inventoryUnit,inventoryDisplayQuantity} from '../domain/inventory-units.js';
 
 const displayTime=value=>new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'short',hour12:false}).format(new Date(value));
 const inputTime=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).replace(' ','T');
@@ -32,7 +33,7 @@ export function createInventoryHistoryPanel({items,esc,fmt,options,artIcon,getAc
     const el=document.querySelector('#snapshot-detail');
     if(!entry){el.innerHTML='<p class="hint">保存第一份记录后，可在这里回看和比较资源数量。</p>';return;}
     const rows=inventoryDifference(entry.inventory,target||{},items);
-    el.innerHTML=`<p class="hint">${esc(displayTime(entry.at))} · ${esc(entry.note||'无备注')}。变化＝对比时间点数量－查看时间点数量；任一侧未记录时不计算差额。</p><button class="button quiet" id="snapshot-restore">载入这份库存作为当前库存</button><div class="table-scroll"><table><thead><tr><th>资源</th><th>查看时间点</th><th>对比时间点</th><th>变化</th></tr></thead><tbody>${rows.map(r=>`<tr><td><div class="item-with-art">${artIcon(r.item)}<span>${esc(r.item.name)}<small>${esc(r.item.unit)}</small></span></div></td><td>${r.before===null?'未记录':fmt(r.before,6)}</td><td>${r.after===null?'未记录':fmt(r.after,6)}</td><td>${r.change===null?'—':(r.change>0?'+':'')+fmt(r.change,6)}</td></tr>`).join('')}</tbody></table></div>`;
+    el.innerHTML=`<p class="hint">${esc(displayTime(entry.at))} · ${esc(entry.note||'无备注')}。变化＝对比时间点数量－查看时间点数量；任一侧未记录时不计算差额。</p><button class="button quiet" id="snapshot-restore">载入这份库存作为当前库存</button><div class="table-scroll"><table><thead><tr><th>资源</th><th>查看时间点</th><th>对比时间点</th><th>变化</th></tr></thead><tbody>${rows.map(r=>`<tr><td><div class="item-with-art">${artIcon(r.item)}<span>${esc(r.item.name)}<small>${esc(inventoryUnit(r.item))}</small></span></div></td><td>${r.before===null?'未记录':fmt(inventoryDisplayQuantity(r.item,r.before),6)}</td><td>${r.after===null?'未记录':fmt(inventoryDisplayQuantity(r.item,r.after),6)}</td><td>${r.change===null?'—':(r.change>0?'+':'')+fmt(inventoryDisplayQuantity(r.item,r.change),6)}</td></tr>`).join('')}</tbody></table></div>`;
     document.querySelector('#snapshot-restore').addEventListener('click',()=>{
       const account=getAccount();if(account.history.length>=9999){notify('记录已达上限，请先导出备份整理');return;}
       if(Object.keys(account.inventory).length)account.history.push(makeSnapshot(new Date().toISOString(),'载入历史库存前自动记录'));

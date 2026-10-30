@@ -13,6 +13,6 @@ test('T11集结和兵种前置门槛',()=>{
 });
 test('T12技能5/10/15及容量30/50门槛',()=>{
  for(const level of [1,2,3])assert.ok(rules(manifest,node('t12-infantry-10'),level).required.every(r=>r.min===level*5));
- assert.ok(rules(manifest,node('t12-infantry-15'),10).required.every(r=>r.min===30));
+ assert.ok(rules(manifest,node('t12-infantry-15'),10).required.every(r=>r.min===40));
  assert.ok(rules(manifest,node('t12-infantry-15'),11).required.every(r=>r.min===50));
 });

@@ -1,4 +1,5 @@
 import {CHIEF_ROWS} from './chief-loadout.js';
+import {chiefSetBonuses} from './chief-set.js';
 const round=n=>Math.round(n*1e8)/1e8;
 
 // Source tables list current cumulative stats. Convert adjacent totals into
@@ -55,5 +56,7 @@ export function summarizeChiefLoadout(data,loadout){
   if(!result.gemsRecorded){result.health=null;result.lethality=null;}
   result.complete=result.gearRecorded===2&&result.gemsRecorded===6;troops.push(result);
  }
- return {troops,capacity:gearCount?totalCapacity:null,gearPower:gearCount?totalGearPower:null,gearRecorded:gearCount,complete:troops.every(t=>t.complete)};
+ const set=chiefSetBonuses(loadout);
+ for(const troop of troops){if(set.attack.value)troop.attack=round((troop.attack||0)+set.attack.value);if(set.defense.value)troop.defense=round((troop.defense||0)+set.defense.value);}
+ return {troops,set,capacity:gearCount?totalCapacity:null,gearPower:gearCount?totalGearPower:null,gearRecorded:gearCount,complete:troops.every(t=>t.complete)};
 }

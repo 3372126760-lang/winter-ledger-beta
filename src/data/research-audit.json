@@ -1,0 +1,545 @@
+{
+  "asOf": "2026-10-30",
+  "scope": "普通战斗科技；发展科技不在本轮范围",
+  "status": "维护者已确认普通科技属性与国服一致，现有数值不变",
+  "rows": [
+    {
+      "name": "武器特训",
+      "attribute": "全体部队攻击",
+      "unit": "%",
+      "stages": [
+        1.5,
+        2.5,
+        4.5,
+        10,
+        13.5,
+        15.25
+      ],
+      "source": [
+        "research-wiki-weapons-prep-i",
+        "research-wiki-weapons-prep-ii",
+        "research-wiki-weapons-prep-iii",
+        "research-wiki-weapons-prep-iv",
+        "research-wiki-weapons-prep-v",
+        "research-wiki-weapons-prep-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 47.25
+    },
+    {
+      "name": "稳守反击",
+      "attribute": "盾兵攻击",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-reprisal-tactics-i",
+        "research-wiki-reprisal-tactics-ii",
+        "research-wiki-reprisal-tactics-iii",
+        "research-wiki-reprisal-tactics-iv",
+        "research-wiki-reprisal-tactics-v",
+        "research-wiki-reprisal-tactics-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "精准射击",
+      "attribute": "射手攻击",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-precision-targeting-i",
+        "research-wiki-precision-targeting-ii",
+        "research-wiki-precision-targeting-iii",
+        "research-wiki-precision-targeting-iv",
+        "research-wiki-precision-targeting-v",
+        "research-wiki-precision-targeting-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "迅猛突刺",
+      "attribute": "矛兵攻击",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-skirmishing-i",
+        "research-wiki-skirmishing-ii",
+        "research-wiki-skirmishing-iii",
+        "research-wiki-skirmishing-iv",
+        "research-wiki-skirmishing-v",
+        "research-wiki-skirmishing-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "防御阵型",
+      "attribute": "盾兵防御",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-defensive-formation-i",
+        "research-wiki-defensive-formation-ii",
+        "research-wiki-defensive-formation-iii",
+        "research-wiki-defensive-formation-iv",
+        "research-wiki-defensive-formation-v",
+        "research-wiki-defensive-formation-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "警戒队形",
+      "attribute": "射手防御",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-picket-lines-i",
+        "research-wiki-picket-lines-ii",
+        "research-wiki-picket-lines-iii",
+        "research-wiki-picket-lines-iv",
+        "research-wiki-picket-lines-v",
+        "research-wiki-picket-lines-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "坚守阵地",
+      "attribute": "矛兵防御",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-bulwark-formations-i",
+        "research-wiki-bulwark-formations-ii",
+        "research-wiki-bulwark-formations-iii",
+        "research-wiki-bulwark-formations-iv",
+        "research-wiki-bulwark-formations-v",
+        "research-wiki-bulwark-formations-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "防御特训",
+      "attribute": "全体部队防御",
+      "unit": "%",
+      "stages": [
+        1.5,
+        2.5,
+        4.5,
+        10,
+        13.5,
+        15.25
+      ],
+      "source": [
+        "research-wiki-special-defensive-training-i",
+        "research-wiki-special-defensive-training-ii",
+        "research-wiki-special-defensive-training-iii",
+        "research-wiki-special-defensive-training-iv",
+        "research-wiki-special-defensive-training-v",
+        "research-wiki-special-defensive-training-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 47.25
+    },
+    {
+      "name": "生存特训",
+      "attribute": "全体部队生命",
+      "unit": "%",
+      "stages": [
+        1.5,
+        2.5,
+        4.5,
+        10,
+        13.5,
+        15.25
+      ],
+      "source": [
+        "research-wiki-survival-techniques-i",
+        "research-wiki-survival-techniques-ii",
+        "research-wiki-survival-techniques-iii",
+        "research-wiki-survival-techniques-iv",
+        "research-wiki-survival-techniques-v",
+        "research-wiki-survival-techniques-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 47.25
+    },
+    {
+      "name": "突击特训",
+      "attribute": "全体部队穿透",
+      "unit": "%",
+      "stages": [
+        1.5,
+        2.5,
+        4.5,
+        10,
+        13.5,
+        15.25
+      ],
+      "source": [
+        "research-wiki-assaut-techniques-i",
+        "research-wiki-assaut-techniques-ii",
+        "research-wiki-assaut-techniques-iii",
+        "research-wiki-assaut-techniques-iv",
+        "research-wiki-assaut-techniques-v",
+        "research-wiki-assaut-techniques-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 47.25
+    },
+    {
+      "name": "编制扩展",
+      "attribute": "全体部队出征容量",
+      "unit": "人",
+      "stages": [
+        1000,
+        1400,
+        2800,
+        5600,
+        8000,
+        13400
+      ],
+      "source": [
+        "research-wiki-regimental-expansion-i",
+        "research-wiki-regimental-expansion-ii",
+        "research-wiki-regimental-expansion-iii",
+        "research-wiki-regimental-expansion-iv",
+        "research-wiki-regimental-expansion-v",
+        "research-wiki-regimental-expansion-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 32200
+    },
+    {
+      "name": "不懈奋战",
+      "attribute": "盾兵穿透",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-close-combat-i",
+        "research-wiki-close-combat-ii",
+        "research-wiki-close-combat-iii",
+        "research-wiki-close-combat-iv",
+        "research-wiki-close-combat-v",
+        "research-wiki-close-combat-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "定点狙击",
+      "attribute": "射手穿透",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-targeted-sniping-i",
+        "research-wiki-targeted-sniping-ii",
+        "research-wiki-targeted-sniping-iii",
+        "research-wiki-targeted-sniping-iv",
+        "research-wiki-targeted-sniping-v",
+        "research-wiki-targeted-sniping-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "长矛改良",
+      "attribute": "矛兵穿透",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-lancer-upgrade-i",
+        "research-wiki-lancer-upgrade-ii",
+        "research-wiki-lancer-upgrade-iii",
+        "research-wiki-lancer-upgrade-iv",
+        "research-wiki-lancer-upgrade-v",
+        "research-wiki-lancer-upgrade-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "盾牌改良",
+      "attribute": "盾兵生命",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-shield-upgrade-i",
+        "research-wiki-shield-upgrade-ii",
+        "research-wiki-shield-upgrade-iii",
+        "research-wiki-shield-upgrade-iv",
+        "research-wiki-shield-upgrade-v",
+        "research-wiki-shield-upgrade-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "射手护甲",
+      "attribute": "射手生命",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-marksman-armor-i",
+        "research-wiki-marksman-armor-ii",
+        "research-wiki-marksman-armor-iii",
+        "research-wiki-marksman-armor-iv",
+        "research-wiki-marksman-armor-v",
+        "research-wiki-marksman-armor-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    },
+    {
+      "name": "矛兵护甲",
+      "attribute": "矛兵生命",
+      "unit": "%",
+      "stages": [
+        4,
+        5.5,
+        11.5,
+        22.5,
+        31.75,
+        36.5
+      ],
+      "source": [
+        "research-wiki-lancer-armor-i",
+        "research-wiki-lancer-armor-ii",
+        "research-wiki-lancer-armor-iii",
+        "research-wiki-lancer-armor-iv",
+        "research-wiki-lancer-armor-v",
+        "research-wiki-lancer-armor-vi"
+      ],
+      "levels": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "total": 111.75
+    }
+  ],
+  "totals": {
+    "research.all.attack": 47.25,
+    "research.infantry.attack": 111.75,
+    "research.marksman.attack": 111.75,
+    "research.lancer.attack": 111.75,
+    "research.infantry.defense": 111.75,
+    "research.marksman.defense": 111.75,
+    "research.lancer.defense": 111.75,
+    "research.all.defense": 47.25,
+    "research.all.health": 47.25,
+    "research.all.lethality": 47.25,
+    "research.all.capacity": 32200,
+    "research.infantry.lethality": 111.75,
+    "research.marksman.lethality": 111.75,
+    "research.lancer.lethality": 111.75,
+    "research.infantry.health": 111.75,
+    "research.marksman.health": 111.75,
+    "research.lancer.health": 111.75
+  },
+  "missing": [],
+  "timeGaps": [
+    "警戒队形4 1级",
+    "坚守阵地4 1级"
+  ],
+  "coverage": {
+    "paths": 102,
+    "groups": 17
+  }
+}

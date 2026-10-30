@@ -8,7 +8,7 @@ export function technologyPrerequisites(manifest,node,target=1,levels={}){
  const incoming=manifest.edges.filter(e=>e.to===node.id).map(e=>manifest.nodes.find(n=>n.id===e.from)).filter(Boolean);
  if(node.systemId==='research')incoming.forEach(n=>add(n,1));
  else if(node.systemId==='t11'){
-  source='官方Wiki（国际服），国服待核对';
+  source=node.troopId==='infantry'?'官方Wiki盾兵逐级表（国际服），国服待核对':'参考官方Wiki同构科技；其他兵种页有缺行/前置错名，国服待核对';
   if(index===0)building='战争学院火晶1';
   else if(index===1||index===2){add(byIndex(0),target>=5?5:target>=4?4:3);building=target>=8?'战争学院火晶5':target>=7?'战争学院火晶4':target>=5?'战争学院火晶3':target>=2?'战争学院火晶2':'';}
   else if(index===3){[1,2].forEach(i=>add(byIndex(i),target>=8?8:target>=7?7:6));building=target>=4?'战争学院火晶5':'战争学院火晶4';}
@@ -16,10 +16,14 @@ export function technologyPrerequisites(manifest,node,target=1,levels={}){
   else if(index===6){[3,4,5].forEach(i=>add(byIndex(i),byIndex(i).max));building='战争学院火晶5';}
   else {incoming.forEach(n=>add(n,1));building='战争学院火晶5';}
  }else if(node.systemId==='t12'){
-  if(index===5)incoming.forEach(n=>add(n,n.max));
+  source='官方Wiki逐级门槛（2026-10-30复核）；连线来自现有科技图，国服待实机核对';
+  if(index<=4)building=`战争学院火晶${index===0?(target>=3?6:5):index+6}`;
+  else if(index===5){incoming.forEach(n=>add(n,n.max));building='战争学院火晶10';known=false;source='五项装备满级解锁按现有科技图；官方研究索引缺独立解锁页，待核对';}
   else if(index===10){incoming.forEach(n=>add(n,target*5));building='战争学院火晶10';}
-  else if(index===15){incoming.forEach(n=>add(n,target>=11?50:30));building='战争学院火晶10';source='官方Wiki（国际服），国服待核对';}
-  else incoming.forEach(n=>add(n,1));
+  else if(index===15){incoming.forEach(n=>add(n,target>=11?50:target>=6?40:30));building='战争学院火晶10';source='官方Wiki（国际服），国服待核对';}
+  else if(index>=11&&index<=14){incoming.forEach(n=>add(n,target>=30?3:target>=15?2:1));building='战争学院火晶10';}
+  else if(index>=16){incoming.forEach(n=>add(n,15));building='战争学院火晶10';}
+  else {incoming.forEach(n=>add(n,1));building='战争学院火晶10';}
  }else return null;
  const state=!known?'待核对':required.some(r=>r.current!==null&&r.current<r.min)?'前置未达标':required.some(r=>r.current===null)?'前置等级未记录':'科技前置已满足';
  const text=required.length?required.map(r=>`${r.name} ≥ ${r.min}级（当前${r.current===null?'未记录':r.current+'级'}）`).join('；'):'无前置科技';

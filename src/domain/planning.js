@@ -1,3 +1,4 @@
+import {expertUsableInventory} from './expert-inventory.js';
 import {getPrice} from './model.js';
 import {isLegacyMastery,masterySequence} from './hero-mastery.js';
 import {FIRE_PROGRESS,migrateFireProgress} from './stages.js';
@@ -18,7 +19,8 @@ export function validatePlanningState(value){
   const chiefSelection=validateChiefSelection(value.chiefSelection,value.systemId);
   if(chiefSelection&&value.pieces!==1)fail();
   if(value.technologyTroop!==undefined&&(value.systemId!=='t11'||!['infantry','lancer','marksman'].includes(value.technologyTroop)))fail();
-  return {systemId:value.systemId,pathId:value.pathId,from:value.from,to:value.to,pieces:value.pieces,...(chiefSelection?{chiefSelection}:{}),...(value.technologyTroop?{technologyTroop:value.technologyTroop}:{})};
+  if(value.petSection!==undefined&&(value.systemId!=='pets'||!['upgrade','refinement'].includes(value.petSection)))fail();
+  return {systemId:value.systemId,pathId:value.pathId,from:value.from,to:value.to,pieces:value.pieces,...(chiefSelection?{chiefSelection}:{}),...(value.technologyTroop?{technologyTroop:value.technologyTroop}:{}),...(value.petSection?{petSection:value.petSection}:{})};
 }
 
 export function planningAvailability(systemId,progress={}){
@@ -81,7 +83,7 @@ export function calculatePlan(path,from,to,pieces,context={}){
   // 学习经验以秒计；换算为小时加速，与库存和现行单价一起核算。
   const learningSeconds=resourceTotals.get('专家技能经验')||0;
   if(learningSeconds){totals.set('speed-learning',(totals.get('speed-learning')||0)+learningSeconds/3600);resourceTotals.delete('专家技能经验');}
-  const items=context.items||[],inventory=context.inventory||{};
+  const items=context.items||[],inventory=expertUsableInventory(path,context.inventory||{});
   const materials=[...totals].map(([itemId,needed])=>{
     const item=items.find(i=>i.id===itemId);
     const stock=own(inventory,itemId)?inventory[itemId]:null;

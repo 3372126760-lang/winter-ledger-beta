@@ -1,6 +1,12 @@
 import data from '../data/pet-board.json' with {type:'json'};
 export const PET_STATS=[['infantry.lethality','盾兵穿透'],['infantry.health','盾兵生命'],['lancer.lethality','矛兵穿透'],['lancer.health','矛兵生命'],['marksman.lethality','射手穿透'],['marksman.health','射手生命']];
 export const PET_COLORS=[['white','白'],['green','绿'],['blue','蓝'],['purple','紫'],['orange','橙']];
+export function petRefinementUnlock(path,level){
+ if(level===undefined||level===null)return null;
+ const reached=path.rows.filter(row=>row.level<=level&&row.phase==='after-breakthrough'&&row.petLevel<=50);
+ const milestone=Math.max(0,...reached.map(row=>row.petLevel));
+ return PET_COLORS.filter((_,i)=>(i+1)*10<=milestone).map(([color,name],i)=>({color,name,level:(i+1)*10}));
+}
 // Green/blue/purple ceilings match the maintainer's three game screenshots.
 // The white 10% ceiling remains provisional pending an in-game sample.
 export function refinementTier(value,max){

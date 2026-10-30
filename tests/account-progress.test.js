@@ -5,6 +5,7 @@ import {createAccountProgressPanel} from '../src/ui/account-progress.js';
 import {createPlanningPanel} from '../src/ui/planning.js';
 import {createChiefLoadoutPanel} from '../src/ui/chief-loadout.js';
 import {initialState} from '../src/domain/model.js';
+import {validatePlanningState} from '../src/domain/planning.js';
 
 const read=path=>readFile(new URL('../'+path,import.meta.url),'utf8').then(JSON.parse);
 const [data,art,catalog]=await Promise.all(['src/data/planning.json','src/data/chief-art.json','src/data/catalog.json'].map(read));
@@ -14,6 +15,36 @@ const options=(rows,value)=>rows.map(([id,name])=>`<option value="${id}" ${id===
 // the isolated browser fixture, which does not connect to the user's state API.
 globalThis.window={addEventListener(){}};
 function context(state){return {esc,options,fmt:String,money:String,pill:String,artIcon:()=>'',itemOf:id=>catalog.items.find(i=>i.id===id),getState:()=>state,onRefresh(){},notify:assert.fail};}
+
+test('账号入口与规划九项一致，宠物当前升级和洗练分别编辑且不改变计划',()=>{
+ const state=initialState(),before=structuredClone(state);
+ const account=createAccountProgressPanel(data,art,context(state)),planning=createPlanningPanel(data,art,context(state));
+ const entries=html=>[...html.matchAll(/data-(?:account|planning)-system="([^"]+)"\s*(?:data-pet-section="([^"]+)")?/g)].map(m=>[m[1],m[2]||'']);
+ assert.deepEqual(entries(account.view()),entries(planning.view()));
+ assert.equal(entries(account.view()).length,9);
+ account.open({systemId:'pets',petSection:'upgrade'});
+ const upgrades=account.view();assert.ok(upgrades.includes('data-growth-record="levels"'));assert.ok(!upgrades.includes('data-pet-refine='));
+ account.open({systemId:'pets',petSection:'refinement'});
+ const refinement=account.view();assert.ok(refinement.includes('data-refine-mode="current"'));assert.ok(!refinement.includes('data-refine-mode="planned"'));assert.ok(!refinement.includes('data-growth-record='));
+ account.open({systemId:'chief-gems'});assert.match(account.view(),/data-account-system="chief-gems"\s+aria-pressed="true"/);
+ assert.deepEqual(state,before);
+});
+
+test('规划入口分别选择宠物升级和洗练，刷新保存选择且不混入另一类设置',()=>{
+ const state=initialState();state.items=catalog.items;
+ const panel=createPlanningPanel(data,art,context(state));
+ for(const petSection of ['upgrade','refinement']){
+  state.planning=validatePlanningState({systemId:'pets',pathId:'',from:0,to:1,pieces:1,petSection});
+  assert.equal(validatePlanningState(JSON.parse(JSON.stringify(state.planning))).petSection,petSection);
+  const html=panel.view();
+  assert.ok(html.includes('data-pet-section="upgrade"'));assert.ok(html.includes('data-pet-section="refinement"'));
+  assert.equal(html.includes('data-growth-record='),petSection==='upgrade');
+  assert.equal(html.includes('data-pet-refine='),petSection==='refinement');
+  assert.equal(html.includes('id="planning-path"'),petSection==='upgrade');
+ }
+ assert.throws(()=>validatePlanningState({...state.planning,petSection:'invalid'}));
+ assert.throws(()=>validatePlanningState({...state.planning,systemId:'research'}));
+});
 
 test('当前等级浏览独立于规划：三类科技和兵种切换保留原目标、库存和已有满级记录',()=>{
  const state=initialState();state.items=catalog.items;
@@ -47,7 +78,7 @@ test('科技消耗读取账号实际起点；未记录不伪装成零级，目�
  const state=initialState();state.items=catalog.items;
  state.planning={systemId:'research',pathId:'research-battle-weapons-prep-i',from:0,to:3,pieces:1};
  const panel=createPlanningPanel(data,art,context(state));
- assert.ok(panel.view().includes('当前等级未记录，请先填写账号现状'));
+ assert.ok(panel.view().includes('当前未记录 · 预览 0级 → 3级'));
  assert.ok(!panel.view().includes('id="planning-to"'));
  state.account.technologyLevels['battle-1-0']=1;
  const before=structuredClone(state),html=panel.view();

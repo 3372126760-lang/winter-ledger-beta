@@ -1,0 +1,1239 @@
+{
+  "asOf": "2026-10-29",
+  "source": "https://github.com/chiefpansancolt/whiteout-survival-data/blob/main/data/chief/experts.json",
+  "status": "国际服社区整理；国服具体关系进阶与技能条件待实机逐项核对",
+  "experts": {
+    "巴尔德": {
+      "name": "巴尔德",
+      "levelPath": "expert-巴尔德-relation",
+      "skills": [
+        {
+          "pathId": "expert-巴尔德-skill-1",
+          "name": "曙色荣辉",
+          "englishName": "Blazing Sunrise",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-巴尔德-skill-2",
+          "name": "战火与荣耀",
+          "englishName": "Honored Conquest",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 5,
+              "affinityLevel": 40
+            },
+            {
+              "level": 8,
+              "affinityLevel": 60
+            },
+            {
+              "level": 10,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-巴尔德-skill-3",
+          "name": "万金悬赏",
+          "englishName": "Bounty Hunter",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 14
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 28
+            }
+          ]
+        },
+        {
+          "pathId": "expert-巴尔德-skill-4",
+          "name": "曙光战歌",
+          "englishName": "Dawn Hymn",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 22
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 39
+            }
+          ]
+        }
+      ]
+    },
+    "法比安": {
+      "name": "法比安",
+      "levelPath": "expert-法比安-relation",
+      "skills": [
+        {
+          "pathId": "expert-法比安-skill-1",
+          "name": "回收熔铸",
+          "englishName": "Salvager",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-法比安-skill-2",
+          "name": "绝境救援",
+          "englishName": "Crisis Rescue",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 5,
+              "affinityLevel": 40
+            },
+            {
+              "level": 8,
+              "affinityLevel": 60
+            },
+            {
+              "level": 10,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-法比安-skill-3",
+          "name": "烈火武装",
+          "englishName": "Heightened Firepower",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 16
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 24
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 32
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 40
+            }
+          ]
+        },
+        {
+          "pathId": "expert-法比安-skill-4",
+          "name": "军工巨擘",
+          "englishName": "Battle Bulwark",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 24
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 36
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 48
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 59
+            }
+          ]
+        }
+      ]
+    },
+    "西里尔": {
+      "name": "西里尔",
+      "levelPath": "expert-西里尔-relation",
+      "skills": [
+        {
+          "pathId": "expert-西里尔-skill-1",
+          "name": "四方围猎",
+          "englishName": "Entrapment",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 1,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 1
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-西里尔-skill-2",
+          "name": "回收利用",
+          "englishName": "Scavenging",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 3,
+              "affinityLevel": 40
+            },
+            {
+              "level": 5,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-西里尔-skill-3",
+          "name": "武备专精",
+          "englishName": "Weapon Master",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 3,
+              "totalSkillLevel": 10
+            },
+            {
+              "level": 5,
+              "totalSkillLevel": 15
+            }
+          ]
+        },
+        {
+          "pathId": "expert-西里尔-skill-4",
+          "name": "巨熊克星",
+          "englishName": "Ursa's Bane",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 18
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 24
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 29
+            }
+          ]
+        }
+      ]
+    },
+    "艾格尼丝": {
+      "name": "艾格尼丝",
+      "levelPath": "expert-艾格尼丝-relation",
+      "skills": [
+        {
+          "pathId": "expert-艾格尼丝-skill-1",
+          "name": "高效侦察",
+          "englishName": "Efficient Recon",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 3,
+              "affinityLevel": 30
+            },
+            {
+              "level": 5,
+              "affinityLevel": 50
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-艾格尼丝-skill-2",
+          "name": "产能升级",
+          "englishName": "Optimization",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 3,
+              "affinityLevel": 40
+            },
+            {
+              "level": 5,
+              "affinityLevel": 60
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-艾格尼丝-skill-3",
+          "name": "工程管理",
+          "englishName": "Project Management",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 3,
+              "totalSkillLevel": 8
+            },
+            {
+              "level": 5,
+              "totalSkillLevel": 12
+            }
+          ]
+        },
+        {
+          "pathId": "expert-艾格尼丝-skill-4",
+          "name": "隐秘知识",
+          "englishName": "Covert Knowledge",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 15
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 24
+            }
+          ]
+        }
+      ]
+    },
+    "霍尔格": {
+      "name": "霍尔格",
+      "levelPath": "expert-霍尔格-relation",
+      "skills": [
+        {
+          "pathId": "expert-霍尔格-skill-1",
+          "name": "角斗精英",
+          "englishName": "Arena Elite",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-霍尔格-skill-2",
+          "name": "闪耀擂台",
+          "englishName": "Crowd Pleaser",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 5,
+              "affinityLevel": 40
+            },
+            {
+              "level": 8,
+              "affinityLevel": 60
+            },
+            {
+              "level": 10,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-霍尔格-skill-3",
+          "name": "竞技场之星",
+          "englishName": "Arena Star",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 14
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 28
+            }
+          ]
+        },
+        {
+          "pathId": "expert-霍尔格-skill-4",
+          "name": "勇冠全场",
+          "englishName": "Legacy",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 22
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 39
+            }
+          ]
+        }
+      ]
+    },
+    "罗慕路斯": {
+      "name": "罗慕路斯",
+      "levelPath": "expert-罗慕路斯-relation",
+      "skills": [
+        {
+          "pathId": "expert-罗慕路斯-skill-1",
+          "name": "战火的呼唤",
+          "englishName": "Call of War",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-罗慕路斯-skill-2",
+          "name": "最后的阵线",
+          "englishName": "Last Line",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 6,
+              "affinityLevel": 30
+            },
+            {
+              "level": 11,
+              "affinityLevel": 50
+            },
+            {
+              "level": 16,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-罗慕路斯-skill-3",
+          "name": "埃厄忒斯之威",
+          "englishName": "Spirit of Aeetis",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 40
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 50
+            }
+          ]
+        },
+        {
+          "pathId": "expert-罗慕路斯-skill-4",
+          "name": "万众齐心",
+          "englishName": "One Heart",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 45
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 55
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 69
+            }
+          ]
+        }
+      ]
+    },
+    "瓦莱莉亚": {
+      "name": "瓦莱莉亚",
+      "levelPath": "expert-瓦莱莉亚-relation",
+      "skills": [
+        {
+          "pathId": "expert-瓦莱莉亚-skill-1",
+          "name": "整备待战",
+          "englishName": "Well Prepared",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-瓦莱莉亚-skill-2",
+          "name": "烈日荣勋",
+          "englishName": "Radiant Honor",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 5,
+              "affinityLevel": 40
+            },
+            {
+              "level": 8,
+              "affinityLevel": 60
+            },
+            {
+              "level": 10,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-瓦莱莉亚-skill-3",
+          "name": "战场协奏曲",
+          "englishName": "Battle Concerto",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 16
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 24
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 32
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 40
+            }
+          ]
+        },
+        {
+          "pathId": "expert-瓦莱莉亚-skill-4",
+          "name": "万钧之势",
+          "englishName": "Crushing Force",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 24
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 36
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 48
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 59
+            }
+          ]
+        }
+      ]
+    },
+    "罗妮": {
+      "name": "罗妮",
+      "levelPath": "expert-罗妮-relation",
+      "skills": [
+        {
+          "pathId": "expert-罗妮-skill-1",
+          "name": "路线规划",
+          "englishName": "Cartographic Memory",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-罗妮-skill-2",
+          "name": "敏锐洞察",
+          "englishName": "Treasure Scent",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 5,
+              "affinityLevel": 40
+            },
+            {
+              "level": 8,
+              "affinityLevel": 60
+            },
+            {
+              "level": 10,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-罗妮-skill-3",
+          "name": "迅猛反击",
+          "englishName": "Giving Back",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 14
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 28
+            }
+          ]
+        },
+        {
+          "pathId": "expert-罗妮-skill-4",
+          "name": "金牌护卫",
+          "englishName": "Gold Class",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 22
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 39
+            }
+          ]
+        }
+      ]
+    },
+    "加雷斯": {
+      "name": "加雷斯",
+      "levelPath": "expert-加雷斯-relation",
+      "skills": [
+        {
+          "pathId": "expert-加雷斯-skill-1",
+          "name": "铁森林馈赠",
+          "englishName": "Gifts of Iron",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-加雷斯-skill-2",
+          "name": "铁棘战阵",
+          "englishName": "Porcupine",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 6,
+              "affinityLevel": 30
+            },
+            {
+              "level": 11,
+              "affinityLevel": 50
+            },
+            {
+              "level": 16,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-加雷斯-skill-3",
+          "name": "不败铁军",
+          "englishName": "Undefeated Will",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 40
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 50
+            }
+          ]
+        },
+        {
+          "pathId": "expert-加雷斯-skill-4",
+          "name": "威名震慑",
+          "englishName": "Fearsome Reputation",
+          "maxLevel": 20,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 6,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 11,
+              "totalSkillLevel": 45
+            },
+            {
+              "level": 16,
+              "totalSkillLevel": 55
+            },
+            {
+              "level": 20,
+              "totalSkillLevel": 69
+            }
+          ]
+        }
+      ]
+    },
+    "凯西": {
+      "name": "凯西",
+      "levelPath": "expert-凯西-relation",
+      "skills": [
+        {
+          "pathId": "expert-凯西-skill-1",
+          "name": "冰火游猎",
+          "englishName": "Icefire Hunter",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 5,
+              "affinityLevel": 30
+            },
+            {
+              "level": 8,
+              "affinityLevel": 50
+            },
+            {
+              "level": 10,
+              "affinityLevel": 70
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-凯西-skill-2",
+          "name": "霜风烈火",
+          "englishName": "Valorous Cold",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 5,
+              "affinityLevel": 40
+            },
+            {
+              "level": 8,
+              "affinityLevel": 60
+            },
+            {
+              "level": 10,
+              "affinityLevel": 80
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-凯西-skill-3",
+          "name": "霜焰珍宝",
+          "englishName": "Winter Treasures",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 14
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 28
+            }
+          ]
+        },
+        {
+          "pathId": "expert-凯西-skill-4",
+          "name": "效率开采",
+          "englishName": "Efficient Mining",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 22
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 30
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 39
+            }
+          ]
+        }
+      ]
+    },
+    "Justus": {
+      "name": "贾斯特斯",
+      "levelPath": "expert-Justus-relation",
+      "skills": [
+        {
+          "pathId": "expert-Justus-skill-1",
+          "name": "Glorious Gains",
+          "englishName": "Glorious Gains",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 10,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 10
+            },
+            {
+              "level": 3,
+              "affinityLevel": 30
+            },
+            {
+              "level": 5,
+              "affinityLevel": 50
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-Justus-skill-2",
+          "name": "Treasure Seeker",
+          "englishName": "Treasure Seeker",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 20,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 20
+            },
+            {
+              "level": 3,
+              "affinityLevel": 40
+            },
+            {
+              "level": 5,
+              "affinityLevel": 60
+            }
+          ],
+          "totalSkillRequirements": []
+        },
+        {
+          "pathId": "expert-Justus-skill-3",
+          "name": "Master Diplomat",
+          "englishName": "Master Diplomat",
+          "maxLevel": 5,
+          "unlockAffinityLevel": 30,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 30
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 3,
+              "totalSkillLevel": 8
+            },
+            {
+              "level": 5,
+              "totalSkillLevel": 12
+            }
+          ]
+        },
+        {
+          "pathId": "expert-Justus-skill-4",
+          "name": "Fortune Wayfarer",
+          "englishName": "Fortune Wayfarer",
+          "maxLevel": 10,
+          "unlockAffinityLevel": 40,
+          "affinityRequirements": [
+            {
+              "level": 1,
+              "affinityLevel": 40
+            }
+          ],
+          "totalSkillRequirements": [
+            {
+              "level": 5,
+              "totalSkillLevel": 15
+            },
+            {
+              "level": 8,
+              "totalSkillLevel": 20
+            },
+            {
+              "level": 10,
+              "totalSkillLevel": 24
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

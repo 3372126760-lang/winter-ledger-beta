@@ -21,8 +21,9 @@ test('红框新增五项不再进入展示，组件箱按实际英雄代数切�
   assert.equal(paths.size,7);
   for(generation=8;generation<=15;generation++){
     const art=dynamic('hero-component-choice');
-    assert.equal(art.displayGeneration,generation);assert.equal(art.representative,generation>=11);
+    assert.equal(art.displayGeneration,generation);assert.equal(art.representative,generation>=12);
     if(generation<=10)assert.ok(art.sprite);
+    else if(generation===11)assert.match(art.caption,/11代专武箱/);
     else assert.match(art.caption,/盾兵专武代用图/);
     assert.equal(paths.has(art.localPath),false);
     assert.equal(galleryProgressArt(data.entries,generation).filter(e=>e.modelItemId==='hero-component-choice').length,1);
@@ -78,6 +79,6 @@ test('当前图鉴仅收录模型及已录入礼包奖励需要的贴图',async(
   const selected=selectNeededArt(data.entries,catalog.items,extras);
   assert.equal(selected.length,data.entries.length);
   assert.equal(new Set(selected.map(e=>e.name+'|'+e.localPath)).size,selected.length);
-  for(const name of ['罗妮印记','梦幻铃铛','雪铲'])assert.equal(data.entries.some(e=>e.name===name),false);
+  for(const name of ['梦幻铃铛','雪铲'])assert.equal(data.entries.some(e=>e.name===name),false);
   for(const name of ['征服之帆','炙热之心','英雄装备幸运宝箱'])assert.ok(data.entries.some(e=>e.name===name));
 });

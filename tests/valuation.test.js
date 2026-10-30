@@ -54,7 +54,7 @@ test('缺价、身份未知、自选未指定及循环依赖均不回退旧箱�
   assert.equal(getPrice(cycle,stage,{},false,[cycle]),null);
 });
 test('改名保留旧名称与稳定ID，概率和固定奖励都有来源',()=>{
-  assert.equal(item('screw').name,'强化经验零件');assert.ok(item('screw').aliases.includes('螺丝'));
+  assert.equal(item('screw').name,'100点强化经验零件');assert.ok(item('screw').aliases.includes('螺丝'));
   assert.equal(item('equipment-box').name,'英雄装备幸运宝箱');
   for(const i of items.filter(i=>i.valuation))assert.ok(i.valuation.source);
 });

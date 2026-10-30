@@ -2,10 +2,22 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import info from '../src/data/pet-board.json' with {type:'json'};
 import data from '../src/data/planning.json' with {type:'json'};
-import {petStatsAt,validatePetRefinements} from '../src/domain/pets.js';
+import {petStatsAt,validatePetRefinements,petRefinementUnlock} from '../src/domain/pets.js';
 import {validateBattleProfile} from '../src/domain/battle-profile.js';
 import {growthRecordsView} from '../src/ui/growth-records.js';
 const path=data.systems.find(s=>s.id==='pets').paths.find(p=>p.id==='pet-detailed-cave-hyena');
+
+test('10到50级需完成对应突破才解锁白绿蓝紫橙，未记录保持未知',()=>{
+ assert.equal(petRefinementUnlock(path,undefined),null);
+ assert.deepEqual(petRefinementUnlock(path,1),[]);
+ for(const [i,level] of [10,20,30,40,50].entries()){
+  const before=path.rows.find(r=>r.petLevel===level&&r.phase==='before-breakthrough');
+  const after=path.rows.find(r=>r.petLevel===level&&r.phase==='after-breakthrough');
+  assert.equal(petRefinementUnlock(path,before.level).length,i);
+  assert.equal(petRefinementUnlock(path,after.level).length,i+1);
+  assert.equal(petRefinementUnlock(path,after.level).at(-1).color,['white','green','blue','purple','orange'][i]);
+ }
+});
 test('14只宠物7代各有本地头像，突破前后攻防正确分开',()=>{
  assert.equal(info.pets.length,14);assert.deepEqual([...new Set(info.pets.map(p=>p.generation))],[1,2,3,4,5,6,7]);
  for(const p of info.pets)assert.ok(p.image.startsWith('/public/assets/pets/'));
@@ -17,9 +29,9 @@ test('洗炼保存保留六项各自品质，0与未记录区分并拦截超限'
  const profile=validateBattleProfile({petRefinements:records});assert.deepEqual(profile.petRefinements,records);assert.deepEqual(validateBattleProfile(JSON.parse(JSON.stringify(profile))),profile);
  assert.throws(()=>validatePetRefinements({[path.id]:{current:{'infantry.health':{value:7,color:'orange'}}}}));
 });
-test('账号只填当前，规划显示独立计划与六项洗炼展开项',()=>{
+test('账号只填当前，规划显示独立计划与六项洗炼卡片',()=>{
  const html=mode=>growthRecordsView(data,'pets',{battleProfile:{}},String,{mode});
- assert.equal((html('planning').match(/data-pet-detail=/g)||[]).length,14);
+ assert.equal((html('planning').match(/data-pet-card=/g)||[]).length,14);assert.ok(html('planning').includes('class="pet-budget"')); 
  assert.ok(html('planning').includes('data-growth-record="planned"'));assert.ok(!html('current').includes('data-growth-record="planned"'));
  assert.ok(html('planning').includes('盾兵穿透'));assert.ok(html('planning').includes('射手生命'));
 });
@@ -41,4 +53,19 @@ test('每项洗炼当前与计划在同一行，账号页仍只展示当前',()=
  assert.equal(rows.length,14*6);
  for(const [row] of rows){assert.equal((row.match(/data-refine-mode="current"/g)||[]).length,1);assert.equal((row.match(/data-refine-mode="planned"/g)||[]).length,1);}
  assert.ok(!html('current').includes('data-refine-mode="planned"'));
+});
+
+test('宠物升级与洗炼分成独立板块，所有等级与词条各保留一份',()=>{
+ for(const mode of ['planning','current']){
+  const html=growthRecordsView(data,'pets',{battleProfile:{}},String,{mode});
+  const split=html.indexOf('<section class="card pet-board pet-refinement-board"');
+  assert.ok(split>0);
+  const upgrades=html.slice(0,split),refinements=html.slice(split);
+  assert.equal((upgrades.match(/data-pet-card=/g)||[]).length,14);
+  assert.equal((refinements.match(/data-pet-refine-card=/g)||[]).length,14);
+  assert.equal((upgrades.match(/data-growth-record="levels"/g)||[]).length,14);
+  assert.equal((refinements.match(/data-pet-refine=/g)||[]).length,14*6*(mode==='planning'?2:1));
+  assert.ok(!upgrades.includes('data-pet-refine='));
+  assert.ok(!refinements.includes('data-growth-record='));
+ }
 });
